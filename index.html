@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monarch Digital Marketing — Full Service Campaigns</title>
+  <meta name="description" content="Monarch Digital Marketing. Receive a free 1-hour marketing audit + SEO review. Content creation, blogging, email marketing, social media, and advertising.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Monarch Digital Marketing — Full Service Campaigns">
+  <meta property="og:description" content="Monarch Digital Marketing. Receive a free 1-hour marketing audit + SEO review. Content creation, blogging, email marketing, social media, and advertising.">
+  <meta property="og:image" content="images/butterfly.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Monarch Digital Marketing — Full Service Campaigns">
+  <meta name="twitter:description" content="Receive a free 1-hour marketing audit + SEO review.">
+
+  <!-- Preload critical assets -->
+  <link rel="preload" as="image" type="image/webp" href="images/hero-bg.webp" fetchpriority="high">
+  <link rel="preload" as="font" type="font/woff2" href="fonts/inter-400.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="fonts/inter-700.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="fonts/montserrat-700.woff2" crossorigin>
+
+  <style>
+    /* ── Font Faces ── */
+    @font-face { font-family: 'Inter'; src: url('fonts/inter-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'Inter'; src: url('fonts/inter-500.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'Inter'; src: url('fonts/inter-600.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'Inter'; src: url('fonts/inter-700.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'Montserrat'; src: url('fonts/montserrat-700.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'Montserrat'; src: url('fonts/montserrat-800.woff2') format('woff2'); font-weight: 800; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'Inter Fallback'; src: local('Arial'); size-adjust: 107%; ascent-override: 90%; descent-override: 23%; line-gap-override: 0%; }
+
+    /* ── CSS Variables ── */
+    :root {
+      --purple: #4F318B;
+      --purple-dark: #3a2268;
+      --purple-light: #6B4EAE;
+      --orange: #E1830E;
+      --orange-light: #FF9B2E;
+      --white: #FFFFFF;
+      --off-white: #F8F7FC;
+      --gray-50: #F9FAFB;
+      --gray-100: #F3F4F6;
+      --gray-200: #E5E7EB;
+      --gray-300: #D1D5DB;
+      --gray-500: #6B7280;
+      --gray-600: #4B5563;
+      --gray-700: #374151;
+      --gray-800: #1F2937;
+      --gray-900: #111827;
+      --font-sans: 'Inter', 'Inter Fallback', Arial, sans-serif;
+      --font-heading: 'Montserrat', 'Inter', Arial, sans-serif;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+      --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
+      --radius: 12px;
+      --radius-lg: 20px;
+      --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* ── Reset & Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+    body { font-family: var(--font-sans); color: var(--gray-800); line-height: 1.6; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+    img { max-width: 100%; height: auto; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+    h1, h2, h3, h4 { font-family: var(--font-heading); line-height: 1.2; color: var(--gray-900); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    section { padding: 100px 0; }
+    .icon-inline { width: 24px; height: 24px; display: inline-block; vertical-align: middle; }
+
+    /* ── Header ── */
+    .header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(0,0,0,0.06); transition: var(--transition); }
+    .header.scrolled { box-shadow: var(--shadow-md); }
+    .header-inner { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+    .logo img { height: 40px; width: auto; }
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-links a { font-size: 15px; font-weight: 500; color: var(--gray-600); transition: color var(--transition); position: relative; }
+    .nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: var(--orange); transition: width var(--transition); }
+    .nav-links a:hover { color: var(--purple); }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-cta { background: var(--purple); color: var(--white) !important; padding: 10px 24px; border-radius: 50px; font-weight: 600; transition: all var(--transition) !important; }
+    .nav-cta::after { display: none !important; }
+    .nav-cta:hover { background: var(--purple-dark); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+    .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--gray-800); margin: 5px 0; transition: var(--transition); }
+    .mobile-nav { display: none; position: fixed; top: 72px; left: 0; right: 0; bottom: 0; background: var(--white); padding: 24px; z-index: 99; flex-direction: column; gap: 8px; }
+    .mobile-nav.active { display: flex; }
+    .mobile-nav a { font-size: 18px; font-weight: 500; color: var(--gray-700); padding: 12px 0; border-bottom: 1px solid var(--gray-100); }
+
+    /* ── Hero ── */
+    .hero { padding: 140px 0 100px; background: linear-gradient(135deg, var(--purple) 0%, var(--purple-dark) 50%, #2d1854 100%); position: relative; overflow: hidden; min-height: 90vh; display: flex; align-items: center; }
+    .hero::before { content: ''; position: absolute; top: -50%; right: -20%; width: 800px; height: 800px; background: radial-gradient(circle, rgba(225,131,14,0.15) 0%, transparent 70%); border-radius: 50%; }
+    .hero::after { content: ''; position: absolute; bottom: -30%; left: -10%; width: 600px; height: 600px; background: radial-gradient(circle, rgba(107,78,174,0.3) 0%, transparent 70%); border-radius: 50%; }
+    .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; position: relative; z-index: 1; }
+    .hero-content { color: var(--white); }
+    .hero-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 50px; padding: 8px 20px; font-size: 14px; font-weight: 500; color: var(--orange-light); margin-bottom: 24px; backdrop-filter: blur(8px); }
+    .hero h1 { font-size: 56px; font-weight: 800; line-height: 1.1; margin-bottom: 24px; min-height: 140px; }
+    .hero h1 span { color: var(--orange-light); }
+    .hero-sub { font-size: 20px; line-height: 1.6; color: rgba(255,255,255,0.85); margin-bottom: 40px; max-width: 500px; min-height: 72px; }
+    .hero-buttons { display: flex; gap: 16px; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 32px; border-radius: 50px; font-size: 16px; font-weight: 600; font-family: var(--font-sans); cursor: pointer; transition: all var(--transition); border: none; }
+    .btn-primary { background: var(--orange); color: var(--white); }
+    .btn-primary:hover { background: var(--orange-light); transform: translateY(-2px); box-shadow: 0 8px 25px rgba(225,131,14,0.4); }
+    .btn-outline { background: transparent; color: var(--white); border: 2px solid rgba(255,255,255,0.3); }
+    .btn-outline:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.6); }
+    .hero-image { position: relative; }
+    .hero-image img { width: 100%; border-radius: var(--radius-lg); box-shadow: 0 30px 60px rgba(0,0,0,0.3); }
+    .hero-image .butterfly-float { position: absolute; top: -30px; right: -20px; width: 120px; height: auto; animation: float 3s ease-in-out infinite; filter: drop-shadow(0 8px 20px rgba(79,49,139,0.3)); }
+    @keyframes float { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-15px) rotate(5deg); } }
+    .hero-stats { display: flex; gap: 40px; margin-top: 48px; padding-top: 32px; border-top: 1px solid rgba(255,255,255,0.15); }
+    .hero-stat { text-align: left; }
+    .hero-stat-number { font-family: var(--font-heading); font-size: 36px; font-weight: 800; color: var(--orange-light); }
+    .hero-stat-label { font-size: 14px; color: rgba(255,255,255,0.7); margin-top: 4px; }
+
+    /* ── Section Headers ── */
+    .section-header { text-align: center; max-width: 700px; margin: 0 auto 60px; }
+    .section-label { display: inline-flex; align-items: center; gap: 8px; color: var(--orange); font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px; }
+    .section-label::before, .section-label::after { content: ''; width: 24px; height: 2px; background: var(--orange); }
+    .section-header h2 { font-size: 42px; font-weight: 800; margin-bottom: 16px; }
+    .section-header p { font-size: 18px; color: var(--gray-500); line-height: 1.7; }
+
+    /* ── Services ── */
+    .services { background: var(--off-white); }
+    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .service-card { background: var(--white); border-radius: var(--radius); padding: 40px 32px; transition: all var(--transition); border: 1px solid var(--gray-100); position: relative; overflow: hidden; }
+    .service-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--purple), var(--orange)); transform: scaleX(0); transition: transform var(--transition); transform-origin: left; }
+    .service-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-xl); }
+    .service-card:hover::before { transform: scaleX(1); }
+    .service-icon { width: 56px; height: 56px; background: linear-gradient(135deg, var(--purple), var(--purple-light)); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--white); }
+    .service-icon svg { width: 28px; height: 28px; }
+    .service-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 12px; font-family: var(--font-heading); }
+    .service-card p { font-size: 15px; color: var(--gray-500); line-height: 1.7; }
+    .service-card .learn-more { display: inline-flex; align-items: center; gap: 6px; color: var(--purple); font-weight: 600; font-size: 14px; margin-top: 20px; transition: gap var(--transition); }
+    .service-card:hover .learn-more { gap: 12px; }
+
+    /* ── About / Value Prop ── */
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .about-image { position: relative; }
+    .about-image img { border-radius: var(--radius-lg); box-shadow: var(--shadow-xl); }
+    .about-image .accent-box { position: absolute; bottom: -20px; right: -20px; width: 200px; padding: 24px; background: var(--purple); border-radius: var(--radius); color: var(--white); box-shadow: var(--shadow-lg); }
+    .about-image .accent-box .accent-number { font-family: var(--font-heading); font-size: 36px; font-weight: 800; }
+    .about-image .accent-box p { font-size: 14px; opacity: 0.85; }
+    .about-content h2 { font-size: 42px; font-weight: 800; margin-bottom: 24px; }
+    .about-content h2 span { color: var(--orange); }
+    .about-content > p { font-size: 17px; color: var(--gray-600); line-height: 1.8; margin-bottom: 20px; }
+    .about-features { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 32px; }
+    .about-feature { display: flex; align-items: flex-start; gap: 12px; padding: 12px; border-radius: 8px; }
+    .about-feature .check { width: 24px; height: 24px; min-width: 24px; background: rgba(79,49,139,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--purple); margin-top: 2px; }
+    .about-feature .check svg { width: 14px; height: 14px; }
+    .about-feature span { font-size: 15px; font-weight: 500; color: var(--gray-700); }
+
+    /* ── Christy / Founder ── */
+    .founder { background: linear-gradient(135deg, var(--purple) 0%, var(--purple-dark) 100%); color: var(--white); }
+    .founder-grid { display: grid; grid-template-columns: 400px 1fr; gap: 60px; align-items: center; }
+    .founder-photo { position: relative; }
+    .founder-photo img { border-radius: var(--radius-lg); box-shadow: 0 20px 40px rgba(0,0,0,0.3); width: 100%; aspect-ratio: 3/4; object-fit: cover; }
+    .founder-content .section-label { color: var(--orange-light); }
+    .founder-content .section-label::before, .founder-content .section-label::after { background: var(--orange-light); }
+    .founder-content h2 { font-size: 42px; font-weight: 800; color: var(--white); margin-bottom: 8px; }
+    .founder-content .title { font-size: 18px; color: var(--orange-light); font-weight: 600; margin-bottom: 24px; }
+    .founder-content p { font-size: 16px; line-height: 1.8; color: rgba(255,255,255,0.85); margin-bottom: 16px; }
+    .founder-content .read-more { display: inline-flex; align-items: center; gap: 8px; color: var(--orange-light); font-weight: 600; margin-top: 8px; transition: gap var(--transition); }
+    .founder-content .read-more:hover { gap: 14px; }
+
+    /* ── Story (expanded) ── */
+    .story-section { background: var(--off-white); }
+    .story-content { max-width: 800px; margin: 0 auto; }
+    .story-content p { font-size: 17px; color: var(--gray-600); line-height: 1.9; margin-bottom: 20px; }
+    .story-highlight { background: linear-gradient(135deg, var(--purple), var(--purple-dark)); color: var(--white); padding: 40px; border-radius: var(--radius); margin: 40px 0; position: relative; }
+    .story-highlight::before { content: '\201C'; position: absolute; top: 10px; left: 20px; font-size: 80px; color: rgba(255,255,255,0.1); font-family: Georgia, serif; line-height: 1; }
+    .story-highlight p { color: rgba(255,255,255,0.95); font-size: 18px; font-style: italic; line-height: 1.8; }
+    .butterfly-divider { text-align: center; padding: 40px 0; }
+    .butterfly-divider img { width: 60px; opacity: 0.6; margin: 0 auto; }
+
+    /* ── Reviews ── */
+    .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .review-card { background: var(--white); border-radius: var(--radius); padding: 32px; border: 1px solid var(--gray-100); transition: all var(--transition); }
+    .review-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); }
+    .review-stars { color: var(--orange); font-size: 18px; margin-bottom: 16px; letter-spacing: 2px; }
+    .review-text { font-size: 15px; color: var(--gray-600); line-height: 1.7; margin-bottom: 20px; font-style: italic; }
+    .review-author { display: flex; align-items: center; gap: 12px; }
+    .review-avatar { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; background: var(--gray-200); }
+    .review-author-info h4 { font-size: 15px; font-weight: 600; }
+    .review-author-info p { font-size: 13px; color: var(--gray-500); }
+
+    /* ── FAQ ── */
+    .faq { background: var(--off-white); }
+    .faq-list { max-width: 800px; margin: 0 auto; }
+    .faq-item { background: var(--white); border-radius: var(--radius); margin-bottom: 12px; border: 1px solid var(--gray-100); overflow: hidden; transition: all var(--transition); }
+    .faq-item:hover { border-color: var(--purple); }
+    .faq-question { width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 20px 24px; background: none; border: none; cursor: pointer; font-family: var(--font-sans); font-size: 16px; font-weight: 600; color: var(--gray-800); text-align: left; }
+    .faq-question svg { width: 20px; height: 20px; color: var(--purple); transition: transform var(--transition); min-width: 20px; }
+    .faq-item.active .faq-question svg { transform: rotate(180deg); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+    .faq-answer-inner { padding: 0 24px 20px; font-size: 15px; color: var(--gray-600); line-height: 1.7; }
+
+    /* ── Contact / CTA ── */
+    .contact { background: linear-gradient(135deg, var(--gray-900), var(--gray-800)); color: var(--white); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+    .contact-content h2 { font-size: 42px; font-weight: 800; color: var(--white); margin-bottom: 16px; }
+    .contact-content p { font-size: 17px; color: rgba(255,255,255,0.7); line-height: 1.7; margin-bottom: 32px; }
+    .contact-info { display: flex; flex-direction: column; gap: 20px; }
+    .contact-info-item { display: flex; align-items: center; gap: 16px; }
+    .contact-info-icon { width: 48px; height: 48px; min-width: 48px; background: rgba(225,131,14,0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--orange); }
+    .contact-info-icon svg { width: 22px; height: 22px; }
+    .contact-info-item a { color: rgba(255,255,255,0.85); font-size: 16px; transition: color var(--transition); }
+    .contact-info-item a:hover { color: var(--orange-light); }
+    .contact-social { display: flex; gap: 12px; margin-top: 24px; }
+    .contact-social a { width: 44px; height: 44px; border-radius: 50%; background: rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center; color: var(--white); transition: all var(--transition); }
+    .contact-social a:hover { background: var(--orange); transform: translateY(-2px); }
+    .contact-social a svg { width: 20px; height: 20px; }
+    .contact-form { background: var(--white); border-radius: var(--radius-lg); padding: 40px; box-shadow: var(--shadow-xl); }
+    .contact-form h3 { font-size: 24px; font-weight: 700; color: var(--gray-900); margin-bottom: 8px; }
+    .contact-form .form-subtitle { font-size: 15px; color: var(--gray-500); margin-bottom: 24px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-group { margin-bottom: 16px; }
+    .form-group label { display: block; font-size: 14px; font-weight: 500; color: var(--gray-700); margin-bottom: 6px; }
+    .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 12px 16px; border: 1px solid var(--gray-200); border-radius: 8px; font-family: var(--font-sans); font-size: 15px; color: var(--gray-800); transition: border-color var(--transition), box-shadow var(--transition); background: var(--gray-50); }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus { outline: none; border-color: var(--purple); box-shadow: 0 0 0 3px rgba(79,49,139,0.1); background: var(--white); }
+    .form-group textarea { resize: vertical; min-height: 100px; }
+    .form-submit { width: 100%; padding: 14px; background: var(--purple); color: var(--white); border: none; border-radius: 50px; font-family: var(--font-sans); font-size: 16px; font-weight: 600; cursor: pointer; transition: all var(--transition); }
+    .form-submit:hover { background: var(--purple-dark); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+    .form-success { display: none; text-align: center; padding: 40px 20px; }
+    .form-success.show { display: block; }
+    .form-success svg { width: 64px; height: 64px; color: #22C55E; margin: 0 auto 16px; }
+    .form-success h3 { font-size: 22px; color: var(--gray-900); margin-bottom: 8px; }
+    .form-success p { color: var(--gray-500); }
+
+    /* ── Footer ── */
+    .footer { background: var(--gray-900); color: rgba(255,255,255,0.7); padding: 60px 0 24px; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+    .footer-brand img { height: 36px; margin-bottom: 16px; filter: brightness(0) invert(1); }
+    .footer-brand p { font-size: 14px; line-height: 1.7; max-width: 280px; }
+    .footer-col h4 { color: var(--white); font-size: 15px; font-weight: 600; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px; font-family: var(--font-heading); }
+    .footer-col a { display: block; font-size: 14px; color: rgba(255,255,255,0.6); padding: 4px 0; transition: color var(--transition); }
+    .footer-col a:hover { color: var(--orange-light); }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 24px; display: flex; align-items: center; justify-content: space-between; font-size: 13px; }
+
+    /* ── Animations ── */
+    .fade-up { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+    .fade-up.delay-1 { transition-delay: 0.1s; }
+    .fade-up.delay-2 { transition-delay: 0.2s; }
+    .fade-up.delay-3 { transition-delay: 0.3s; }
+
+    /* ── Responsive ── */
+    @media (max-width: 1024px) {
+      .hero-grid, .about-grid, .founder-grid, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+      .hero h1 { font-size: 42px; min-height: auto; }
+      .hero-sub { min-height: auto; }
+      .hero-image { order: -1; max-width: 500px; margin: 0 auto; }
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .founder-grid { grid-template-columns: 1fr; }
+      .founder-photo { max-width: 400px; margin: 0 auto; }
+      .section-header h2, .about-content h2, .founder-content h2, .contact-content h2 { font-size: 34px; }
+    }
+    @media (max-width: 768px) {
+      section { padding: 70px 0; }
+      .nav-links { display: none; }
+      .hamburger { display: block; }
+      .hero { padding: 120px 0 70px; min-height: auto; }
+      .hero h1 { font-size: 34px; }
+      .hero-sub { font-size: 17px; }
+      .hero-stats { gap: 24px; flex-wrap: wrap; }
+      .hero-stat-number { font-size: 28px; }
+      .services-grid { grid-template-columns: 1fr; }
+      .reviews-grid { grid-template-columns: 1fr; }
+      .about-features { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+      .about-image .accent-box { position: static; width: auto; margin-top: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- ═══════ Header ═══════ -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Monarch Digital Marketing home">
+        <img src="images/logo.webp" alt="Monarch Digital Marketing" width="140" height="40">
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#story">Our Story</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="nav-cta">Book an Audit</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="#services" onclick="closeMobileNav()">Services</a>
+      <a href="#about" onclick="closeMobileNav()">About</a>
+      <a href="#story" onclick="closeMobileNav()">Our Story</a>
+      <a href="#reviews" onclick="closeMobileNav()">Reviews</a>
+      <a href="#faq" onclick="closeMobileNav()">FAQ</a>
+      <a href="#contact" onclick="closeMobileNav()">Book an Audit</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ═══════ Hero ═══════ -->
+    <section class="hero" id="hero" aria-label="Welcome">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              Full-Service Digital Marketing
+            </div>
+            <h1>Let Your Digital <span>Transformation</span> Begin</h1>
+            <p class="hero-sub">Get your free 1-hour marketing audit plus an SEO review. Content creation, blogging, email marketing, social media, and advertising — all tailored for small businesses.</p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">
+                Book a Free Audit
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+              <a href="#services" class="btn btn-outline">Explore Services</a>
+            </div>
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <div class="hero-stat-number">6+</div>
+                <div class="hero-stat-label">Campaign Types</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat-number">100%</div>
+                <div class="hero-stat-label">Custom Strategies</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat-number">1hr</div>
+                <div class="hero-stat-label">Free Audit</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="images/butterfly.webp" alt="Monarch Digital Marketing — butterfly brand graphic on laptop" width="1718" height="1080" fetchpriority="high">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ Services ═══════ -->
+    <section class="services" id="services" aria-label="Marketing Services">
+      <div class="container">
+        <div class="section-header fade-up">
+          <div class="section-label">What We Do</div>
+          <h2>Monarch Digital Campaigns</h2>
+          <p>Strategic digital solutions to amplify your small business success with affordable, customized campaigns.</p>
+        </div>
+        <div class="services-grid">
+
+          <div class="service-card fade-up">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+            </div>
+            <h3>Content Creation</h3>
+            <p>We craft compelling narratives tailored to your brand, resonating with your target audience and driving engagement across all platforms.</p>
+            <span class="learn-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+
+          <div class="service-card fade-up delay-1">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+            </div>
+            <h3>Blogging</h3>
+            <p>Our blogging services go beyond mere words — we create content that not only engages but also drives organic traffic and elevates your online presence.</p>
+            <span class="learn-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+
+          <div class="service-card fade-up delay-2">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <h3>Email Marketing</h3>
+            <p>Compelling content with strategic design ensures your message stands out. Data-driven insights and tailored campaigns guarantee impactful touch points.</p>
+            <span class="learn-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+
+          <div class="service-card fade-up">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+            </div>
+            <h3>Social Media Management</h3>
+            <p>We curate engaging content, foster community interactions, and utilize the latest trends to position your business at the heart of the digital conversation.</p>
+            <span class="learn-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+
+          <div class="service-card fade-up delay-1">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+            </div>
+            <h3>Digital Advertising</h3>
+            <p>Strategic insight and creative flair position your brand in the spotlight. Through tailored campaigns and data-driven decisions, every ad dollar achieves maximum impact.</p>
+            <span class="learn-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+
+          <div class="service-card fade-up delay-2">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <h3>SEO &amp; Analysis</h3>
+            <p>Off-site and on-site SEO strategies work together to boost your domain authority and let search engines know your site is valuable, credible, and worth sharing.</p>
+            <span class="learn-more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ About / Value Prop ═══════ -->
+    <section class="about" id="about" aria-label="About Monarch Digital">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image fade-up">
+            <img src="images/christy-presenting.webp" alt="Christy presenting digital marketing growth results to a team" width="800" height="800" loading="lazy">
+            <div class="accent-box">
+              <div class="accent-number">100%</div>
+              <p>Custom strategies for small business budgets</p>
+            </div>
+          </div>
+          <div class="about-content fade-up">
+            <div class="section-label">Why Choose Us</div>
+            <h2>Small Businesses, Start Ups, Entrepreneurs... <span>We Get It</span></h2>
+            <p>Small businesses, entrepreneurs and start ups often struggle to navigate the digital landscape, missing out on pivotal opportunities to connect with their audience and capitalize on digital growth channels.</p>
+            <p>We are here to change that with affordable full campaigns to support small business budgets. Monarch Digital's strategic solutions amplify your success using our proprietary Marketing Launchpad technology at an affordable, customized price.</p>
+            <div class="about-features">
+              <div class="about-feature">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Affordable campaigns</span>
+              </div>
+              <div class="about-feature">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Customized pricing</span>
+              </div>
+              <div class="about-feature">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Full-service campaigns</span>
+              </div>
+              <div class="about-feature">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Marketing Launchpad tech</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ Founder ═══════ -->
+    <section class="founder" id="founder" aria-label="Meet the Founder">
+      <div class="container">
+        <div class="founder-grid">
+          <div class="founder-photo fade-up">
+            <img src="images/christy-professional.webp" alt="Christy Renner — Founder and CEO of Monarch Digital Marketing" width="800" height="800" loading="lazy">
+          </div>
+          <div class="founder-content fade-up">
+            <div class="section-label">Meet the Founder</div>
+            <h2>Christy Renner</h2>
+            <p class="title">Digital Marketing Specialist | CEO</p>
+            <p>My friend Tosha had this knack for finding joy in life's simplest pleasures. Whether it was soaking up a sunset, feeling the rhythm of the sea, or just spending time with family and friends, she did it wholeheartedly.</p>
+            <p>Her love was as fierce as her courage during her battle with colon cancer. Much like a butterfly's transformative cycle, Tosha's views on life evolved beautifully. She loved living so much, but she was not afraid to die. She was amazing.</p>
+            <a href="#story" class="read-more">
+              Read the full story
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ Story ═══════ -->
+    <section class="story-section" id="story" aria-label="Our Story">
+      <div class="container">
+        <div class="section-header fade-up">
+          <div class="section-label">Our Story</div>
+          <h2>How Monarch Digital Got Its Start</h2>
+        </div>
+        <div class="story-content fade-up">
+          <p>Before leaving Florida in July 2022 and going back to Colorado to be with her family, she made a promise. A butterfly would be her way of telling me she's pain free, at peace and still near after her passing.</p>
+          <p>Tosha slipped away in early October of 2022. One week later, in the quiet of dawn, my husband spotted a very large and majestic Monarch butterfly perched on our patio screen.</p>
+          <p>That very patio where we would chat about everything — our spouses, her amazing daughters, our shared dreams, and of course, those funny stories from our 25 plus years of friendship and her on-going fight. It was also the place where she made the butterfly promise.</p>
+
+          <div class="story-highlight">
+            <p>That morning, as Tampa Bay slowly lit up with the sunrise, the butterfly lingered for over an hour. It felt like Tosha was right there, keeping her word and bringing additional peace to the grief of her passing. What an incredible gift.</p>
+          </div>
+
+          <p>That moment changed my perspective on so many things. How precious life is, how important it is to actually live it. To not be afraid, to take the occasional leap of faith and to recognize the potential and the gifts that come from doing so.</p>
+
+          <div class="butterfly-divider">
+            <img src="images/butterfly.webp" alt="" width="60" height="38" loading="lazy">
+          </div>
+
+          <p>Monarch was the obvious name for this new venture, aiming to help small business owners realize their dreams and aspirations through the transformative power digital marketing can provide.</p>
+          <p>I dream that someday, we will pave the way for a charitable foundation honoring Tosha. Until then, we're laying the groundwork, one step at a time, by assisting others in their pursuits. It's a great way to begin.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ Reviews ═══════ -->
+    <section class="reviews" id="reviews" aria-label="Client Reviews">
+      <div class="container">
+        <div class="section-header fade-up">
+          <div class="section-label">Testimonials</div>
+          <h2>What Clients Say About Us</h2>
+          <p>Don't just take it from us — hear from the businesses we've helped grow.</p>
+        </div>
+        <div class="reviews-grid">
+
+          <div class="review-card fade-up">
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">"Working with Monarch Digital has been amazing; I never thought that we could run so many marketing campaigns so effectively every week!"</p>
+            <div class="review-author">
+              <img src="images/maria.webp" alt="Maria Amalia Robbin" class="review-avatar" width="48" height="48" loading="lazy">
+              <div class="review-author-info">
+                <h4>Maria Amalia Robbin</h4>
+                <p>Business Owner</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card fade-up delay-1">
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">"Christy is a wonderful digital marketer for a Pilates Studio. Christy understands Pilates as she is an avid practitioner and brings real insight to every campaign."</p>
+            <div class="review-author">
+              <img src="images/rosemary.webp" alt="Rosemary Todaro" class="review-avatar" width="48" height="48" loading="lazy">
+              <div class="review-author-info">
+                <h4>Rosemary Todaro</h4>
+                <p>Pilates Studio Owner</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card fade-up delay-2">
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-text">"Christy was wonderful to work with. She really took the time to walk me through what she was doing and why. Highly recommend Monarch Digital!"</p>
+            <div class="review-author">
+              <div class="review-avatar" style="background: linear-gradient(135deg, var(--purple), var(--orange)); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 18px;">F</div>
+              <div class="review-author-info">
+                <h4>Fernanda Bapo</h4>
+                <p>Entrepreneur</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ FAQ ═══════ -->
+    <section class="faq" id="faq" aria-label="Frequently Asked Questions">
+      <div class="container">
+        <div class="section-header fade-up">
+          <div class="section-label">FAQ</div>
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list fade-up">
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              What makes Monarch Marketing stand out from other digital marketing agencies?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">Our personalized approach, combined with our expertise in local business promotion, sets us apart. We tailor every strategy to resonate with your target audience, ensuring impactful results that drive growth.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Do you offer package deals for multiple services?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">Absolutely! We offer a range of customizable packages designed to suit your business needs and budget. Combining services often results in synergistic growth and is a popular choice among our clients.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How do you ensure the content aligns with my brand's voice and values?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">We begin every partnership with an in-depth brand consultation, ensuring we understand your brand's ethos, voice, and goals. This foundational knowledge guides our content creation, ensuring consistency and authenticity.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              What platforms do you specialize in for digital advertising?
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">We offer digital advertising solutions across a range of platforms, including but not limited to Google, Facebook, and Instagram. Our team stays updated with the latest trends and platform updates to ensure maximum efficacy.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ Contact ═══════ -->
+    <section class="contact" id="contact" aria-label="Contact Us">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-content fade-up">
+            <div class="section-label" style="color: var(--orange-light);">Get Started</div>
+            <h2>Book a Marketing Audit with Monarch Digital</h2>
+            <p>Get your free 1-hour marketing audit plus an SEO review. Let's discover how we can amplify your digital presence together.</p>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                </div>
+                <a href="tel:727-383-6038">727-383-6038</a>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <a href="mailto:info.monarchdigital@gmail.com">info.monarchdigital@gmail.com</a>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <a href="#">Tampa Bay, Florida</a>
+              </div>
+            </div>
+            <div class="contact-social">
+              <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              </a>
+              <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </a>
+              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form fade-up" id="contactFormWrapper">
+            <h3>Book Your Free Audit</h3>
+            <p class="form-subtitle">Fill out the form below and we'll get back to you within 24 hours.</p>
+            <form id="contactForm" action="https://myaieditor.com/api/form-notify" method="POST" data-ajax>
+              <input type="hidden" name="site_slug" value="monarch-digital">
+              <input type="hidden" name="form_type" value="audit-request">
+              <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="first_name">First Name *</label>
+                  <input type="text" id="first_name" name="first_name" required placeholder="Jane">
+                </div>
+                <div class="form-group">
+                  <label for="last_name">Last Name *</label>
+                  <input type="text" id="last_name" name="last_name" required placeholder="Smith">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required placeholder="jane@company.com">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone *</label>
+                <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
+              </div>
+              <div class="form-group">
+                <label for="business">Business Name</label>
+                <input type="text" id="business" name="business_name" placeholder="Your Business Name">
+              </div>
+              <div class="form-group">
+                <label for="message">Tell us about your goals</label>
+                <textarea id="message" name="message" placeholder="What are you looking to achieve with digital marketing?"></textarea>
+              </div>
+              <button type="submit" class="form-submit">Book My Free Audit</button>
+            </form>
+            <div class="form-success" id="formSuccess">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <h3>Thank you!</h3>
+              <p>We've received your request and will get back to you within 24 hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════ Footer ═══════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.webp" alt="Monarch Digital Marketing" width="140" height="40" loading="lazy">
+          <p>Helping small businesses realize their dreams through the transformative power of digital marketing.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="#services">Content Creation</a>
+          <a href="#services">Blogging</a>
+          <a href="#services">Email Marketing</a>
+          <a href="#services">Social Media</a>
+          <a href="#services">Digital Advertising</a>
+          <a href="#services">SEO &amp; Analysis</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#about">About Us</a>
+          <a href="#story">Our Story</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="tel:727-383-6038">727-383-6038</a>
+          <a href="mailto:info.monarchdigital@gmail.com">info.monarchdigital@gmail.com</a>
+          <a href="#">Tampa Bay, FL</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Monarch Digital Marketing. All rights reserved.</span>
+        <span>This is a lead generation landing page</span>
+      </div>
+    </div>
+  </footer>
+
+  <script defer>
+    // ── Header scroll effect ──
+    const header = document.getElementById('header');
+    let lastScroll = 0;
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // ── Mobile navigation ──
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+    hamburger.addEventListener('click', () => {
+      const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.setAttribute('aria-expanded', !expanded);
+      mobileNav.classList.toggle('active');
+      document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+    });
+    function closeMobileNav() {
+      hamburger.setAttribute('aria-expanded', 'false');
+      mobileNav.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    // ── FAQ accordion ──
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        const answer = item.querySelector('.faq-answer');
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.faq-item.active').forEach(i => {
+          i.classList.remove('active');
+          i.querySelector('.faq-answer').style.maxHeight = null;
+          i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+        });
+        if (!isActive) {
+          item.classList.add('active');
+          answer.style.maxHeight = answer.scrollHeight + 'px';
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // ── Scroll animations ──
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+    // ── Form submission ──
+    const form = document.getElementById('contactForm');
+    const formSuccess = document.getElementById('formSuccess');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('.form-submit');
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+      try {
+        const data = Object.fromEntries(new FormData(form));
+        const res = await fetch(form.action, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+        if (res.ok) {
+          form.style.display = 'none';
+          formSuccess.classList.add('show');
+        } else {
+          btn.textContent = 'Something went wrong — try again';
+          btn.disabled = false;
+        }
+      } catch {
+        btn.textContent = 'Something went wrong — try again';
+        btn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

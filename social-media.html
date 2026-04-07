@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Management — Monarch Digital Marketing</title>
+  <meta name="description" content="Professional social media management from Monarch Digital Marketing. We curate engaging content, foster community interactions, and position your business at the heart of the digital conversation.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Social Media Management — Monarch Digital Marketing">
+  <meta property="og:description" content="We curate engaging content, foster community interactions, and utilize the latest trends to position your business at the heart of the digital conversation.">
+  <meta property="og:image" content="images/butterfly.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Social Media Management — Monarch Digital Marketing">
+  <meta name="twitter:description" content="Professional social media management to elevate your brand's digital presence.">
+
+  <!-- Preload critical assets -->
+  <link rel="preload" as="image" type="image/webp" href="images/svc-social-hero.webp" fetchpriority="high">
+  <link rel="preload" as="font" type="font/woff2" href="fonts/inter-400.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="fonts/inter-700.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="fonts/montserrat-700.woff2" crossorigin>
+
+  <style>
+    /* ── Font Faces ── */
+    @font-face{font-family:'Inter';src:url('fonts/inter-400.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+    @font-face{font-family:'Inter';src:url('fonts/inter-500.woff2') format('woff2');font-weight:500;font-style:normal;font-display:swap}
+    @font-face{font-family:'Inter';src:url('fonts/inter-600.woff2') format('woff2');font-weight:600;font-style:normal;font-display:swap}
+    @font-face{font-family:'Inter';src:url('fonts/inter-700.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+    @font-face{font-family:'Montserrat';src:url('fonts/montserrat-700.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+    @font-face{font-family:'Montserrat';src:url('fonts/montserrat-800.woff2') format('woff2');font-weight:800;font-style:normal;font-display:swap}
+    @font-face{font-family:'Inter Fallback';src:local('Arial');size-adjust:107%;ascent-override:90%;descent-override:23%;line-gap-override:0%}
+
+    /* ── CSS Variables ── */
+    :root{
+      --purple:#4F318B;--purple-dark:#3a2268;--purple-light:#6B4EAE;
+      --orange:#E1830E;--orange-light:#FF9B2E;
+      --white:#FFFFFF;--off-white:#F8F7FC;
+      --gray-100:#F3F4F6;--gray-500:#6B7280;--gray-600:#4B5563;--gray-700:#374151;--gray-800:#1F2937;--gray-900:#111827;
+      --font-sans:'Inter','Inter Fallback',Arial,sans-serif;
+      --font-heading:'Montserrat','Inter',Arial,sans-serif;
+      --shadow-md:0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -2px rgba(0,0,0,0.1);
+      --shadow-lg:0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -4px rgba(0,0,0,0.1);
+      --radius:12px;--radius-lg:20px;
+      --transition:0.3s cubic-bezier(0.4,0,0.2,1);
+    }
+
+    /* ── Reset & Base ── */
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;scroll-padding-top:80px}
+    body{font-family:var(--font-sans);color:var(--gray-800);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    img{max-width:100%;height:auto;display:block}
+    a{text-decoration:none;color:inherit}
+    ul{list-style:none}
+    h1,h2,h3,h4{font-family:var(--font-heading);line-height:1.2;color:var(--gray-900)}
+    .container{max-width:1200px;margin:0 auto;padding:0 24px}
+    section{padding:100px 0}
+
+    /* ── Header ── */
+    .header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,0.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,0,0,0.06);transition:var(--transition)}
+    .header.scrolled{box-shadow:var(--shadow-md)}
+    .header-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
+    .logo img{height:40px;width:auto}
+    .nav-links{display:flex;align-items:center;gap:32px}
+    .nav-links a{font-size:15px;font-weight:500;color:var(--gray-600);transition:color var(--transition);position:relative}
+    .nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--orange);transition:width var(--transition)}
+    .nav-links a:hover{color:var(--purple)}
+    .nav-links a:hover::after{width:100%}
+    .nav-cta{background:var(--purple);color:var(--white)!important;padding:10px 24px;border-radius:50px;font-weight:600;transition:all var(--transition)!important}
+    .nav-cta::after{display:none!important}
+    .nav-cta:hover{background:var(--purple-dark);transform:translateY(-1px);box-shadow:var(--shadow-md)}
+    .hamburger{display:none;background:none;border:none;cursor:pointer;padding:8px}
+    .hamburger span{display:block;width:24px;height:2px;background:var(--gray-800);margin:5px 0;transition:var(--transition)}
+    .mobile-nav{display:none;position:fixed;top:72px;left:0;right:0;bottom:0;background:var(--white);padding:24px;z-index:99;flex-direction:column;gap:8px}
+    .mobile-nav.active{display:flex}
+    .mobile-nav a{font-size:18px;font-weight:500;color:var(--gray-700);padding:12px 0;border-bottom:1px solid var(--gray-100)}
+
+    /* ── Hero ── */
+    .hero{padding:140px 0 100px;background:linear-gradient(135deg,#4F318B 0%,#3a2268 50%,#2d1854 100%);position:relative;overflow:hidden;min-height:90vh;display:flex;align-items:center}
+    .hero::before{content:'';position:absolute;top:-50%;right:-20%;width:800px;height:800px;background:radial-gradient(circle,rgba(225,131,14,0.15) 0%,transparent 70%);border-radius:50%}
+    .hero::after{content:'';position:absolute;bottom:-30%;left:-10%;width:600px;height:600px;background:radial-gradient(circle,rgba(107,78,174,0.3) 0%,transparent 70%);border-radius:50%}
+    .hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;position:relative;z-index:1}
+    .hero-content{color:var(--white)}
+    .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:50px;padding:8px 20px;font-size:14px;font-weight:500;color:var(--orange-light);margin-bottom:24px;backdrop-filter:blur(8px)}
+    .hero h1{font-size:56px;font-weight:800;line-height:1.1;margin-bottom:24px;min-height:140px}
+    .hero h1 span{color:var(--orange-light)}
+    .hero-sub{font-size:20px;line-height:1.6;color:rgba(255,255,255,0.85);margin-bottom:40px;max-width:500px;min-height:72px}
+    .hero-buttons{display:flex;gap:16px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:14px 32px;border-radius:50px;font-size:16px;font-weight:600;font-family:var(--font-sans);cursor:pointer;transition:all var(--transition);border:none}
+    .btn-primary{background:var(--orange);color:var(--white)}
+    .btn-primary:hover{background:var(--orange-light);transform:translateY(-2px);box-shadow:0 8px 25px rgba(225,131,14,0.4)}
+    .btn-outline{background:transparent;color:var(--white);border:2px solid rgba(255,255,255,0.3)}
+    .btn-outline:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.6)}
+    .hero-image{position:relative}
+    .hero-image img{width:100%;border-radius:var(--radius-lg);box-shadow:0 30px 60px rgba(0,0,0,0.3)}
+
+    /* ── Section Headers ── */
+    .section-header{text-align:center;max-width:700px;margin:0 auto 60px}
+    .section-label{display:inline-flex;align-items:center;gap:8px;color:var(--orange);font-weight:600;font-size:14px;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:16px}
+    .section-label::before,.section-label::after{content:'';width:24px;height:2px;background:var(--orange)}
+    .section-header h2{font-size:42px;font-weight:700;margin-bottom:16px}
+    .section-header p{font-size:18px;color:var(--gray-600);line-height:1.7}
+
+    /* ── Service Details ── */
+    .service-details{background:var(--white)}
+    .details-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+    .detail-card{background:var(--white);border:1px solid rgba(0,0,0,0.06);border-radius:var(--radius-lg);padding:40px 32px;transition:all var(--transition)}
+    .detail-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:rgba(79,49,139,0.15)}
+    .detail-icon{width:64px;height:64px;background:linear-gradient(135deg,rgba(79,49,139,0.1),rgba(79,49,139,0.05));border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:24px;color:var(--purple)}
+    .detail-icon svg{width:32px;height:32px}
+    .detail-card h3{font-size:22px;font-weight:700;margin-bottom:12px;color:var(--gray-900)}
+    .detail-card p{font-size:16px;color:var(--gray-600);line-height:1.7}
+
+    /* ── Why Choose Us ── */
+    .why-choose{background:var(--off-white)}
+    .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+    .why-content h2{font-size:42px;font-weight:700;margin-bottom:32px}
+    .why-list{display:flex;flex-direction:column;gap:20px}
+    .why-item{display:flex;gap:16px;align-items:flex-start}
+    .why-check{flex-shrink:0;width:28px;height:28px;background:linear-gradient(135deg,var(--purple),var(--purple-light));border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px}
+    .why-check svg{width:14px;height:14px;color:var(--white)}
+    .why-item h4{font-size:18px;font-weight:600;margin-bottom:4px;color:var(--gray-900)}
+    .why-item p{font-size:15px;color:var(--gray-600);line-height:1.6}
+    .why-visual{position:relative}
+    .why-visual-card{background:var(--white);border-radius:var(--radius-lg);padding:40px;box-shadow:var(--shadow-lg);border:1px solid rgba(0,0,0,0.04)}
+    .stat-row{display:flex;gap:24px;margin-bottom:24px}
+    .stat-box{flex:1;text-align:center;padding:24px 16px;background:var(--off-white);border-radius:var(--radius)}
+    .stat-box .num{font-family:var(--font-heading);font-size:32px;font-weight:800;color:var(--purple);margin-bottom:4px}
+    .stat-box .lbl{font-size:13px;color:var(--gray-500)}
+    .platforms{display:flex;justify-content:center;gap:16px;padding-top:16px;border-top:1px solid var(--gray-100)}
+    .platform-badge{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:rgba(79,49,139,0.06);border-radius:50px;font-size:13px;font-weight:600;color:var(--purple)}
+
+    /* ── CTA ── */
+    .cta-section{background:linear-gradient(135deg,#4F318B 0%,#3a2268 50%,#2d1854 100%);position:relative;overflow:hidden;text-align:center}
+    .cta-section::before{content:'';position:absolute;top:-40%;right:-15%;width:600px;height:600px;background:radial-gradient(circle,rgba(225,131,14,0.12) 0%,transparent 70%);border-radius:50%}
+    .cta-inner{position:relative;z-index:1}
+    .cta-section h2{font-size:42px;font-weight:700;color:var(--white);margin-bottom:16px}
+    .cta-section p{font-size:18px;color:rgba(255,255,255,0.8);margin-bottom:36px;max-width:550px;margin-left:auto;margin-right:auto}
+
+    /* ── Footer ── */
+    .footer{background:var(--gray-900);color:rgba(255,255,255,0.7);padding:60px 0 24px}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+    .footer-brand img{height:36px;margin-bottom:16px;filter:brightness(0) invert(1)}
+    .footer-brand p{font-size:14px;line-height:1.7;max-width:280px}
+    .footer-col h4{color:var(--white);font-size:15px;font-weight:600;margin-bottom:16px;text-transform:uppercase;letter-spacing:1px;font-family:var(--font-heading)}
+    .footer-col a{display:block;font-size:14px;color:rgba(255,255,255,0.6);padding:4px 0;transition:color var(--transition)}
+    .footer-col a:hover{color:var(--orange-light)}
+    .footer-bottom{border-top:1px solid rgba(255,255,255,0.1);padding-top:24px;display:flex;align-items:center;justify-content:space-between;font-size:13px}
+
+    /* ── Animations ── */
+    .fade-up{opacity:0;transform:translateY(30px);transition:opacity 0.6s ease,transform 0.6s ease}
+    .fade-up.visible{opacity:1;transform:translateY(0)}
+    .fade-up.delay-1{transition-delay:0.1s}
+    .fade-up.delay-2{transition-delay:0.2s}
+    .fade-up.delay-3{transition-delay:0.3s}
+
+    /* ── Responsive ── */
+    @media(max-width:1024px){
+      .hero-grid,.why-grid{grid-template-columns:1fr;gap:40px}
+      .hero h1{font-size:42px;min-height:auto}
+      .hero-sub{min-height:auto}
+      .hero-image{order:-1;max-width:500px;margin:0 auto}
+      .details-grid{grid-template-columns:repeat(2,1fr)}
+      .footer-grid{grid-template-columns:1fr 1fr}
+      .section-header h2,.why-content h2,.cta-section h2{font-size:34px}
+      .why-visual{max-width:500px;margin:0 auto}
+    }
+    @media(max-width:768px){
+      section{padding:70px 0}
+      .nav-links{display:none}
+      .hamburger{display:block}
+      .hero{padding:120px 0 70px;min-height:auto}
+      .hero h1{font-size:34px}
+      .hero-sub{font-size:17px}
+      .details-grid{grid-template-columns:1fr}
+      .footer-grid{grid-template-columns:1fr}
+      .footer-bottom{flex-direction:column;gap:8px;text-align:center}
+      .stat-row{flex-direction:column;gap:16px}
+    }
+  </style>
+</head>
+<body>
+  <!-- ═══════ Header ═══════ -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Monarch Digital Marketing home">
+        <img src="images/logo.webp" alt="Monarch Digital Marketing" width="140" height="40">
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#story">Our Story</a>
+        <a href="index.html#reviews">Reviews</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="index.html#contact" class="nav-cta">Book an Audit</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="index.html#services" onclick="closeMobileNav()">Services</a>
+      <a href="index.html#about" onclick="closeMobileNav()">About</a>
+      <a href="index.html#story" onclick="closeMobileNav()">Our Story</a>
+      <a href="index.html#reviews" onclick="closeMobileNav()">Reviews</a>
+      <a href="index.html#faq" onclick="closeMobileNav()">FAQ</a>
+      <a href="index.html#contact" onclick="closeMobileNav()">Book an Audit</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ═══════ Hero ═══════ -->
+    <section class="hero" id="hero" aria-label="Social Media Management">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+              Social Media Services
+            </div>
+            <h1>Social Media <span>Management</span></h1>
+            <p class="hero-sub">We curate engaging content, foster community interactions, and utilize the latest trends to position your business at the heart of the digital conversation.</p>
+            <div class="hero-buttons">
+              <a href="index.html#contact" class="btn btn-primary">Get Started Today</a>
+              <a href="index.html#services" class="btn btn-outline">View All Services</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="images/svc-social-hero.webp" alt="Social media management dashboard showing engagement metrics and content calendar" width="1024" height="1024" fetchpriority="high">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ Service Details ═══════ -->
+    <section class="service-details" aria-label="Service details">
+      <div class="container">
+        <div class="section-header fade-up">
+          <div class="section-label">What We Do</div>
+          <h2>Comprehensive Social Media Solutions</h2>
+          <p>From strategy to execution, we handle every aspect of your social media presence so you can focus on running your business.</p>
+        </div>
+        <div class="details-grid">
+          <div class="detail-card fade-up delay-1">
+            <div class="detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <h3>Content Curation &amp; Scheduling</h3>
+            <p>Strategic content calendars with engaging posts tailored for each platform — Facebook, Instagram, LinkedIn, and more. We plan, create, and schedule content that resonates with your audience and drives meaningful interactions.</p>
+          </div>
+          <div class="detail-card fade-up delay-2">
+            <div class="detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>Community Engagement</h3>
+            <p>Active monitoring and response management to build authentic relationships with your audience and foster brand loyalty. We ensure every comment, message, and mention receives timely, thoughtful engagement.</p>
+          </div>
+          <div class="detail-card fade-up delay-3">
+            <div class="detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            </div>
+            <h3>Trend Analysis &amp; Growth</h3>
+            <p>Stay ahead of algorithm changes and trending topics to maximize reach, engagement, and follower growth. We use data-driven insights to continuously refine your strategy and deliver measurable results.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ Why Choose Us ═══════ -->
+    <section class="why-choose" aria-label="Why choose Monarch Digital">
+      <div class="container">
+        <div class="why-grid">
+          <div class="why-content fade-up">
+            <div class="section-label">Why Monarch Digital</div>
+            <h2>Your Brand Deserves a Voice That Stands Out</h2>
+            <div class="why-list">
+              <div class="why-item">
+                <div class="why-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <div>
+                  <h4>Platform-Specific Strategy</h4>
+                  <p>Each social network has its own language. We craft unique strategies for Facebook, Instagram, LinkedIn, and more to maximize impact on every platform.</p>
+                </div>
+              </div>
+              <div class="why-item">
+                <div class="why-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <div>
+                  <h4>Consistent Brand Voice</h4>
+                  <p>We maintain a cohesive brand identity across all channels, ensuring your messaging stays authentic and recognizable to your growing audience.</p>
+                </div>
+              </div>
+              <div class="why-item">
+                <div class="why-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <div>
+                  <h4>Data-Driven Optimization</h4>
+                  <p>Monthly analytics reports with actionable insights. We track what works, refine what doesn't, and continuously improve your social media ROI.</p>
+                </div>
+              </div>
+              <div class="why-item">
+                <div class="why-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <div>
+                  <h4>Dedicated Account Management</h4>
+                  <p>A dedicated social media specialist who knows your brand inside and out, providing personalized attention and rapid response times.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="why-visual fade-up delay-2">
+            <div class="why-visual-card">
+              <div class="stat-row">
+                <div class="stat-box">
+                  <div class="num">3x</div>
+                  <div class="lbl">Engagement Growth</div>
+                </div>
+                <div class="stat-box">
+                  <div class="num">24/7</div>
+                  <div class="lbl">Monitoring</div>
+                </div>
+              </div>
+              <div class="stat-row">
+                <div class="stat-box">
+                  <div class="num">100%</div>
+                  <div class="lbl">Custom Content</div>
+                </div>
+                <div class="stat-box">
+                  <div class="num">30+</div>
+                  <div class="lbl">Posts per Month</div>
+                </div>
+              </div>
+              <div class="platforms">
+                <span class="platform-badge">Facebook</span>
+                <span class="platform-badge">Instagram</span>
+                <span class="platform-badge">LinkedIn</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ CTA ═══════ -->
+    <section class="cta-section" aria-label="Call to action">
+      <div class="container">
+        <div class="cta-inner fade-up">
+          <h2>Ready to Elevate Your Social Presence?</h2>
+          <p>Let us transform your social media channels into powerful growth engines for your business. Book a free audit today.</p>
+          <a href="index.html#contact" class="btn btn-primary">Book Your Free Audit</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════ Footer ═══════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.webp" alt="Monarch Digital Marketing" width="140" height="40" loading="lazy">
+          <p>Helping small businesses realize their dreams through the transformative power of digital marketing.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="content-creation.html">Content Creation</a>
+          <a href="blogging.html">Blogging</a>
+          <a href="email-marketing.html">Email Marketing</a>
+          <a href="social-media.html">Social Media</a>
+          <a href="digital-advertising.html">Digital Advertising</a>
+          <a href="seo-analysis.html">SEO &amp; Analysis</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="index.html#about">About Us</a>
+          <a href="index.html#story">Our Story</a>
+          <a href="index.html#reviews">Reviews</a>
+          <a href="index.html#faq">FAQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="tel:727-383-6038">727-383-6038</a>
+          <a href="mailto:info.monarchdigital@gmail.com">info.monarchdigital@gmail.com</a>
+          <a href="#">Tampa Bay, FL</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Monarch Digital Marketing. All rights reserved.</span>
+        <span>This is a lead generation landing page</span>
+      </div>
+    </div>
+  </footer>
+
+  <script defer>
+    // ── Header scroll effect ──
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // ── Mobile navigation ──
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+    hamburger.addEventListener('click', () => {
+      const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.setAttribute('aria-expanded', !expanded);
+      mobileNav.classList.toggle('active');
+      document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+    });
+    function closeMobileNav() {
+      hamburger.setAttribute('aria-expanded', 'false');
+      mobileNav.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    // ── Scroll animations ──
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>

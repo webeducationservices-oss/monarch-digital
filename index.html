@@ -96,7 +96,7 @@
     .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; position: relative; z-index: 1; }
     .hero-content { color: var(--white); }
     .hero-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 50px; padding: 8px 20px; font-size: 14px; font-weight: 500; color: var(--gold-light); margin-bottom: 24px; backdrop-filter: blur(8px); }
-    .hero h1 { font-size: 56px; font-weight: 800; line-height: 1.1; margin-bottom: 24px; min-height: 140px; }
+    .hero h1 { font-size: 56px; font-weight: 800; line-height: 1.1; margin-bottom: 24px; min-height: 140px; color: var(--white); }
     .hero h1 span { color: var(--gold-light); }
     .hero-sub { font-size: 20px; line-height: 1.6; color: rgba(255,255,255,0.85); margin-bottom: 40px; max-width: 500px; min-height: 72px; }
     .hero-buttons { display: flex; gap: 16px; flex-wrap: wrap; }
@@ -479,9 +479,9 @@
     <!-- ═══════ Story ═══════ -->
     <section class="story-section" id="story" aria-label="Our Story">
       <div class="container">
-        <div class="section-header fade-up">
+        <div class="section-header fade-up" style="max-width:900px;">
           <div class="section-label">Our Story</div>
-          <h2>How Monarch Digital Got Its Start</h2>
+          <h2 style="white-space:nowrap;font-size:clamp(18px, 4.5vw, 38px);">How Monarch Digital Got Its Start</h2>
         </div>
         <div class="story-content fade-up">
           <p>Before leaving Florida in July 2022 and going back to Colorado to be with her family, she made a promise. A butterfly would be her way of telling me she's pain free, at peace and still near after her passing.</p>

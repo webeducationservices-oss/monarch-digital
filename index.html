@@ -15,6 +15,8 @@
 
   <!-- Preload critical assets -->
   <!-- Hero uses inline SVG, no image preload needed -->
+  <!-- reCAPTCHA v3 (invisible) -->
+  <script src="https://www.google.com/recaptcha/api.js?render=6Lck8aQsAAAAALMA-T6nwfkSf7bv4K-mOhkszeKh"></script>
   <link rel="preload" as="font" type="font/woff2" href="fonts/inter-400.woff2" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="fonts/inter-700.woff2" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="fonts/montserrat-700.woff2" crossorigin>
@@ -227,6 +229,9 @@
     .form-success svg { width: 64px; height: 64px; color: #22C55E; margin: 0 auto 16px; }
     .form-success h3 { font-size: 22px; color: var(--gray-900); margin-bottom: 8px; }
     .form-success p { color: var(--gray-500); }
+    .grecaptcha-badge { visibility: hidden; }
+    .recaptcha-attr { font-size: 11px; color: rgba(255,255,255,0.4); margin-top: 12px; display: block; }
+    .recaptcha-attr a { color: rgba(255,255,255,0.55); }
 
     /* ── Footer ── */
     .footer { background: var(--gray-900); color: rgba(255,255,255,0.7); padding: 60px 0 24px; }
@@ -653,42 +658,45 @@
             <h3>Book Your Free Audit</h3>
             <p class="form-subtitle">Fill out the form below and we'll get back to you within 24 hours.</p>
             <form id="contactForm" action="https://myaieditor.com/api/form-notify" method="POST" data-ajax>
-              <input type="hidden" name="site_slug" value="monarch-digital">
-              <input type="hidden" name="form_type" value="audit-request">
-              <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="first_name">First Name *</label>
-                  <input type="text" id="first_name" name="first_name" required placeholder="Jane">
+              <div class="form-fields">
+                <input type="hidden" name="site_slug" value="monarch-digital">
+                <input type="hidden" name="form_type" value="audit-request">
+                <input type="hidden" name="recaptcha_token" id="recaptcha_token">
+                <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="first_name">First Name *</label>
+                    <input type="text" id="first_name" name="first_name" required placeholder="Jane">
+                  </div>
+                  <div class="form-group">
+                    <label for="last_name">Last Name *</label>
+                    <input type="text" id="last_name" name="last_name" required placeholder="Smith">
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label for="last_name">Last Name *</label>
-                  <input type="text" id="last_name" name="last_name" required placeholder="Smith">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" required placeholder="jane@company.com">
                 </div>
+                <div class="form-group">
+                  <label for="phone">Phone *</label>
+                  <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
+                </div>
+                <div class="form-group">
+                  <label for="business">Business Name</label>
+                  <input type="text" id="business" name="business_name" placeholder="Your Business Name">
+                </div>
+                <div class="form-group">
+                  <label for="message">Tell us about your goals</label>
+                  <textarea id="message" name="message" placeholder="What are you looking to achieve with digital marketing?"></textarea>
+                </div>
+                <button type="submit" class="form-submit">Book My Free Audit</button>
               </div>
-              <div class="form-group">
-                <label for="email">Email *</label>
-                <input type="email" id="email" name="email" required placeholder="jane@company.com">
+              <div class="form-success" id="formSuccess">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <h3>Thank you!</h3>
+                <p>We've received your request and will get back to you within 24 hours. Feel free to call us at <a href="tel:727-383-6038" style="color:var(--gold);font-weight:600;">727-383-6038</a> in the meantime.</p>
               </div>
-              <div class="form-group">
-                <label for="phone">Phone *</label>
-                <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567">
-              </div>
-              <div class="form-group">
-                <label for="business">Business Name</label>
-                <input type="text" id="business" name="business_name" placeholder="Your Business Name">
-              </div>
-              <div class="form-group">
-                <label for="message">Tell us about your goals</label>
-                <textarea id="message" name="message" placeholder="What are you looking to achieve with digital marketing?"></textarea>
-              </div>
-              <button type="submit" class="form-submit">Book My Free Audit</button>
             </form>
-            <div class="form-success" id="formSuccess">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-              <h3>Thank you!</h3>
-              <p>We've received your request and will get back to you within 24 hours.</p>
-            </div>
           </div>
         </div>
       </div>
@@ -728,7 +736,7 @@
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Monarch Digital Marketing. All rights reserved.</span>
-        <span>This is a lead generation landing page</span>
+        <span class="recaptcha-attr">Protected by reCAPTCHA · <a href="https://policies.google.com/privacy">Privacy</a> · <a href="https://policies.google.com/terms">Terms</a></span>
       </div>
     </div>
   </footer>
@@ -786,28 +794,33 @@
     }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
-    // ── Form submission ──
+    // ── Form submission (with reCAPTCHA v3) ──
     const form = document.getElementById('contactForm');
     const formSuccess = document.getElementById('formSuccess');
+    const formFields = form.querySelector('.form-fields');
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
+      if (form.querySelector('[name="_honey"]').value) return; // honeypot
       const btn = form.querySelector('.form-submit');
       btn.textContent = 'Sending...';
       btn.disabled = true;
       try {
+        if (typeof grecaptcha !== 'undefined') {
+          try {
+            const token = await grecaptcha.execute('6Lck8aQsAAAAALMA-T6nwfkSf7bv4K-mOhkszeKh', { action: 'audit_request' });
+            document.getElementById('recaptcha_token').value = token;
+          } catch (err) { console.warn('reCAPTCHA error:', err); }
+        }
         const data = Object.fromEntries(new FormData(form));
-        const res = await fetch(form.action, {
+        await fetch(form.action, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(data)
         });
-        if (res.ok) {
-          form.style.display = 'none';
-          formSuccess.classList.add('show');
-        } else {
-          btn.textContent = 'Something went wrong — try again';
-          btn.disabled = false;
-        }
+        formFields.style.display = 'none';
+        formSuccess.classList.add('show');
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ event: 'form_submission', form_type: 'audit-request', form_location: window.location.pathname });
       } catch {
         btn.textContent = 'Something went wrong — try again';
         btn.disabled = false;

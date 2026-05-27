@@ -113,6 +113,17 @@
     .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 32px; border-radius: 50px; font-size: 16px; font-weight: 600; font-family: var(--font-sans); cursor: pointer; transition: all var(--transition); border: none; }
     .btn-primary { background: var(--gold); color: var(--white); }
     .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 25px rgba(212,168,67,0.4); }
+    .btn-primary:active { 
+      background: linear-gradient(135deg, #D4A843, #E8B931, #F4C430, #E8B931, #D4A843);
+      background-size: 300% 100%;
+      animation: goldShimmer 0.6s ease-in-out;
+      transform: translateY(0px);
+      box-shadow: 0 4px 20px rgba(212,168,67,0.6);
+    }
+    @keyframes goldShimmer {
+      0% { background-position: 100% 50%; }
+      100% { background-position: -100% 50%; }
+    }
     .btn-outline { background: transparent; color: var(--white); border: 2px solid rgba(255,255,255,0.3); }
     .btn-outline:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.6); }
     .hero-image { position: relative; }

@@ -146,9 +146,9 @@
     .service-card:hover .learn-more { gap: 12px; }
 
     /* ── About / Value Prop ── */
-    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
-    .about-image { position: relative; }
-    .about-image img { border-radius: var(--radius-lg); box-shadow: var(--shadow-xl); }
+    .about-grid { display: grid; grid-template-columns: 1fr; gap: 80px; align-items: center; }
+    .about-image { position: relative; width: 100%; }
+    .about-image img { border-radius: var(--radius-lg); box-shadow: var(--shadow-xl); width: 100%; max-width: 100%; height: auto; }
     .about-image .accent-box { position: absolute; bottom: -20px; right: -20px; width: 200px; padding: 24px; background: var(--primary); border-radius: var(--radius); color: var(--white); box-shadow: var(--shadow-lg); }
     .about-image .accent-box .accent-number { font-family: var(--font-heading); font-size: 36px; font-weight: 800; }
     .about-image .accent-box p { font-size: 14px; opacity: 0.85; }

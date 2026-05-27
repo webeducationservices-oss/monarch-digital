@@ -50,8 +50,8 @@
     /* Header */
     .header{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,255,255,0.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,0,0,0.06);transition:var(--transition)}
     .header.scrolled{box-shadow:var(--shadow-md)}
-    .header-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
-    .logo img{height:40px;width:auto}
+    .header-inner{display:flex;align-items:center;justify-content:flex-start;height:72px;gap:60px}
+    .logo img{height:60px;width:auto}
     .nav-links{display:flex;align-items:center;gap:32px}
     .nav-links a{font-size:15px;font-weight:500;color:var(--gray-600);transition:color var(--transition);position:relative}
     .nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--gold);transition:width var(--transition)}
@@ -67,7 +67,7 @@
     .mobile-nav a{font-size:18px;font-weight:500;color:var(--gray-700);padding:12px 0;border-bottom:1px solid var(--gray-100)}
 
     /* Hero */
-    .hero{padding:140px 0 100px;background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 50%,#0A0A0A 100%);position:relative;overflow:hidden;display:flex;align-items:center;text-align:center}
+    .hero{padding:140px 0 100px;background:#000000;position:relative;overflow:hidden;display:flex;align-items:center;text-align:center}
     .hero::before{content:'';position:absolute;top:-50%;right:-20%;width:800px;height:800px;background:radial-gradient(circle,rgba(212,168,67,0.15) 0%,transparent 70%);border-radius:50%}
     .hero::after{content:'';position:absolute;bottom:-30%;left:-10%;width:600px;height:600px;background:radial-gradient(circle,rgba(46,196,182,0.3) 0%,transparent 70%);border-radius:50%}
     .hero-content{position:relative;z-index:1;max-width:720px;margin:0 auto;color:var(--white)}
@@ -158,9 +158,9 @@
   <!-- Header -->
   <header class="header" id="header">
     <div class="container header-inner">
-      <a href="/" class="logo" aria-label="Monarch Digital Marketing home">
-        <img src="/images/logo.webp" alt="Monarch Digital Marketing" width="140" height="40">
-      </a>
+      <div class="logo">
+        <img src="/images/chatgpt-image-may-27--2026--02_29_26-pm.png" alt="Monarch Digital Marketing Logo" style="height: 120px; width: auto;" loading="lazy">
+      </div>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="/services/">Services</a>
         <a href="/#about">About</a>

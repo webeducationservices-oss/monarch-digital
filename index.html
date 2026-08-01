@@ -246,6 +246,9 @@
     .form-success svg { width: 64px; height: 64px; color: #22C55E; margin: 0 auto 16px; }
     .form-success h3 { font-size: 22px; color: var(--gray-900); margin-bottom: 8px; }
     .form-success p { color: var(--gray-500); }
+    .form-error { display: none; margin-top: 14px; padding: 12px 16px; border: 1px solid #FCA5A5; background: #FEF2F2; border-radius: 8px; color: #B91C1C; font-size: 14px; line-height: 1.6; }
+    .form-error.show { display: block; }
+    .form-error a { color: #B91C1C; font-weight: 700; text-decoration: underline; }
     .grecaptcha-badge { visibility: hidden; }
     .recaptcha-attr { font-size: 11px; color: rgba(255,255,255,0.4); margin-top: 12px; display: block; }
     .recaptcha-attr a { color: rgba(255,255,255,0.55); }
@@ -716,6 +719,9 @@
                   <textarea id="message" name="message" placeholder="What are you looking to achieve with digital marketing?"></textarea>
                 </div>
                 <button type="submit" class="form-submit">Book My Free Audit</button>
+                <div class="form-error" id="formError" role="alert" aria-live="assertive">
+                  We could not send that just now. Please call us at <a href="tel:727-383-6038">727-383-6038</a> or email <a href="mailto:info.monarchdigital@gmail.com">info.monarchdigital@gmail.com</a> and we will take care of it right away.
+                </div>
               </div>
               <div class="form-success" id="formSuccess">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
@@ -823,33 +829,68 @@
     // ── Form submission (with reCAPTCHA v3) ──
     const form = document.getElementById('contactForm');
     const formSuccess = document.getElementById('formSuccess');
+    const formError = document.getElementById('formError');
     const formFields = form.querySelector('.form-fields');
+    const RECAPTCHA_SITE_KEY = '6Lck8aQsAAAAALMA-T6nwfkSf7bv4K-mOhkszeKh';
+
+    // Never let a blocked or misconfigured reCAPTCHA hang the visitor on a dead
+    // button. Always resolves (empty string on any failure, or after 8s) so the
+    // POST still goes out; form-notify logs a missing token, which stays
+    // rescuable from the Spam tab instead of vanishing.
+    function getRecaptchaToken() {
+      if (typeof grecaptcha === 'undefined' || typeof grecaptcha.execute !== 'function') {
+        return Promise.resolve('');
+      }
+      const attempt = new Promise((resolve) => {
+        const run = () => {
+          try {
+            grecaptcha.execute(RECAPTCHA_SITE_KEY, { action: 'audit_request' })
+              .then((token) => resolve(token || ''), () => resolve(''));
+          } catch (err) { resolve(''); }
+        };
+        try {
+          if (typeof grecaptcha.ready === 'function') { grecaptcha.ready(run); } else { run(); }
+        } catch (err) { resolve(''); }
+      });
+      const timeout = new Promise((resolve) => setTimeout(() => resolve(''), 8000));
+      return Promise.race([attempt, timeout]);
+    }
+
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       if (form.querySelector('[name="_honey"]').value) return; // honeypot
       const btn = form.querySelector('.form-submit');
+      const btnLabel = btn.textContent;
       btn.textContent = 'Sending...';
       btn.disabled = true;
+      formError.classList.remove('show');
+
+      // Only a resolved request that the server actually accepted counts as success.
+      let accepted = false;
       try {
-        if (typeof grecaptcha !== 'undefined') {
-          try {
-            const token = await grecaptcha.execute('6Lck8aQsAAAAALMA-T6nwfkSf7bv4K-mOhkszeKh', { action: 'audit_request' });
-            document.getElementById('recaptcha_token').value = token;
-          } catch (err) { console.warn('reCAPTCHA error:', err); }
-        }
+        document.getElementById('recaptcha_token').value = await getRecaptchaToken();
         const data = Object.fromEntries(new FormData(form));
-        await fetch(form.action, {
+        const res = await fetch(form.action, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(data)
         });
+        const result = await res.json().catch(() => ({}));
+        accepted = res.ok && result.accepted !== false;
+      } catch (err) {
+        accepted = false;
+      }
+
+      if (accepted) {
         formFields.style.display = 'none';
         formSuccess.classList.add('show');
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({ event: 'form_submission', form_type: 'audit-request', form_location: window.location.pathname });
-      } catch {
-        btn.textContent = 'Something went wrong — try again';
+      } else {
+        btn.textContent = btnLabel;
         btn.disabled = false;
+        formError.classList.add('show');
+        formError.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     });
   </script>

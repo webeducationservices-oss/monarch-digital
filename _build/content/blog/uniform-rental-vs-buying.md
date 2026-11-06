@@ -37,11 +37,11 @@ When you buy, you own the garments. You pick the style, the fabric, and the logo
 - Replacing worn, stained, or lost pieces
 - Logo setup for embroidery or printing
 
+One legal note before you ask staff to chip in. Under the federal Fair Labor Standards Act, if you require a uniform and have employees bear the cost, it can't drop their pay below minimum wage or cut into overtime pay. Some states go further and require employers to provide required uniforms at no cost. Check with your payroll provider or employment attorney before you deduct anything.
+
 ### If staff launder at home
 
 Put the standard in writing: wash after every shift, keep whites separate, and show up pressed. Issue enough sets to cover the time between laundry days. For a cook on five shifts a week, three sets gives some breathing room. A crisp coat in week one and a gray one by month three is a laundry problem, so plan replacements before guests notice.
-
-One legal note before you ask staff to chip in. Under the federal Fair Labor Standards Act, if you require a uniform and have employees bear the cost, it can't drop their pay below minimum wage or cut into overtime pay. Some states go further and require employers to provide required uniforms at no cost. Check with your payroll provider or employment attorney before you deduct anything.
 
 ## Uniform rental vs. buying at a glance
 
@@ -109,7 +109,7 @@ A common middle path is renting kitchen coats, aprons, towels, and mats while bu
 
 ## Keep a purchased program from leaking money
 
-Loose handling is where a purchased program leaks money. A few habits keep it tight:
+Purchased uniforms tend to disappear a piece at a time. These habits keep the leak small:
 
 - Build a kit for each role, with piece counts and sizes on file
 - Keep a small par of your most common sizes so new hires start in uniform on day one

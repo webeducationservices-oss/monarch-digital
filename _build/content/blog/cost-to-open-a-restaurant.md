@@ -3,7 +3,7 @@ title: "How Much Does It Cost to Open a Restaurant?"
 slug: "cost-to-open-a-restaurant"
 date: "2025-12-16"
 category: "Opening a Restaurant"
-description: "How much does it cost to open a restaurant? Typical ranges by type of space, a line by line budget with a worked example, and the costs owners underestimate."
+description: "How much does it cost to open a restaurant? Median costs by type of space, a line by line budget with a worked example, and the costs owners underestimate."
 keyword: "how much does it cost to open a restaurant"
 service: "operations"
 image_prompt: "Photorealistic editorial photo of a restaurant under construction, a partly finished dining room with exposed ductwork and fresh drywall, new stainless kitchen equipment on pallets in the background, an owner and a contractor reviewing drawings at a sawhorse table, natural light through tall front windows. No text, no logos, no readable signage, no brands."
@@ -98,7 +98,7 @@ Lay your budget onto a month-by-month calendar so you know how much cash you nee
 
 - **Delays.** Every month a permit or inspection slips is another month of rent with no sales. At $8,000 a month in rent, a three-month delay costs $24,000 before you sell a plate.
 - **Pre-opening labor.** Hiring and training a full team means weeks of payroll before opening day.
-- **Inspections and the fixes they turn up.** Hood, fire, and health inspections can each send you back for changes, along with utility deposits you didn't plan for.
+- **Inspections and the fixes they turn up.** Hood, fire, and health inspections can each send you back for changes, and every fix costs time as well as money.
 - **Insurance.** General liability, property, workers' compensation, and liquor liability if you serve alcohol. Landlords usually want proof of coverage before you take possession.
 - **Liquor licensing.** Costs and timelines vary widely by state. In states that cap the number of licenses, buying one can be among the largest checks you write.
 - **Monthly software.** POS, online ordering, reservations, scheduling, and payroll subscriptions add up. Count them in the operating budget, too.
@@ -115,7 +115,7 @@ Lay your budget onto a month-by-month calendar so you know how much cash you nee
 
 A [restaurant operations consultant](/restaurant-operations-consulting/) can review your budget and pre-opening schedule before the money goes out the door, when changes are still cheap.
 
-If you already run a restaurant and you're opening another, [get your free AI assessment](/ai-assessment/) first. You answer about a dozen questions, our AI reviews your answers, your Google listing and reviews, and your website, and you get an evaluation of your operations and marketing gaps by email.
+If you already run a restaurant and you're opening another, [get your free AI assessment](/ai-assessment/) first. You answer about a dozen questions, our AI reviews them along with your Google listing, reviews, and website, and you get an evaluation of your operations and marketing gaps by email.
 
 ## How Monarch helps
 

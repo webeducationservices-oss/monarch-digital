@@ -19,7 +19,7 @@ Three formulas do most of the work.
 - **Prime cost percentage** = (cost of goods sold + total labor) ÷ sales
 - **Net profit margin** = net profit ÷ sales
 
-Cost of goods sold is your food and beverage cost. Total labor includes wages, payroll taxes, and benefits for everyone, managers included. Net profit is what's left after everything else, too: rent, utilities, marketing, card fees, repairs, insurance, and the rest.
+Cost of goods sold is your food and beverage cost. Total labor includes wages, payroll taxes, and benefits for everyone, managers included. Net profit is what's left after those two and everything else: rent, utilities, marketing, card fees, repairs, insurance, and the rest.
 
 Here's a worked example with round numbers for a full-service restaurant.
 
@@ -51,7 +51,7 @@ These are commonly published industry ranges for net profit margin. Sources vary
 | Catering | 7 to 8% | Production planned around confirmed orders |
 | Bars with tight cost control | 10 to 15% | Lower cost of goods on drinks |
 
-Fine dining usually falls within the full-service range. Higher check averages help, but the costs climb with them: more staff per table, pricier ingredients, wine inventory, and more square feet per guest.
+Fine dining is a full-service format, so it's usually measured against the same range. Higher check averages help, but the costs climb with them: more staff per table, pricier ingredients, wine inventory, and more square feet per guest.
 
 ## Is a 10 percent profit margin good for a restaurant?
 

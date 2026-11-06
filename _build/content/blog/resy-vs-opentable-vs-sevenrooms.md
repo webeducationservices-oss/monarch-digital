@@ -17,7 +17,7 @@ Resy vs. OpenTable is the comparison most owners start with, and SevenRooms belo
 
 **Resy** is owned by American Express. Diners discover and book restaurants in the Resy app, and the restaurant software, ResyOS, covers reservations, waitlist, and table management. Amex cardmember dining benefits run through Resy, and in February 2026 American Express announced that Tock, the prepaid reservations and experiences platform it also owns, will fold into Resy.
 
-**SevenRooms** is owned by DoorDash, which completed the acquisition in June 2025. It's built around guest data: CRM, guest profiles, marketing automation, and branded booking through your own website, social channels, and Google. It has never had a consumer app of its own, and in fall 2025 DoorDash began offering reservations inside its app, powered by SevenRooms, starting in a handful of cities.
+**SevenRooms** is owned by DoorDash, which completed the acquisition in June 2025. It's built around guest data: CRM, guest profiles, marketing automation, and branded booking through your own website, social channels, and Google. It doesn't run a consumer app of its own. In fall 2025, DoorDash began offering reservations inside the DoorDash app, powered by SevenRooms, starting in Miami and New York.
 
 ## How each platform charges
 
@@ -88,7 +88,7 @@ Switching in the middle of your busy season is the hard way to do it. Pick a slo
 
 ## Where custom software fits
 
-For most independent restaurants, one of these three platforms is the right call. Custom software earns its place when your rules don't fit a standard product: membership tiers with different booking windows, private clubs, hotel outlets with their own house rules, or a host stand built around your floor and your pacing. That's the kind of [custom restaurant software](/custom-restaurant-software/) we build, and it runs alongside your POS.
+For most independent restaurants, a standard platform like one of these three is the right call. Custom software earns its place when your rules don't fit a standard product: membership tiers with different booking windows, private clubs, hotel outlets with their own house rules, or a host stand built around your floor and your pacing. That's the kind of [custom restaurant software](/custom-restaurant-software/) we build, and it runs alongside your POS.
 
 If you're choosing a POS at the same time, our comparison of [Toast vs. Square vs. Clover](/blog/toast-vs-square-vs-clover/) covers the other half of the stack. Whatever you pick, make sure guests can book from your Google listing. Our [Google Business Profile guide](/blog/google-business-profile-for-restaurants/) walks through the setup.
 

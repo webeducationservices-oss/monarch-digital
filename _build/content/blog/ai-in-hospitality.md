@@ -76,7 +76,7 @@ For phone and booking help, count your unanswered calls for two weeks before you
 - **Guest complaints.** AI can draft a response, and a manager owns the follow-up.
 - **Policy.** House rules, cancellation fees, and exceptions stay with managers.
 
-## Run a 30-day pilot before you commit
+## Run a four-week pilot before you commit
 
 | Step | When | What to do |
 |---|---|---|

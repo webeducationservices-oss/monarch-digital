@@ -66,7 +66,7 @@ Two lessons jump out. The short rib runs about a 38 percent food cost, one of th
 
 Applied to the example:
 
-- **Burger, a plowhorse.** Guests love it, so keep it front and center and work the margin. A $1 price increase adds $360 a month at the same volume, and a side that costs 50 cents less adds another $180.
+- **Burger, a plowhorse.** Guests love it, so keep it front and center and work the margin. A $1 price increase adds $360 a month at the same volume, and a side that costs 50 cents less adds another $180. Together that lifts total entree CM from $19,680 to $20,220 without selling one more plate.
 - **Risotto, a puzzle.** It earns $18 a plate and sells 60 a month. Give it a better description, a better spot, and a server push for 30 days, then check the mix again.
 - **Shrimp pasta, a dog.** The shrimp makes it expensive and guests aren't choosing it. Rework the recipe to bring the plate cost down, or replace it. Keep a dog only when it does a job, like being the one gluten-free entree that keeps a party of six from booking somewhere else.
 
@@ -83,6 +83,14 @@ Applied to the example:
 - Keep categories short enough to scan. A shorter list is also easier to cost, prep, and execute.
 - Write descriptions with specific ingredients and preparation, and keep them short.
 - Many menu designers avoid lining prices up in a column, so guests read the dish before the price.
+
+## Get the floor behind the plan
+
+A puzzle stays a puzzle if servers never mention it. At pre-shift, have the team taste the dish you're pushing, give them one plain sentence to describe it, and tell them why it matters. Then track how many each server sells for a few weeks. The same goes for the kitchen: a star only stays a star if the portion and plating hold steady on a slammed Saturday.
+
+## Run it on drinks and desserts too
+
+The same math works on cocktails, wine by the glass, beer, and desserts. Beverage lists hide plowhorses and dogs just like entrees do, and a slow bottle on the list also ties up cash in inventory. Run each category on its own, with its own profit and popularity lines.
 
 ## Mistakes that skew the results
 

@@ -73,7 +73,7 @@ Worked example: a whole beef tenderloin costs $14 a pound as purchased. After tr
 - An 8-ounce portion: $20 × 0.5 = $10.00
 - Costed at the purchase price, the same portion looks like $7.00
 
-That $3 gap on 50 steaks a week is $150 a week, or $7,800 a year, in cost you never priced for. Run a yield test on each major protein: weigh it as purchased, trim it the way your kitchen does, weigh the usable product, and divide.
+That $3 gap on 50 steaks a week is $150 a week, or $7,800 a year, in cost you never priced for. Run a yield test on each major protein: weigh it as purchased, trim it the way your kitchen does, weigh the usable product, and divide the usable weight by the starting weight to get your yield percentage.
 
 ## How to price a dish from a target food cost
 

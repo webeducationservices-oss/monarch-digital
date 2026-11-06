@@ -22,7 +22,7 @@ Set each one up the same way:
 - **Hours.** Set regular and holiday hours for each location, and update them before every holiday.
 - **Links.** Point each profile's website link to that location's page on your site, and add the right menu and reservation links.
 - **Photos.** Post real photos of that dining room, that patio, and that team.
-- **Access.** Keep ownership at the company level and give each GM manager access to their own location.
+- **Access.** Keep ownership at the company level, and add each GM as a manager on their own location's profile.
 
 If you run 10 or more locations of the same business, Google offers bulk verification, which saves verifying each one separately. Our guide to [Google Business Profile for restaurants](/blog/google-business-profile-for-restaurants/) covers setup in more detail.
 

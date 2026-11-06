@@ -248,7 +248,7 @@ background:{"var(--teal-soft)" if s == "done" else ("var(--gold-soft)" if s == "
 <div class="row" style="justify-content:space-between;padding:8px 0"><span>Day 3 floor practice</span><span class="pill p-teal">Signed</span></div>
 <div class="row" style="justify-content:space-between;padding:8px 0"><span>Day 4 table walk</span><span class="pill p-amber">Waiting</span></div>
 <div class="btn gold" style="margin-top:14px;justify-content:center;width:100%">{icon("edit")}Sign off Day 4</div></div>
-<div class="card" style="padding:18px 22px"><div class="small muted">Unlocks next</div><div style="font-weight:600;margin-top:4px">Day 5: Section running and pacing</div></div>
+<div class="card" style="padding:18px 22px"><div class="small muted">Opens next</div><div style="font-weight:600;margin-top:4px">Day 5: Section running and pacing</div></div>
 </div></div></div></div>"""
     return page(body), (1440, 760)
 

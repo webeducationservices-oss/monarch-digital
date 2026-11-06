@@ -20,7 +20,7 @@ The best POS for restaurants is the one that fits how you serve. A full-service 
 | Payments | Processed by Toast | Processed by Square | Processed by Clover's parent company, Fiserv, often sold through a bank or reseller |
 | Pricing model | Software plans plus processing; hardware upfront or a low-upfront option with higher processing rates | Free plan plus paid plans per location; some devices carry monthly fees | Monthly plans by restaurant type; hardware bought outright or bundled into monthly payments |
 | Contract | Multi-year agreements are common | Month to month on standard plans | Varies by who sells it to you |
-| Strong fit | Full-service and high-volume restaurants that want restaurant depth in one system | Cafes, counter service, and smaller rooms that want a low commitment | Owners who want to buy through their bank or a local reseller |
+| Strong fit | Full-service and high-volume restaurants that want restaurant depth in one system | Cafes, counter service, and smaller rooms that want a low commitment | Owners who want a wide app market, or who prefer to buy through their bank or a local reseller |
 
 ## Toast
 

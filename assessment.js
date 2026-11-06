@@ -118,7 +118,7 @@
       var body = Object.assign({}, data, { recaptcha_token: t });
       var ctrl = new AbortController();
       var timer = setTimeout(function () { ctrl.abort(); }, 118000);
-      return fetch('/api/assess', {
+      return fetch('/api/assess/', {
         method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), signal: ctrl.signal
       }).then(function (r) {
         clearTimeout(timer);

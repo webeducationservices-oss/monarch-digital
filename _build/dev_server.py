@@ -12,7 +12,7 @@ import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-REDIRECTS = {r["source"].rstrip("/"): r["destination"] for r in json.load(open(os.path.join(ROOT, "vercel.json"))).get("redirects", [])}
+REDIRECTS = {r["source"].rstrip("/") or "/": r["destination"] for r in json.load(open(os.path.join(ROOT, "vercel.json"))).get("redirects", [])}
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):

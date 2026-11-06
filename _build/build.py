@@ -863,8 +863,9 @@ def build_meta(posts, report):
     vpath = os.path.join(ROOT, "vercel.json")
     vercel = json.load(open(vpath))
     legacy_slugs = [p["slug"] for p in posts if not p["new"]]
-    redirects = [{"source": s, "destination": d, "permanent": True} for s, d in REDIRECTS]
-    redirects += [{"source": f"/{slug}", "destination": f"/blog/{slug}/", "permanent": True} for slug in legacy_slugs]
+    pairs = list(REDIRECTS) + [(f"/{slug}", f"/blog/{slug}/") for slug in legacy_slugs]
+    # trailingSlash is on, so match both "/old" and "/old/" or the slash form 404s.
+    redirects = [{"source": src, "destination": d, "permanent": True} for s, d in pairs for src in (s, s + "/")]
     vercel["redirects"] = redirects
     vercel.setdefault("functions", {})["api/assess.js"] = {"maxDuration": 120}
     write("vercel.json", json.dumps(vercel, indent=2) + "\n", report)

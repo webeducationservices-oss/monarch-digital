@@ -1,0 +1,120 @@
+{
+  "key": "uniforms",
+  "title": "Restaurant Uniforms & Staff Uniform Programs | Monarch",
+  "description": "Restaurant uniforms for FOH, BOH, bar, host, valet, and managers, run as one program with fabric, sizing, logos, new-hire kits, and reorders handled for you.",
+  "hero": {
+    "eyebrow": "Restaurant Uniform Programs",
+    "h1": "Restaurant Uniforms for Every Role and Location",
+    "sub": "Front of house, back of house, bar, host, valet, and managers, outfitted from one program. We handle fabric, sizing, logos, new-hire kits, and reorders with your supplier or ours.",
+    "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+    "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "label": "Uniform Programs",
+      "h2": "Uniforms Your Team Can Work a Double In",
+      "body": [
+        "Restaurant uniforms are part of your guest's first impression and part of how your team feels at the end of a double. We build a uniform program around every role you staff, with the right fabric, fit, and logo for each, plus a simple way to outfit new hires and reorder.",
+        "We can run the program with your current supplier or source through our vendor network, and the same team can handle your <a href=\"/restaurant-furniture/\">restaurant furniture</a> too. For hotel and resort food and beverage teams, we line up hotel uniforms across the restaurant, bar, banquets, and pool deck. We do the work. You guide the process."
+      ]
+    },
+    {
+      "type": "features",
+      "label": "Every Role",
+      "h2": "Restaurant Staff Uniforms Built Around the Job",
+      "sub": "Each station moves differently, so each role gets its own spec.",
+      "items": [
+        {"icon": "users", "title": "Servers and FOH", "text": "Polished pieces with pockets where servers need them for pens, wine keys, and order pads, in fabrics that stay sharp through a full section."},
+        {"icon": "shield", "title": "Kitchen and BOH", "text": "Chef coats, kitchen shirts, aprons, and pants in breathable fabric that handles heat, steam, and spills on the line and washes well every day."},
+        {"icon": "moon", "title": "Bar", "text": "Aprons, vests, or shirts that move with a bartender, keep sleeves out of the garnish tray, and hold up to citrus, syrup, and plenty of ice."},
+        {"icon": "heart", "title": "Host Stand", "text": "Hosts are the first people guests meet. Their uniforms set the tone for the room and stay comfortable through hours on their feet at the door."},
+        {"icon": "cloud", "title": "Valet", "text": "Weather-ready layers, shoes made for running cars, and clear branding so guests know exactly who to hand their keys to."},
+        {"icon": "star", "title": "Managers", "text": "A distinct look so guests and staff can find the manager on duty in a busy room, still built for long shifts on the floor."}
+      ]
+    },
+    {
+      "type": "split",
+      "label": "Fabric and Function",
+      "h2": "Fabric That Handles Kitchen Heat and Spills",
+      "body": [
+        "A uniform that looks great on day one and fades by month three costs you twice. We choose fabrics and finishes for how each station works: breathable weaves for the line, stain-resistant finishes for servers and bartenders, and weather-ready layers for valet.",
+        "Before you commit, your team wears samples through a real service. If something rides up, pulls, or soaks through, we fix the spec before the order goes in. Your dress code can live in your <a href=\"/restaurant-staff-training/\">training academy</a> as a day-one lesson, with a handbook e-signature to match."
+      ],
+      "bullets": [
+        "Breathable, durable fabrics for kitchen heat",
+        "Stain-resistant finishes for spills and splashes",
+        "Colors and logos chosen to hold up to daily washing",
+        "Footwear and apron standards set by role"
+      ],
+      "media": "image:uniforms-detail",
+      "reverse": false
+    },
+    {
+      "type": "features",
+      "label": "The Program Side",
+      "h2": "Sizing, Logos, New-Hire Kits, and Reorders",
+      "sub": "The details that keep a uniform program running long after launch day.",
+      "items": [
+        {"icon": "user", "title": "Sizing and Fit", "text": "Size sessions with your team and a size record for every person, so reorders fit and nobody spends a double in a coat two sizes too big."},
+        {"icon": "tag", "title": "Logo and Embroidery", "text": "Logo files prepared for embroidery or print, with placement, thread colors, and sizes set once per garment so every piece matches."},
+        {"icon": "package", "title": "New-Hire Kits", "text": "A ready kit for each role with the right pieces and quantities, so a new hire walks into their first shift looking like part of the team."},
+        {"icon": "refresh", "title": "Reorders and Replacements", "text": "Par levels by location, a simple reorder process for managers, and replacements for stained, torn, or worn-out pieces."}
+      ]
+    },
+    {
+      "type": "checklist",
+      "label": "What's Included",
+      "h2": "Everything We Handle for You",
+      "sub": "Hospitality uniforms managed as one program for every hire and every location.",
+      "items": [
+        "A uniform spec for every role",
+        "Samples and wear tests during real service",
+        "Supplier comparisons, yours or ours",
+        "Brand colors matched across every piece",
+        "Weather layers for patio and valet staff",
+        "Dress code language for your handbook",
+        "Ordering and delivery by location",
+        "One standard across every location",
+        "Rent or buy recommendations"
+      ]
+    },
+    {
+      "type": "story",
+      "label": "Rental vs. Purchase",
+      "h2": "Should You Rent or Buy Restaurant Uniforms?",
+      "body": [
+        "Rental programs bundle laundering, repairs, and replacements into one recurring cost, which can suit chef coats and aprons that get washed every day. Buying gives you more control over style, branding, and fit, which often suits the front of house pieces guests see up close.",
+        "The right answer depends on your headcount, turnover, who does the laundry, and how often pieces get damaged, and many operators mix both. We'll run the numbers with you, put the trade-offs in writing, and recommend what fits. For groups, the same spec rolls out to every unit as part of a <a href=\"/multi-location-restaurants/\">multi-location rollout</a>."
+      ]
+    },
+    {
+      "type": "steps",
+      "label": "How It Works",
+      "h2": "How We Build Your Uniform Program",
+      "sub": "Five steps, from your first walkthrough to your next reorder.",
+      "items": [
+        {"title": "Listen", "text": "We learn every role you staff, what your team wears now, what's wearing out, and what guests should notice when they walk in."},
+        {"title": "Plan", "text": "You get a written plan with a spec for each role, rent or buy guidance, budget, and timeline. You approve it before anything is ordered."},
+        {"title": "Build and Source", "text": "We pull samples, set size runs, and finalize logo and embroidery with your supplier or ours."},
+        {"title": "Review", "text": "You see every piece and sign off before the full order goes in. Your feedback shapes each round."},
+        {"title": "Launch and Support", "text": "We run fitting day, hand out kits, set up new-hire kits and reorders, and keep every location on the same standard."}
+      ]
+    },
+    {
+      "type": "cta",
+      "h2": "Outfit Your Whole Team From One Program",
+      "sub": "Talk to Christy about your roles, headcount, and timeline, or get a free AI assessment of your operation and marketing.",
+      "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+      "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+    }
+  ],
+  "faq": [
+    {"q": "How much does a restaurant uniform program cost?", "a": "It's scoped to your restaurant, so we don't publish prices. Cost depends on your roles, headcount, pieces per person, logo work, and whether you rent or buy. Your written plan spells out the budget, and you approve it before anything is ordered."},
+    {"q": "How long does it take to roll out new uniforms?", "a": "It depends on whether pieces are in stock or made to order and how much logo work is involved. We plan backward from your launch or opening date and leave time for samples and fittings before the full order."},
+    {"q": "Can we keep our current uniform supplier?", "a": "Yes. We can run the program with your current supplier or bring options from our vendor network. Either way, you get one contact for sizing, orders, new-hire kits, and reorders."},
+    {"q": "What do you need from us?", "a": "Your list of roles and headcount, logo files and brand colors, the dress code from your handbook, and notes on what's working or failing today. We'll handle sizing and fittings with your team."},
+    {"q": "Do you work with single restaurants and multi-location groups?", "a": "Both. A single restaurant gets a program sized to its team. A group gets one spec per role, locked colors and logo placement, and a reorder process every GM can use, so every location looks like part of the same group."}
+  ],
+  "related": ["furniture", "training", "multilocation"]
+}

@@ -1,0 +1,119 @@
+{
+  "key": "operations",
+  "title": "Restaurant Operations Consulting & Efficiency | Monarch",
+  "description": "Restaurant operations consultant for pacing, turns, labor, prime cost, and menu engineering, with the software, training, and scheduling to fix what we find.",
+  "hero": {
+    "eyebrow": "Operations Consulting and Efficiency",
+    "h1": "Restaurant Operations Consulting That Finds Money in Your P&L",
+    "sub": "We evaluate pacing, turns, labor, prime cost, and your menu, then fix what we find with software, training, and scheduling built for your restaurant.",
+    "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+    "secondary_cta": {"label": "See Our Work", "href": "/case-study/"}
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "label": "Restaurant Operations Consultant",
+      "h2": "Find the Money Already in Your P&L",
+      "body": [
+        "A good restaurant operations consultant looks for money you're making and losing in the same night: tables that sit too long between courses, wait quotes that send walk-ins down the street, labor that runs heavy on slow shifts, and dishes that sell well but barely earn.",
+        "Many operators target a prime cost around 60 percent of sales, and every point above it comes out of profit. We find the leaks with an AI operations evaluation and a walkthrough, then fix them with the tools your team uses every shift. We do the work. You guide the process."
+      ]
+    },
+    {
+      "type": "showcase",
+      "label": "AI Operations Evaluation",
+      "h2": "It Starts With an AI Operations Evaluation",
+      "sub": "You answer about a dozen questions. Our AI reads your answers, your Google listing and reviews, and your website, then emails you a scored evaluation. Christy follows up personally, and our walkthrough goes deeper from there.",
+      "mockup": "report",
+      "caption": "Sample evaluation with scores for operations, team, guest experience, marketing, reviews, and website."
+    },
+    {
+      "type": "features",
+      "label": "What We Look At",
+      "h2": "What a Restaurant Operations Consultant Should Measure",
+      "sub": "Food and beverage consulting and restaurant cost control, grounded in how your shifts actually run.",
+      "items": [
+        {"icon": "clock", "title": "Pacing and Table Turns", "text": "How long each table takes from seat to check, where courses stall, and whether the book is slamming the kitchen at 7:30."},
+        {"icon": "loader", "title": "Wait-Time Accuracy", "text": "Quotes that run long lose walk-ins, and quotes that run short frustrate guests. We compare quoted waits to actual waits and tighten them night by night."},
+        {"icon": "users", "title": "Labor Targets", "text": "Labor by daypart and by role, matched to your covers, so you staff up for the rush and cut early when the room slows."},
+        {"icon": "credit-card", "title": "Prime Cost", "text": "Food, beverage, and labor together, the number that decides whether a busy month was a good month. We track it weekly and show you where it moved."},
+        {"icon": "tag", "title": "Menu Engineering", "text": "Every dish sorted by popularity and profit into stars, plowhorses, puzzles, and dogs, with a plan to price, place, and train servers to sell each one."},
+        {"icon": "clipboard", "title": "SOPs and Routines", "text": "Written standards for opening, pre-shift, side work, and checkout, so every shift runs the same way no matter who's on the schedule."}
+      ]
+    },
+    {
+      "type": "split",
+      "label": "Pacing in Practice",
+      "h2": "Pacing and Wait Times Your Team Can See",
+      "body": [
+        "Findings matter most when the team can act on them during service. For <a href=\"/case-study/\">a private dining club in Vail, Colorado</a>, we built pacing into the tools: a cap of 15 covers per 15 minutes, rest time between seatings, and a kitchen screen with a clock on every seated table and a pacing line.",
+        "Walk-ins get live wait quotes and a one-tap text when their table is ready, and a daily report shows how accurate the quotes were. A read-only AI pacing analyst helps the kitchen see where service slowed down."
+      ],
+      "bullets": [
+        "Pacing caps by 15-minute window",
+        "Live wait quotes with a daily accuracy report",
+        "A clock on every seated table in the kitchen",
+        "Turn time reporting for every service"
+      ],
+      "media": "mockup:kitchen",
+      "reverse": false
+    },
+    {
+      "type": "cards",
+      "label": "From Finding to Fix",
+      "h2": "Software, Training, and Scheduling That Fix What We Find",
+      "sub": "Every finding in your plan comes with the fix, so gains in restaurant profitability hold up shift after shift.",
+      "items": [
+        {"icon": "code", "title": "Custom Software", "text": "Long waits and stalled tables get a host stand with a live floor map and ranked seat suggestions, plus a kitchen screen that shows pacing. It all runs alongside your POS.", "href": "/custom-restaurant-software/"},
+        {"icon": "check-circle", "title": "Training", "text": "Uneven service gets role-based academies with daily lessons, quizzes, and a trainer's sign-off, written from your own SOPs, recipes, and menu.", "href": "/restaurant-staff-training/"},
+        {"icon": "calendar", "title": "Scheduling", "text": "Heavy labor gets weeks drafted from the book, staffing minimums, and history, plus a manager board to cut staff when the room slows.", "href": "/restaurant-scheduling/"}
+      ]
+    },
+    {
+      "type": "split",
+      "label": "Routines and Reporting",
+      "h2": "Routines and Reports That Keep the Gains",
+      "body": [
+        "Fixes stick when they're built into the shift. We write your SOPs and set up a shift plan with pre-shift, mid-shift, and checkout views and a printed day sheet. Servers close out with their side work listed, and station prep sheets keep your best sellers from getting 86'd early.",
+        "Then you see what changed: turn times, wait-quote accuracy, a nightly service rollup, a weekly hours report, and scheduled email reports. We stay on for support and improvements, and our <a href=\"/ai-for-restaurants/\">AI assistants</a> can answer read-only questions about your data any time."
+      ],
+      "bullets": [
+        "SOPs written from how your best shifts run",
+        "Pre-shift views with the night's bookings and notes",
+        "Station prep sheets for the line",
+        "Nightly and weekly reports by email"
+      ],
+      "media": "image:operations-detail",
+      "reverse": true
+    },
+    {
+      "type": "steps",
+      "label": "How It Works",
+      "h2": "How We Work Through Your Operation",
+      "sub": "Five steps, with your numbers guiding every one.",
+      "items": [
+        {"title": "Listen", "text": "We walk the operation with you, on site or virtual, and dig into your evaluation, your numbers, and what your team says slows them down."},
+        {"title": "Plan", "text": "You get a written plan that ranks fixes by what they're worth, with budget and timeline. You approve it before anything starts."},
+        {"title": "Build and Source", "text": "We build the software, write the training and SOPs, and draft schedules around your labor targets."},
+        {"title": "Review", "text": "You see every piece before it goes live, and your feedback shapes each round."},
+        {"title": "Launch and Support", "text": "We roll it out with your team, train them on it, and keep watching the numbers with you after launch."}
+      ]
+    },
+    {
+      "type": "cta",
+      "h2": "Get a Free Read on Your Operation",
+      "sub": "Answer about a dozen questions, and our AI emails you an evaluation of your operations and marketing gaps. Christy follows up personally to walk through what it found.",
+      "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+      "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+    }
+  ],
+  "faq": [
+    {"q": "What does a restaurant operations consultant cost?", "a": "Engagements are scoped to each restaurant, so there's no set price list. The AI assessment is free and shows where to look first. After the walkthrough, you get a written plan with priorities, budget, and timeline, and you approve it before anything starts."},
+    {"q": "How long before we see changes?", "a": "Some fixes can start at the next pre-shift, like a tighter side-work list or a pacing cap. Software, training, and scheduling roll out in phases on the timeline in your plan, and we stay on for support after launch."},
+    {"q": "Do you work with our POS and the vendors we already have?", "a": "Yes. Everything we build runs alongside your POS, and we keep the tools and vendors that are working for you. When something needs to change, we coordinate with your current vendors or bring in our network."},
+    {"q": "What do you need from us?", "a": "Recent P&Ls or prime cost numbers, cover counts by daypart, a sample schedule, your menu with recipe costs if you have them, and your handbook and SOPs. Plus time for the walkthrough, on site or virtual."},
+    {"q": "Is the AI evaluation the same as a restaurant audit?", "a": "It's the first step of one. The AI reads your answers, your Google listing and reviews, and your website, and flags where to look. The walkthrough goes deeper into your numbers, your floor, and your kitchen, and your written plan comes from both."},
+    {"q": "Do you work with single restaurants or multi-location groups?", "a": "Both. For an independent restaurant, we focus on the few changes worth the most. For a group, we compare locations side by side, find what your best unit does well, and write it into the SOPs and training for every location."}
+  ],
+  "related": ["software", "training", "scheduling"]
+}

@@ -1,0 +1,127 @@
+{
+  "key": "furniture",
+  "title": "Restaurant Furniture Supplier & FF&E Sourcing | Monarch",
+  "description": "Your restaurant furniture supplier for FF&E sourcing: seating mix, booths, patio, custom pieces, freight, and install timing, coordinated with your designer.",
+  "hero": {
+    "eyebrow": "Restaurant Furniture and FF&E",
+    "h1": "Restaurant Furniture Supplier and FF&E Sourcing, From Floor Plan to Install",
+    "sub": "Booths, banquettes, tables, bar stools, patio, and custom pieces, sourced and timed around your opening. We work with your designer and builders, through our vendor network or yours.",
+    "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+    "secondary_cta": {"label": "See Our Work", "href": "/case-study/"}
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "label": "FF&E Sourcing and Coordination",
+      "h2": "Your Furniture Plan Shapes Every Cover You Seat",
+      "body": [
+        "We're your restaurant furniture supplier and FF&E coordinator, from the first look at the floor plan to the last chair on the floor. We plan the seating mix with you, source every piece, and keep samples, orders, freight, and install timing on one schedule, so you can spend opening week <a href=\"/restaurant-staff-training/\">training your team</a> and tasting your menu.",
+        "You can use our network of hospitality furniture suppliers, or we can coordinate the vendors you already trust. Either way, we work with your designer, architect, and builders, and you approve every selection before an order goes in. We do the work. You guide the process."
+      ]
+    },
+    {
+      "type": "split",
+      "label": "Floor Plan and Seating Mix",
+      "h2": "Table Configuration Built for Covers and Turns",
+      "body": [
+        "Every floor plan is a set of trade-offs. Booths are comfortable, and guests settle in. Two-tops that push together let the host seat a party of six without holding a whole section. Bar seats catch walk-ins and solo diners.",
+        "We work from your floor plan to find the mix that fits your concept and your volume, with aisles wide enough for servers carrying full trays and a clear path from expo to every table.",
+        "The mix also sets your pace. Flexible two-tops and four-tops help a high-volume room keep turning, and booths and lounge seating suit a longer, slower dinner. We match the mix to the night you want to run and the covers you need."
+      ],
+      "bullets": [
+        "Seat count and table mix by section",
+        "Two-tops and four-tops that combine for larger parties",
+        "Server aisles, bus stations, and the path from the kitchen",
+        "Bar, lounge, private dining, and patio zones"
+      ],
+      "media": "image:furniture-detail",
+      "reverse": false
+    },
+    {
+      "type": "features",
+      "label": "What We Source",
+      "h2": "Commercial Restaurant Furniture for Every Part of the Room",
+      "sub": "Pieces made for daily service, chosen to match your design and your budget.",
+      "items": [
+        {"icon": "home", "title": "Booths and Banquettes", "text": "Standard and custom booths, wall banquettes, and corner runs, with upholstery that wipes clean between seatings and stands up to heavy daily use."},
+        {"icon": "users", "title": "Tables and Bases", "text": "Two-tops, four-tops, rounds, and communal tables with tops that wipe clean and bases that stay level, sized to work with your table combinations."},
+        {"icon": "user", "title": "Dining Chairs", "text": "Chairs that fit your look and your aisle widths, move easily for cleaning, and stay comfortable through a long dinner."},
+        {"icon": "moon", "title": "Bar Stools", "text": "Stools at the right height for your bar and drink rails, with footrests and finishes that handle spills and a packed Friday night."},
+        {"icon": "sun", "title": "Patio and Outdoor", "text": "Outdoor tables, chairs, umbrellas, and planters in materials made for sun, rain, and wind, plus a plan for storing them in the off season."},
+        {"icon": "edit", "title": "Custom Pieces", "text": "Custom restaurant furniture for the pieces that make the room yours, like a signature banquette, host stand, or chef's counter, built with a custom furniture builder to your designer's drawings."}
+      ]
+    },
+    {
+      "type": "steps",
+      "label": "How It Works",
+      "h2": "How We Work as Your Restaurant Furniture Supplier",
+      "sub": "From samples to install on one schedule, with one point of contact for FF&E procurement and a timeline built backward from your opening date.",
+      "items": [
+        {"title": "Listen", "text": "We walk the space with you, on site or virtual, and review the floor plan, your concept, and how you want service to run."},
+        {"title": "Plan", "text": "You get a written plan with the seating mix, a furniture spec, budget, and timeline. You approve it before anything is ordered."},
+        {"title": "Build and Source", "text": "We pull samples, source through our network or your vendors, and work with builders on custom pieces."},
+        {"title": "Review", "text": "You sign off on samples, finishes, and fabrics before orders go in, and your feedback shapes each round."},
+        {"title": "Launch and Support", "text": "We track production and freight, check deliveries at receiving, time the install with your builders, and work through the punch list."}
+      ]
+    },
+    {
+      "type": "split",
+      "label": "Furniture Meets Software",
+      "h2": "Your Floor Plan, Live on the Host Stand",
+      "body": [
+        "When we also build your <a href=\"/custom-restaurant-software/\">restaurant software</a>, the furniture plan carries straight into the host stand. Table numbers, sizes, and combinations from the floor plan become the live floor map your hosts seat from.",
+        "So when two four-tops by the window push together for a party of eight, the host stand already knows. Server sections come from the same plan, which keeps the floor and the screen in sync."
+      ],
+      "bullets": [
+        "Table numbers that match the floor",
+        "Combinations set once and used every night",
+        "Server sections drawn from the same plan"
+      ],
+      "media": "mockup:host",
+      "reverse": true
+    },
+    {
+      "type": "checklist",
+      "label": "What We Coordinate",
+      "h2": "Every FF&E Detail, Start to Finish",
+      "sub": "One contact for every piece, from the first sample to the final punch list.",
+      "items": [
+        "Floor plan review with your designer",
+        "Seat counts and table mix by section",
+        "Samples, finishes, and fabric approvals",
+        "Orders and production tracking",
+        "Freight and delivery windows",
+        "Receiving and damage checks",
+        "Install timing around construction",
+        "Punch list and replacements",
+        "Extra stock of high-wear pieces",
+        "Care and cleaning notes for your team"
+      ]
+    },
+    {
+      "type": "story",
+      "label": "Case Study",
+      "h2": "Dining Room Layout for a Private Dining Club in Vail, Colorado",
+      "body": [
+        "For <a href=\"/case-study/\">a private dining club in Vail, Colorado</a>, we coordinated the dining room layout, table configuration, and custom furniture with the club's designer and a custom furniture builder, working from the floor plan.",
+        "We also built the club's host stand, with a live floor map of 38 tables and tables that combine, and handled launch coordination alongside the member app, training academy, and <a href=\"/restaurant-marketing/\">marketing</a>."
+      ]
+    },
+    {
+      "type": "cta",
+      "h2": "Planning a New Dining Room or a Refresh?",
+      "sub": "Talk to Christy about your floor plan, seat count, and opening date, or get a free AI assessment of your operation and marketing.",
+      "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+      "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+    }
+  ],
+  "faq": [
+    {"q": "How much does restaurant furniture cost through Monarch?", "a": "Every project is scoped to your restaurant, so we don't publish prices. Your written plan includes a budget by category, like seating, tables, booths, patio, and custom pieces, and you approve it before anything is ordered."},
+    {"q": "How long does it take to get restaurant furniture?", "a": "Lead times vary by piece, maker, and finish, and custom pieces take longer than in-stock seating. We build the schedule backward from your opening date and order the long-lead pieces first, so furniture lands when the space is ready for it."},
+    {"q": "Can you work with our designer and the vendors we already use?", "a": "Yes. We work alongside your designer, architect, and builders. You can source through our vendor network, or we can coordinate the vendors you already have, with one point of contact for samples, orders, freight, and install timing."},
+    {"q": "What do you need from us to get started?", "a": "A floor plan or drawings, your design direction or your designer's spec, a target seat count, your opening date, and a budget range. For a remodel, photos of the current room help. We'll walk the space with you, on site or virtual."},
+    {"q": "Do you furnish single restaurants and multi-location groups?", "a": "Both. For a group, we keep one furniture spec with the same finishes and fabrics across locations, so a new unit matches the rest and a damaged chair can be replaced to match."},
+    {"q": "Do you handle delivery and installation?", "a": "We coordinate freight, receiving, and install timing with your builders and installers. Deliveries get checked at receiving, so damaged or wrong pieces get caught before they reach the dining room."}
+  ],
+  "related": ["uniforms", "operations", "multilocation"]
+}

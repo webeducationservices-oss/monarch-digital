@@ -1,0 +1,194 @@
+{
+  "key": "services",
+  "title": "Restaurant Consulting Services for Operators | Monarch",
+  "description": "Restaurant consulting services from one white-glove team: software, AI, staff training, marketing, furniture, and uniforms. Start with a free AI assessment.",
+  "hero": {
+    "eyebrow": "Our Services",
+    "h1": "Restaurant Consulting Services, From Software to Uniforms",
+    "sub": "Software, AI, staff training, marketing, scheduling, furniture, uniforms, operations, and multi-location rollouts from one white-glove team. We do the work. You guide the process.",
+    "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+    "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "label": "One Partner",
+      "h2": "Restaurant Consulting Services That Cover the Whole Operation",
+      "body": [
+        "Our restaurant consulting services bring everything your restaurant runs on into one place: the software your team uses every shift, the training that gets new hires ready for the floor, the marketing that keeps covers coming, and the furniture and uniforms guests notice the moment they walk in.",
+        "Think of us as a restaurant business consultant who also builds. We start with a walkthrough, write a plan you approve, and then do the work. Choose one service or several, and every engagement is scoped to your restaurant."
+      ]
+    },
+    {
+      "type": "cards",
+      "label": "Systems and People",
+      "h2": "Software, Training, and Operations",
+      "sub": "The tools and habits that carry service from pre-shift to close.",
+      "items": [
+        {
+          "icon": "check-circle",
+          "title": "Staff Training and Custom LMS",
+          "text": "A personal LMS for your restaurant with role-based academies, daily lessons, quizzes, trainer sign-offs, handbook e-signatures, menu training, and bilingual content.",
+          "href": "/restaurant-staff-training/"
+        },
+        {
+          "icon": "code",
+          "title": "Custom Restaurant Software",
+          "text": "Guest apps, reservations, host stand, server tablets, kitchen displays, staff portals, and admin tools that run alongside your existing POS.",
+          "href": "/custom-restaurant-software/"
+        },
+        {
+          "icon": "zap",
+          "title": "AI for Restaurants",
+          "text": "AI assistants for operations evaluations, host and concierge help, server briefs, scheduling drafts, and marketing, with a person confirming anything that books, publishes, or sends.",
+          "href": "/ai-for-restaurants/"
+        },
+        {
+          "icon": "calendar",
+          "title": "Scheduling and Labor Planning",
+          "text": "Staff schedules and labor plans built from your book, history, and staffing minimums, so you can protect margin before the week starts.",
+          "href": "/restaurant-scheduling/"
+        },
+        {
+          "icon": "clipboard",
+          "title": "Operations Consulting",
+          "text": "A close look at pacing, table turns, wait times, labor targets, prime cost, menu engineering, and SOPs, with AI operations evaluations and a plan to fix what we find.",
+          "href": "/restaurant-operations-consulting/"
+        },
+        {
+          "icon": "map-pin",
+          "title": "Multi-Location Rollouts",
+          "text": "One standard for software, training, uniforms, and marketing across every location, so each new opening matches the last.",
+          "href": "/multi-location-restaurants/"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "label": "Guest-Facing",
+      "h2": "Marketing, Furniture, and Uniforms",
+      "sub": "What guests see before they book, when they sit down, and every time a server walks up.",
+      "items": [
+        {
+          "icon": "target",
+          "title": "Restaurant Marketing",
+          "text": "Websites, SEO, Google Business Profile, social, paid ads, email and SMS, reviews, launch campaigns, and press kits, built on your sales data.",
+          "href": "/restaurant-marketing/"
+        },
+        {
+          "icon": "package",
+          "title": "Furniture and FF&E",
+          "text": "Restaurant furniture and FF&E sourcing, from floor plan and table configuration to samples, ordering, freight, and install timing, with your designer and builders.",
+          "href": "/restaurant-furniture/"
+        },
+        {
+          "icon": "tag",
+          "title": "Uniform Programs",
+          "text": "Role-based uniforms for front of house, back of house, bar, host, and valet, with sizing, logo work, new-hire kits, and reorders that match across locations.",
+          "href": "/restaurant-uniforms/"
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "label": "Lead Service",
+      "h2": "Training Is Where White Glove Shows Most",
+      "body": [
+        "Most owners don't have time to write a training program, so we write it for you. We build the curriculum from your recipes, SOPs, and handbook, set it up as role-based academies in a personal LMS, and add menu training and bilingual content.",
+        "You review every lesson and approve it before a new hire logs in. <a href=\"/restaurant-staff-training/\">See how restaurant staff training works</a>."
+      ]
+    },
+    {
+      "type": "split",
+      "label": "Vendor Network",
+      "h2": "Use Our Restaurant Vendors or Keep the Ones You Trust",
+      "body": [
+        "Clients get access to our network of restaurant vendors. If you already have suppliers you like, we coordinate those relationships for you, from specs and samples to orders, timelines, and follow-ups.",
+        "Either way, one team keeps every vendor on the same schedule as your software, training, and opening date."
+      ],
+      "bullets": [
+        "Furniture and FF&E sourcing, from samples to freight and install timing",
+        "Uniform programs with sizing, logo work, and reorders",
+        "Coordination with your designer, builders, and current suppliers",
+        "One plan and one timeline across every vendor"
+      ],
+      "media": "image:services-detail",
+      "reverse": false
+    },
+    {
+      "type": "steps",
+      "label": "How We Work",
+      "h2": "How Every Engagement Runs",
+      "sub": "The same five steps whether you need one service or all nine.",
+      "items": [
+        {"title": "Listen", "text": "We walk through your operation, on site or virtually, to learn what's working, what isn't, and what you want next."},
+        {"title": "Plan", "text": "You get a written plan with priorities, budget, and timeline, and you approve it before anything starts."},
+        {"title": "Build and Source", "text": "We build the software, write the training, source furniture and uniforms, and set up your marketing."},
+        {"title": "Review", "text": "You see every piece before it goes live, and your feedback shapes each round."},
+        {"title": "Launch and Support", "text": "We roll it out with your team, train them, and stay on for support and improvements."}
+      ]
+    },
+    {
+      "type": "features",
+      "label": "Who We Serve",
+      "h2": "Hospitality Consulting Services for Every Kind of Operator",
+      "sub": "A single independent restaurant or a large multi-location project.",
+      "items": [
+        {
+          "icon": "heart",
+          "title": "Independent Restaurants",
+          "text": "Owners and general managers who want one partner for systems, training, and marketing, sized to a single dining room."
+        },
+        {
+          "icon": "map",
+          "title": "Multi-Location Groups",
+          "text": "Operating partners rolling out one standard for software, training, uniforms, and marketing at every location."
+        },
+        {
+          "icon": "star",
+          "title": "Private Clubs",
+          "text": "Member apps, tiered booking, guest memory, and staff academies, the same work behind our private dining club case study."
+        },
+        {
+          "icon": "sun",
+          "title": "Hotels and Resorts",
+          "text": "Food and beverage teams that need training, scheduling, uniforms, and marketing working as one program."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "h2": "Find Out Which Services Your Restaurant Needs First",
+      "sub": "The free AI assessment reads your answers, your Google listing and reviews, and your website, then emails you an evaluation. Christy follows up personally.",
+      "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+      "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much do your restaurant consulting services cost?",
+      "a": "Every engagement is scoped to your restaurant. After the walkthrough, you get a written plan with priorities, budget, and timeline, and you approve it before anything starts."
+    },
+    {
+      "q": "Do I have to use every service?",
+      "a": "No. You can start with one service, like a training academy or a marketing refresh, and add more when the timing's right. Your plan keeps everything pointed in the same direction."
+    },
+    {
+      "q": "Can you work with the vendors I already have?",
+      "a": "Yes. You can use our vendor network, or we'll coordinate the vendor relationships you already have. Either way, we handle the specs, timelines, and follow-ups so your team can stay focused on service."
+    },
+    {
+      "q": "Should I look for a restaurant consultant near me, or can you work remotely?",
+      "a": "We're based in Tampa Bay, Florida, and work with restaurants nationwide. The first walkthrough can happen on site or virtually, and your plan sets how we'll work together from there."
+    },
+    {
+      "q": "How does your software work with my POS?",
+      "a": "It runs alongside your existing POS, so the way your team rings in orders doesn't have to change. We can also coordinate POS onboarding and hardware timing, and build POS lessons into your training academy."
+    },
+    {
+      "q": "What do I need to provide?",
+      "a": "Time for the walkthrough and access to what you already have: recipes, SOPs, your handbook, menus, brand files, and vendor contacts. We do the writing and building, and you review and approve each round."
+    }
+  ],
+  "related": ["training", "operations", "multilocation"]
+}

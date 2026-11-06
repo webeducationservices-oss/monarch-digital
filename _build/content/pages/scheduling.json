@@ -1,0 +1,132 @@
+{
+  "key": "scheduling",
+  "title": "Restaurant Scheduling Software & Labor Planning | Monarch",
+  "description": "Restaurant scheduling software that drafts your week from the book, respects availability and hour caps, and texts each person their shifts when you publish.",
+  "hero": {
+    "eyebrow": "Restaurant Scheduling and Labor Planning",
+    "h1": "Restaurant Scheduling Software and Labor Planning That Protects Your Margin",
+    "sub": "Weeks drafted from your book, staffing minimums, and history, then texted to each person when you publish, so your managers can spend their time on the floor.",
+    "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+    "secondary_cta": {"label": "See Our Work", "href": "/case-study/"}
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "label": "Restaurant Scheduling Software",
+      "h2": "Restaurant scheduling software that starts from your book",
+      "body": [
+        "Labor cost gets decided one shift at a time, on the schedule. Our restaurant scheduling software drafts each week by department from what you already know: the covers on the book, the staffing minimums for each station, and how similar weeks went. Your managers adjust the draft and publish.",
+        "Every draft follows your rules for availability, time off, hour caps, and split shifts. When it's published, each person gets their week by text, and the restaurant scheduling app handles swaps and time-off requests from there.",
+        "We set up your departments, schedulers, and rules, and an <a href=\"/ai-for-restaurants/\">AI scheduling assistant</a> can draft weeks and help cover call-outs, with a manager approving every change. We do the work. You guide the process."
+      ]
+    },
+    {
+      "type": "showcase",
+      "label": "Weekly Schedule",
+      "h2": "The whole week, by department, on one screen",
+      "sub": "Kitchen, dining room, bar, and any other department you run, each with a named scheduler. Coverage shows at a glance, and when the week looks right, the publish button sends it out.",
+      "mockup": "schedule",
+      "caption": "A weekly staff schedule by department with coverage and a publish button."
+    },
+    {
+      "type": "features",
+      "label": "Built-In Rules",
+      "h2": "Drafts that already know your rules",
+      "sub": "The first draft follows the rules your managers would otherwise check by hand.",
+      "items": [
+        {"icon": "calendar", "title": "Auto-drafted weeks", "text": "Each department's week is drafted from the book, your staffing minimums, and history, so the first version is close before anyone edits it."},
+        {"icon": "user", "title": "Availability and time off", "text": "Drafts honor what each person can work and every time-off request you've approved."},
+        {"icon": "clock", "title": "Hour caps", "text": "Caps like 40 hours a week are respected, and part-timers who go over the line you set, such as 29 hours, get flagged."},
+        {"icon": "shield", "title": "No split shifts", "text": "Drafts can rule out split shifts, so nobody works lunch, waits around for three hours, and comes back for dinner."},
+        {"icon": "send", "title": "Publish by text", "text": "Publishing texts each person their week. Later changes text only the people affected."},
+        {"icon": "refresh", "title": "Swaps and time off", "text": "Staff request swaps, time off, and availability changes, and a manager approves each one."}
+      ]
+    },
+    {
+      "type": "split",
+      "label": "Coverage and Hours",
+      "h2": "See coverage before the shift and hours after it",
+      "body": [
+        "The coverage view shows where you're thin and where you're heavy, so you can fix Friday on Tuesday. The weekly hours report shows where the hours actually went.",
+        "On the night itself, a manager board at checkout makes it easy to cut staff and send people home when the dining room slows down."
+      ],
+      "bullets": [
+        "A coverage view by department",
+        "A weekly hours report",
+        "A manager board for cuts at checkout",
+        "Call-out help from the scheduling assistant, approved by a manager"
+      ],
+      "media": "image:scheduling-detail",
+      "reverse": true
+    },
+    {
+      "type": "checklist",
+      "label": "Labor Planning",
+      "h2": "Labor forecasting that keeps prime cost in view",
+      "sub": "Prime cost is your food and beverage cost plus labor, and many operators target a prime cost around 60 percent of sales. Labor is the part you set every week. These are the habits we build into how your schedule gets made.",
+      "items": [
+        "Labor targets by department, set with you",
+        "Staffing minimums tied to covers on the book",
+        "Drafts that start from your own history",
+        "Overtime caught in the draft, before anyone works it",
+        "Part-time hours watched every week",
+        "Early cuts when the night slows",
+        "Weekly hours checked against your targets",
+        "Call-outs covered quickly, with a manager's OK"
+      ]
+    },
+    {
+      "type": "steps",
+      "label": "How We Work",
+      "h2": "How we set up your scheduling",
+      "sub": "We do the work. You guide the process.",
+      "items": [
+        {"title": "Listen", "text": "We walk through how you schedule today, on site or virtual, and where it breaks down."},
+        {"title": "Plan", "text": "A written plan maps your departments, schedulers, staffing minimums, and hour rules, with budget and timeline. You approve it first."},
+        {"title": "Build", "text": "We load your team, availability, and rules, and set up the drafts and text publishing."},
+        {"title": "Review", "text": "Your managers check drafts against real weeks, and their feedback tunes the rules."},
+        {"title": "Launch and support", "text": "We roll it out with your team, show staff how requests and swaps work, and stay on for support and improvements."}
+      ]
+    },
+    {
+      "type": "story",
+      "label": "Case Study",
+      "h2": "Scheduling at a private dining club in Vail",
+      "body": [
+        "For a private dining club in Vail, Colorado, we built scheduling for four departments: kitchen, dining room, bar, and valet. Each has named schedulers, and weeks are auto-drafted from the book, staffing minimums, and history.",
+        "Drafts respect availability, time off, and 40-hour caps, flag part-timers over 29 hours, and never split a shift. Publishing texts each person their week, and later changes text only the people affected. Swap, time-off, and availability requests go to a manager for approval, and managers get a coverage view and a weekly hours report. Each hire uses one login for the operations app, where scheduling lives, and the <a href=\"/restaurant-staff-training/\">training academy</a>.",
+        "<a href=\"/case-study/\">See the full case study</a>, or read how our <a href=\"/restaurant-operations-consulting/\">operations consulting</a> ties labor to pacing and prime cost."
+      ]
+    },
+    {
+      "type": "cta",
+      "h2": "Take back the hours your managers spend on the schedule",
+      "sub": "Start with the free AI assessment. Our AI emails you an evaluation of your operations and marketing gaps, and Christy follows up personally to talk through scheduling and labor.",
+      "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+      "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does restaurant scheduling software from Monarch cost?",
+      "a": "It's scoped to your restaurant, based on your departments, locations, and what you want the system to do. You'll get a written plan with priorities, budget, and timeline, and nothing starts until you approve it."
+    },
+    {
+      "q": "How long does setup take?",
+      "a": "Your plan sets the timeline. Setup means loading your team, departments, availability, and rules, then reviewing drafts with your managers until they match how you staff. If you're opening, we plan it around your hiring and training dates."
+    },
+    {
+      "q": "Does it work with my POS?",
+      "a": "It runs alongside your POS. Your POS keeps handling orders and payments, and scheduling lives in the operations app we build for you, with one login per person."
+    },
+    {
+      "q": "What do I need to provide?",
+      "a": "Your staff list with roles and availability, your departments and who schedules each one, staffing minimums, and any hour rules. A few weeks of past schedules help the first drafts start strong. We handle the setup."
+    },
+    {
+      "q": "Does it work for one restaurant and for multiple locations?",
+      "a": "Yes. It works for a single restaurant or a group. Each location keeps its own departments and schedulers, every location follows the same rules, and a manager who moves between locations already knows the system."
+    }
+  ],
+  "related": ["operations", "training", "software"]
+}

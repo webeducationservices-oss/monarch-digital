@@ -5,17 +5,154 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Frame-Options", "value": "ALLOWALL" },
-        { "key": "Content-Security-Policy", "value": "frame-ancestors *" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        {
+          "key": "X-Frame-Options",
+          "value": "ALLOWALL"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors *"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
       ]
     },
     {
       "source": "/(.+\\.(?:jpg|jpeg|png|gif|svg|webp|ico|woff2?))",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     }
-  ]
+  ],
+  "redirects": [
+    {
+      "source": "/content-creation",
+      "destination": "/restaurant-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/blogging",
+      "destination": "/restaurant-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/email-marketing",
+      "destination": "/restaurant-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/social-media",
+      "destination": "/restaurant-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/digital-advertising",
+      "destination": "/restaurant-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/seo-analysis",
+      "destination": "/restaurant-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/our-story",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/our-services",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/assessment",
+      "destination": "/ai-assessment/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-transforming-marketing-landscape",
+      "destination": "/blog/ai-transforming-marketing-landscape/",
+      "permanent": true
+    },
+    {
+      "source": "/the-world-is-changing-are-you",
+      "destination": "/blog/the-world-is-changing-are-you/",
+      "permanent": true
+    },
+    {
+      "source": "/managing-minutes-maximizing-reach-digital-marketing-strategies-for-pt-clinics",
+      "destination": "/blog/managing-minutes-maximizing-reach-digital-marketing-strategies-for-pt-clinics/",
+      "permanent": true
+    },
+    {
+      "source": "/revolutionizing-travel-agency-success-the-power-of-monarch-digital-marketing",
+      "destination": "/blog/revolutionizing-travel-agency-success-the-power-of-monarch-digital-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/which-content-marketing-is-the-best-for-retail-stores-this-one",
+      "destination": "/blog/which-content-marketing-is-the-best-for-retail-stores-this-one/",
+      "permanent": true
+    },
+    {
+      "source": "/digital-liberation-breaking-free-from-expensive-marketing-myths",
+      "destination": "/blog/digital-liberation-breaking-free-from-expensive-marketing-myths/",
+      "permanent": true
+    },
+    {
+      "source": "/the-butterfly-effect-blogs",
+      "destination": "/blog/the-butterfly-effect-blogs/",
+      "permanent": true
+    },
+    {
+      "source": "/essential-seo-tips-to-boost-traffic",
+      "destination": "/blog/essential-seo-tips-to-boost-traffic/",
+      "permanent": true
+    },
+    {
+      "source": "/keep-in-touch-with-site-visitors-and-boost-loyalty",
+      "destination": "/blog/keep-in-touch-with-site-visitors-and-boost-loyalty/",
+      "permanent": true
+    },
+    {
+      "source": "/make-the-most-of-the-season-by-following-these-simple-guidelines",
+      "destination": "/blog/make-the-most-of-the-season-by-following-these-simple-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/tips-for-writing-great-posts-that-increase-your-site-traffic",
+      "destination": "/blog/tips-for-writing-great-posts-that-increase-your-site-traffic/",
+      "permanent": true
+    }
+  ],
+  "functions": {
+    "api/assess.js": {
+      "maxDuration": 120
+    }
+  }
 }

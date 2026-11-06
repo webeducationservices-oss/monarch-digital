@@ -1,0 +1,117 @@
+{
+  "key": "multilocation",
+  "title": "Multi-Location Restaurant Management & Rollouts | Monarch",
+  "description": "Multi-unit restaurant management with one standard: shared software and one login, the same training academy, matching uniforms, and local SEO per address.",
+  "hero": {
+    "eyebrow": "Multi-Location Restaurants",
+    "h1": "Multi-Location Restaurant Rollouts, Standardized From Day One",
+    "sub": "Shared software with one login, the same training academy, matching uniforms, and local marketing for every address, so every location runs like your best one. We do the work. You guide the process.",
+    "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+    "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "label": "Multi-Unit Restaurant Management",
+      "h2": "Multi-Unit Restaurant Management With One Standard",
+      "body": [
+        "Growth is where standards slip. A new location picks its own scheduling app, trains its own way, and orders whatever uniforms the GM could find. Multi-unit restaurant management gets easier when every location runs on the same system from the day it opens.",
+        "Whether you're opening your second location or running a multi-unit restaurant group, we build that system once and roll it out: shared software, the same training academy, matching uniforms and furniture specs, marketing for every address, and reporting by location.",
+        "Guests feel it when standards hold. A regular who loves your first location expects the newest one to treat them the same way, and your team should be able to deliver that at any address."
+      ]
+    },
+    {
+      "type": "cards",
+      "label": "What Gets Standardized",
+      "h2": "Every Location on the Same Playbook",
+      "sub": "Six pieces, set up once and shared by every unit.",
+      "items": [
+        {"icon": "lock", "title": "Shared Software, One Login", "text": "Reservations, host stand, server tablets, kitchen screens, and staff tools that run alongside each location's POS. Every hire gets one login.", "href": "/custom-restaurant-software/"},
+        {"icon": "check-circle", "title": "One Training Academy", "text": "The same role academies, daily lessons, quizzes, and trainer sign-offs at every location, written once from your own recipes, SOPs, and handbook.", "href": "/restaurant-staff-training/"},
+        {"icon": "users", "title": "Uniform Programs", "text": "One spec per role, the same colors and logo placement, new-hire kits ready for every opening, and a reorder process every GM can use.", "href": "/restaurant-uniforms/"},
+        {"icon": "home", "title": "Consistent Furniture Specs", "text": "One furniture spec with matching finishes and fabrics, so every new unit looks like the brand and a damaged chair anywhere can be replaced to match.", "href": "/restaurant-furniture/"},
+        {"icon": "map-pin", "title": "Local Marketing for Every Address", "text": "Multi-location marketing with a Google Business Profile, location page, and local SEO for each address, under one brand standard.", "href": "/restaurant-marketing/"},
+        {"icon": "database", "title": "Location-Level Reporting", "text": "Turn times, wait-quote accuracy, labor hours, and service rollups for each location, side by side for owners and operating partners.", "href": "/restaurant-operations-consulting/"}
+      ]
+    },
+    {
+      "type": "split",
+      "label": "One Login",
+      "h2": "One Login for Every Hire, at Every Location",
+      "body": [
+        "Each hire gets one login for the operations app and the training academy. Access is set per person, so a GM sees their location and an operating partner sees the whole group. When someone leaves, offboarding cuts their access right away.",
+        "<a href=\"/restaurant-scheduling/\">Schedules</a> and training progress live in the same place across locations, which makes it simple to lend a trained server or a line lead to a new opening. Owners can compare locations each week and see which unit needs help and which one has a habit worth copying."
+      ],
+      "bullets": [
+        "One login for operations and training",
+        "Access set by person, role, and location",
+        "Offboarding that cuts access immediately",
+        "A group-wide view for owners and partners"
+      ],
+      "media": "image:multilocation-detail",
+      "reverse": false
+    },
+    {
+      "type": "split",
+      "label": "Multi-Location Marketing",
+      "h2": "Local SEO for Every Address",
+      "body": [
+        "Guests search for the location nearest them, so every address needs its own Google Business Profile, location page, hours, menu, and reviews. We set each one up to the same brand standard and keep them current.",
+        "One team runs the calendar for the whole group, with room for each location's events and specials, and reporting shows how every address is doing in search and reviews, so you know where to put next month's effort."
+      ],
+      "bullets": [
+        "A Google Business Profile and location page for each address",
+        "Review replies drafted for every location and approved by a person",
+        "Group campaigns with local events and specials",
+        "Search and review reporting for each address"
+      ],
+      "media": "mockup:marketing",
+      "reverse": true
+    },
+    {
+      "type": "steps",
+      "label": "How a Rollout Works",
+      "h2": "From One Standard to Every Location",
+      "sub": "The same five steps on every project, plus an opening playbook for each new unit.",
+      "items": [
+        {"title": "Listen", "text": "We walk your strongest location and the one that struggles most, on site or virtual, and learn what each does differently."},
+        {"title": "Plan", "text": "You get a written plan with the standard, the rollout order, budget, and timeline. You approve it before anything starts."},
+        {"title": "Build and Source", "text": "We build the software and training, set uniform and furniture specs, and set up marketing for every address."},
+        {"title": "Review", "text": "You see every piece before it goes live, and your feedback shapes each round."},
+        {"title": "Launch and Support", "text": "We roll out location by location, train each team, and stay on for support. New units open from the playbook."}
+      ]
+    },
+    {
+      "type": "checklist",
+      "label": "Opening Playbooks",
+      "h2": "What Every New Location Opens With",
+      "sub": "A repeatable opening playbook, so every new unit starts from the same checklist.",
+      "items": [
+        "Software set up for the new address",
+        "Logins ready for every new hire",
+        "Role academies assigned before opening day",
+        "A careers page and applicant summaries for hiring",
+        "Uniform kits by role",
+        "Furniture ordered to spec",
+        "Google Business Profile and location page live",
+        "An opening campaign and press kit",
+        "Reporting from the first service"
+      ]
+    },
+    {
+      "type": "cta",
+      "h2": "Set the Standard Before Your Next Opening",
+      "sub": "Get a free AI assessment of your flagship, or talk to Christy about your group, your next opening, and where standards are slipping today.",
+      "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+      "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+    }
+  ],
+  "faq": [
+    {"q": "What does a multi-location rollout cost?", "a": "It's scoped to your group, based on how many locations you have, which pieces you need, and the rollout order. You get a written plan with priorities, budget, and timeline, and you approve it before anything starts."},
+    {"q": "How long does a rollout take?", "a": "It depends on the number of locations and the scope. We build and prove the standard at one location first, then roll it out on the schedule in your plan, with new units opening from the playbook."},
+    {"q": "Can our locations keep the vendors they already use?", "a": "Yes, where they're working. We can coordinate your existing vendors or bring in our network, and we keep one spec so every location orders the same thing."},
+    {"q": "What do you need from us?", "a": "A list of locations and their leaders, your menus, handbook, and SOPs, your logo and brand files, and access to each location's Google Business Profile and website. We'll take it from there."},
+    {"q": "We only have one or two locations. Is this for us?", "a": "Yes. Two locations is a great time to set the standard, because every opening after that copies it. A single restaurant can start with one piece and add the rest as it grows."}
+  ],
+  "related": ["software", "training", "marketing"]
+}

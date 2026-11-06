@@ -1,3 +1,8 @@
 serve.py
 .claude/
 .DS_Store
+node_modules/
+_build/img-src/
+__pycache__/
+_build/BRIEF.md
+_build/private_terms.txt

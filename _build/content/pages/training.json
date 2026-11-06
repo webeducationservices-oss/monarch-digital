@@ -1,0 +1,146 @@
+{
+  "key": "training",
+  "title": "Restaurant Staff Training Programs & Custom LMS | Monarch",
+  "description": "Restaurant staff training built from your recipes, SOPs, and handbook: a custom LMS with role academies, daily quizzes, trainer sign-offs, and one-tap Spanish.",
+  "hero": {
+    "eyebrow": "Restaurant Staff Training and Custom LMS",
+    "h1": "Restaurant Staff Training and a Custom LMS Built for Your Team",
+    "sub": "Role-based academies for every position, written from your recipes, SOPs, and handbook. We build the curriculum and the platform, and you guide and approve every lesson.",
+    "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+    "secondary_cta": {"label": "See Our Work", "href": "/case-study/"}
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "label": "Hospitality Training",
+      "h2": "Restaurant staff training that sounds like your restaurant",
+      "body": [
+        "Good restaurant staff training is how a new server learns your steps of service, a new line cook learns your plates, and a new host learns how you want the phone answered. In a lot of restaurants, that knowledge lives in a binder and in a busy trainer's head, and it shifts a little every time it's passed on.",
+        "We turn it into a personal LMS built for your restaurant: role-based academies, daily lessons, quizzes, trainer sign-offs, handbook e-signatures, and menu training, in English and Spanish. It's hospitality training with your menu and your standards already inside, so every new hire learns the same way on every shift.",
+        "A custom LMS pays off when your menu and service are specific enough that generic courses leave gaps, or when you're hiring often enough that someone is always in training. New hires learn your way from their first day, and your best trainers get to spend their time coaching on the floor.",
+        "This is white glove work. We write and build the curriculum from your recipes, SOPs, and handbook, and you guide and approve every piece. We do the work. You guide the process."
+      ]
+    },
+    {
+      "type": "showcase",
+      "label": "Restaurant LMS",
+      "h2": "A restaurant LMS that shows every trainee where they stand",
+      "sub": "Your hospitality LMS shows each trainee their role academy, today's lesson, their latest quiz score, and whether their trainer has signed off. Managers see the same view for the whole team, so it's clear who needs help before their next shift.",
+      "mockup": "lms",
+      "caption": "A role academy with day-by-day progress, a quiz score, and trainer sign-off."
+    },
+    {
+      "type": "split",
+      "label": "Role-Based Academies",
+      "h2": "An academy for every position, front and back of house",
+      "body": [
+        "Every role gets its own academy, written for what that person does on a real shift. A server's academy covers your steps of service, the menu, the POS, and what to say when a dish is 86'd. A prep cook's covers your recipes, labeling, and station setup. A bartender's covers your specs, your pours, and how you want the bar run during a rush.",
+        "Each academy runs day by day, so a new hire learns in the order the job asks for it. Together, they become your restaurant training program for every new hire, the same at every location."
+      ],
+      "bullets": [
+        "Front of house: server, host, back waiter, bartender, captain, and FOH lead",
+        "Back of house: chef de partie, line, prep, pantry, porter, and BOH lead",
+        "Specialty roles your operation needs, like valet",
+        "Pour tests for bartenders, built from your own specs"
+      ],
+      "media": "image:training-detail",
+      "reverse": false
+    },
+    {
+      "type": "steps",
+      "label": "Day by Day",
+      "h2": "How each training day works",
+      "sub": "Progress is earned one day at a time, so every new hire builds on the day before.",
+      "items": [
+        {"title": "Today's lesson", "text": "The day opens with that role's lesson, on the trainee's own phone or a tablet in the restaurant, in English or Spanish."},
+        {"title": "Daily quiz", "text": "A quiz checks what stuck. The trainee sees the score right away, and so does the manager, so gaps get caught while they're small."},
+        {"title": "Trainer sign-off", "text": "The trainer watches the skill on the floor or on the line, then signs off in the app, so every day ends with proof the trainee can do the work."},
+        {"title": "Next day opens", "text": "The quiz and the sign-off together open the next day, so nobody skips ahead and nobody waits on paperwork."}
+      ]
+    },
+    {
+      "type": "features",
+      "label": "Inside the Academy",
+      "h2": "Restaurant training software with the details built in",
+      "sub": "Everything a new hire needs in one place, and everything a manager needs to see.",
+      "items": [
+        {"icon": "edit", "title": "Handbook e-signatures", "text": "New hires sign the handbook in the app, and the system records which version each person signed. When a policy changes, you can see who has signed the update and who still needs to."},
+        {"icon": "clipboard", "title": "Menu and allergen training", "text": "Menu lessons built from the kitchen's own dish files, with ingredients and allergens, so FOH can answer guest questions with confidence. Our AI menu import writes the first draft, and your chef approves it."},
+        {"icon": "credit-card", "title": "POS training", "text": "A module on the POS your team uses every shift, so new hires know the steps before they ring in a real order."},
+        {"icon": "globe", "title": "One-tap Spanish", "text": "Every lesson switches to Spanish with one tap, so trainees can learn in the language that works best for them."},
+        {"icon": "lock", "title": "One login", "text": "Trainees use the same login for training and your operations app, on a phone or a tablet in the restaurant. When someone leaves, offboarding cuts access immediately."},
+        {"icon": "eye", "title": "Progress reporting", "text": "Managers see who's on which day, quiz scores, and who's waiting on a sign-off, by role and by location, so you can spot anyone stalling halfway through."}
+      ]
+    },
+    {
+      "type": "checklist",
+      "label": "White Glove",
+      "h2": "We write the curriculum from what you already have",
+      "sub": "You don't need a training department or polished documents. Send us what you have, and we turn it into lessons, quizzes, and sign-off checkpoints. You see every lesson before your team does, and your feedback shapes each round. Experienced hospitality trainers in our network are also available when you want hands-on help with your team.",
+      "items": [
+        "Recipes and plate specs",
+        "The kitchen's dish files and allergen notes",
+        "SOPs for opening, closing, and side work",
+        "Steps of service and pre-shift standards",
+        "Your employee handbook and policies",
+        "Bar specs, pours, and wine notes",
+        "POS screens and workflows",
+        "Brand standards and dress code"
+      ]
+    },
+    {
+      "type": "story",
+      "label": "Case Study",
+      "h2": "Thirteen role academies for a private dining club in Vail",
+      "body": [
+        "For a private dining club in Vail, Colorado, we built a custom training academy with 13 role-based academies, 10 days each, covering front of house, back of house, and ski valet. A daily quiz and the trainer's sign-off open the next day of training, and bartenders also take a pour test.",
+        "New hires sign the handbook electronically, and the system records which version they signed. Menu training covers 83 dishes, and an AI menu import turns the kitchen's dish file into a training menu. There's a POS training module, and every lesson switches to Spanish with one tap.",
+        "Hiring and training connect, too. Applicants use an electronic job application, an AI applicant summary backs every point with a quote from the application, and each hire gets one login for the academy and the operations app. A practice simulator with sample members lets staff learn the system safely, and offboarding cuts access immediately.",
+        "<a href=\"/case-study/\">See the full case study</a>. Training also rolls out across <a href=\"/multi-location-restaurants/\">multiple locations</a>, and it pairs well with <a href=\"/restaurant-uniforms/\">new-hire uniform kits</a>."
+      ]
+    },
+    {
+      "type": "stats",
+      "items": [
+        {"number": "13", "label": "role-based academies"},
+        {"number": "10", "label": "days in each academy"},
+        {"number": "83", "label": "dishes in menu training"},
+        {"number": "1", "label": "login for training and operations"}
+      ]
+    },
+    {
+      "type": "cta",
+      "h2": "Give every new hire a better first 10 days",
+      "sub": "Start with the free AI assessment, and Christy will follow up personally to talk through what a custom academy could look like for your restaurant.",
+      "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+      "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does a custom restaurant training program cost?",
+      "a": "Every engagement is scoped to your restaurant. Cost depends on how many roles, locations, and languages you need, and how much material already exists. After a walkthrough, you get a written plan with priorities, budget, and timeline, and you approve it before we start writing."
+    },
+    {
+      "q": "How long does it take to build the academies?",
+      "a": "Your written plan sets the timeline before anything starts. We can build in rounds, starting with the roles you hire most, so your team starts training while the remaining academies are written and reviewed. If you're opening, we plan the work around your hiring and training dates."
+    },
+    {
+      "q": "Does the training work with my POS?",
+      "a": "Yes. We build a POS training module around the screens and steps your team uses every shift. The academy runs alongside your POS, so there's nothing to connect or change in your POS."
+    },
+    {
+      "q": "What do I need to provide?",
+      "a": "Whatever you have: recipes, dish files, the handbook, SOPs, steps of service, and some time with your chef and managers. It doesn't need to be polished. We write the lessons and quizzes, and you review and approve each one."
+    },
+    {
+      "q": "Who keeps the training current when the menu or handbook changes?",
+      "a": "We can, as part of ongoing support. When the menu changes, the kitchen's updated dish file becomes updated menu lessons for your approval. When the handbook changes, the new version goes out for e-signature, and the system tracks who has signed it."
+    },
+    {
+      "q": "Does this work for one restaurant and for multiple locations?",
+      "a": "Yes. A single restaurant gets academies written around its own menu and standards. A group gets one standard across every location, with room for each location's menu, and managers can see progress location by location."
+    }
+  ],
+  "related": ["software", "operations", "multilocation"]
+}

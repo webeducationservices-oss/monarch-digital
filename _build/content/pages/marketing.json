@@ -1,0 +1,129 @@
+{
+  "key": "marketing",
+  "title": "Restaurant Marketing Agency: SEO, Social & Ads | Monarch",
+  "description": "A restaurant marketing agency that aims SEO, social, ads, email, and reviews at your covers and slow nights. One team does the work. Get a free AI assessment.",
+  "hero": {
+    "eyebrow": "Restaurant Marketing and Advertising",
+    "h1": "A Restaurant Marketing Agency Built on Your Sales Data",
+    "sub": "Websites, SEO, social, ads, email, and reviews, all aimed at the nights you need to fill. We do the work. You guide the process.",
+    "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+    "secondary_cta": {"label": "See Our Work", "href": "/case-study/"}
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "label": "Marketing That Fills Seats",
+      "h2": "Marketing That Starts With Your Covers",
+      "body": [
+        "As a restaurant marketing agency, we start with your numbers: covers by daypart, check average, your slowest nights, and where new guests find you. Then every campaign gets a clear job, like filling Tuesdays, booking the private room, or bringing lunch regulars back for dinner.",
+        "We also build the <a href=\"/custom-restaurant-software/\">software</a>, training, and <a href=\"/restaurant-scheduling/\">schedules</a> restaurants run on, so campaigns and the operation get planned together. When a promotion is going to bring a rush, the kitchen, the floor, and the schedule know about it before the first ticket fires."
+      ]
+    },
+    {
+      "type": "split",
+      "label": "Websites and Site Migrations",
+      "h2": "A Website That Gets the Table Booked",
+      "body": [
+        "Your website has a short list of jobs: show the menu, show the room, and make it easy to book, order, or call. We design and build restaurant websites that load fast on a phone, keep hours and menus easy to update, and put the reservation button where thumbs can find it.",
+        "Moving off an old platform is where restaurants can lose their search traffic, so we map every old URL to its new home first. For <a href=\"/case-study/\">a private dining club in Vail, Colorado</a>, we moved the public website off its old platform with 37 redirects and raised its SEO audit score from 66 to 98."
+      ],
+      "bullets": [
+        "Menus that read well on a phone",
+        "Reservation, ordering, and gift card buttons in plain sight",
+        "Redirect maps so old links and rankings follow you",
+        "Separate landing pages for ads, events, and private dining"
+      ],
+      "media": "mockup:booking",
+      "reverse": false
+    },
+    {
+      "type": "stats",
+      "items": [
+        {"number": "37", "label": "redirects mapped when the club's website changed platforms"},
+        {"number": "98", "label": "SEO audit score for the club's website, raised from 66"},
+        {"number": "Month 1", "label": "the public website went live within the first month of the project"}
+      ]
+    },
+    {
+      "type": "features",
+      "label": "Services",
+      "h2": "What Our Restaurant Marketing Agency Handles",
+      "sub": "Everything you'd expect from a hospitality marketing agency, with each channel tied to covers, check average, or repeat visits.",
+      "items": [
+        {"icon": "camera", "title": "Content Creation", "text": "Photos, short videos, and stories that show your food, your room, and the people behind both. We plan content around new dishes, events, and the seasons, then turn each round of photos into weeks of posts, emails, and ads."},
+        {"icon": "file-text", "title": "Blogging", "text": "Useful posts about your menu, your neighborhood, private dining, and events, written around what local diners search for. Every post points readers to the pages that book tables."},
+        {"icon": "mail", "title": "Email Marketing and SMS", "text": "Event invites, new menu launches, birthday notes, and win-back messages for guests you haven't seen lately. Lists are sorted by interest and visit history, so regulars and first-timers each hear what fits."},
+        {"icon": "share", "title": "Social Media", "text": "Restaurant social media marketing on the platforms your guests use. We plan the calendar, create the posts, and keep up with comments and messages, so questions about tonight's specials get answered."},
+        {"icon": "target", "title": "Digital Advertising", "text": "Restaurant advertising on Google and social, aimed at your radius and your slow dayparts. Each campaign gets its own landing page, clear tracking, and a budget you approve."},
+        {"icon": "search", "title": "SEO and Analysis", "text": "Restaurant SEO built on what diners search, like your cuisine plus your neighborhood. Each month you see rankings, clicks, calls, and bookings from search, explained in plain English."}
+      ]
+    },
+    {
+      "type": "split",
+      "label": "Local Search and Reviews",
+      "h2": "Google Business Profile and Reviews, Kept Current",
+      "body": [
+        "For a lot of guests, your Google Business Profile is the first look at your restaurant. We keep hours, holiday hours, menus, photos, and booking links accurate, post updates, and answer the questions people ask there.",
+        "Reviews get the same care. Each new review gets a drafted reply that a manager approves, service issues go straight to the GM, and happy guests get an easy way to share their night. We report ratings, search visibility, and campaign results together, so you can see what's moving."
+      ],
+      "bullets": [
+        "Hours, holiday hours, and menus kept accurate",
+        "Fresh photos and posts for what's new",
+        "A drafted reply for every review, approved by a manager",
+        "Service issues flagged to the GM"
+      ],
+      "media": "mockup:marketing",
+      "reverse": true
+    },
+    {
+      "type": "split",
+      "label": "AI-Assisted Content",
+      "h2": "AI-Assisted Content That a Person Approves",
+      "body": [
+        "Our own AI assistants draft captions, review replies, emails, ad variations, and blog posts from your menu, your specials, and your calendar. That means more content, sooner, in a voice that sounds like your restaurant. Learn more about our <a href=\"/ai-for-restaurants/\">AI for restaurants</a>.",
+        "Then a person reviews it. Nothing publishes or sends until it's approved, and you see every piece before it goes live. Your feedback shapes each round."
+      ],
+      "bullets": [
+        "Captions and posts written from your real menu and specials",
+        "Review replies drafted for a manager to approve",
+        "Email and SMS drafts for events, launches, and win-backs",
+        "Blog drafts edited by a person before they publish"
+      ],
+      "media": "image:marketing-detail",
+      "reverse": false
+    },
+    {
+      "type": "checklist",
+      "label": "Launches and Campaigns",
+      "h2": "Campaigns Built Around Your Calendar",
+      "sub": "Openings, launches, partnerships, and press, planned ahead and matched to your book.",
+      "items": [
+        "Soft opening and grand opening campaigns",
+        "New menu and seasonal menu launches",
+        "Partnership launch campaigns with local businesses",
+        "Press kits with photos, a fact sheet, and bios",
+        "Private dining and event bookings",
+        "Holiday reservations and gift card pushes",
+        "Slow-night promotions built from your cover counts",
+        "Hiring campaigns and a careers page",
+        "Membership and loyalty materials"
+      ]
+    },
+    {
+      "type": "cta",
+      "h2": "Find the Gaps in Your Restaurant Marketing",
+      "sub": "Answer about a dozen questions. Our AI reads your answers, your Google listing and reviews, and your website, then emails you an evaluation. Christy follows up personally.",
+      "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+      "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+    }
+  ],
+  "faq": [
+    {"q": "How much does restaurant marketing cost with Monarch?", "a": "Engagements are scoped to each restaurant, so there's no set price list. After a walkthrough, you get a written plan with priorities, budget, and timeline, and nothing starts until you approve it. If paid ads are part of the plan, you set the ad budget."},
+    {"q": "How long before we see results?", "a": "Some pieces move fast. For a private dining club in Vail, Colorado, the public website was live within the first month. Ads and email start reaching guests the day they launch, while SEO and reviews build over months, so your plan pairs quick wins with steady work."},
+    {"q": "Can you work with our current website, photographer, or reservation platform?", "a": "Yes. We coordinate with the vendors and tools you already have, or bring in our own network when something isn't working. If we move your website, we map redirects first so your search traffic follows you."},
+    {"q": "What do you need from us to get started?", "a": "Access to your website, Google Business Profile, social accounts, and ad accounts, plus your menu, photos, and recent cover counts by day. Most of all, we need someone on your team to approve content. We do the work. You guide the process."},
+    {"q": "Do you work with single restaurants or multi-location groups?", "a": "Both. An independent restaurant gets a plan sized to one dining room. A group gets one brand standard with local SEO, a Google Business Profile, and a location page for every address, plus reporting by location."},
+    {"q": "Will AI be writing our posts?", "a": "AI helps draft captions, emails, review replies, and ad copy so the work moves faster. A person reviews everything, and nothing publishes or sends until it's approved."}
+  ],
+  "related": ["ai", "operations", "multilocation"]
+}

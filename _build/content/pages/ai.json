@@ -1,0 +1,151 @@
+{
+  "key": "ai",
+  "title": "AI for Restaurants: Ops & Marketing Assistants | Monarch",
+  "description": "AI for restaurants with a person in charge: assistants for host help, server briefs, scheduling, and marketing. Start with a free AI assessment.",
+  "hero": {
+    "eyebrow": "AI for Restaurant Operations and Marketing",
+    "h1": "AI for Restaurants: Assistants That Evaluate Operations and Help Run Your Marketing",
+    "sub": "From the host stand to your review replies, our AI assistants do the legwork, and a person on your team confirms anything that books, publishes, or sends.",
+    "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+    "secondary_cta": {"label": "See Our Work", "href": "/case-study/"}
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "label": "AI for Restaurants",
+      "h2": "AI for restaurants, grounded in your own data",
+      "body": [
+        "AI for restaurants earns its keep when it works from your real book, menu, schedule, and guest files. Our assistants read the information your team already keeps and hand back answers, drafts, and plans a manager can check at a glance.",
+        "A person confirms anything an assistant books, publishes, or sends. The AI does the digging, and your team makes the calls.",
+        "We build our own AI, set it up around how your restaurant runs, and train your team to use it. We do the work. You guide the process."
+      ]
+    },
+    {
+      "type": "split",
+      "label": "Free AI Assessment",
+      "h2": "Start with a free AI assessment of your restaurant",
+      "body": [
+        "Find out where AI and better systems would help most before you spend anything. <a href=\"/ai-assessment/\">Get your free AI assessment</a>."
+      ],
+      "bullets": [
+        "Answer about a dozen questions and name your restaurant",
+        "Our AI reads your answers, your Google listing and reviews, and your website",
+        "You get an emailed evaluation of your operations and marketing gaps",
+        "Christy follows up personally to walk through it and what to tackle first"
+      ],
+      "media": "mockup:report",
+      "reverse": false
+    },
+    {
+      "type": "features",
+      "label": "AI for Restaurant Operations",
+      "h2": "AI for restaurant operations, from the host stand to the back office",
+      "sub": "Each assistant has one clear job and works from your own data.",
+      "items": [
+        {"icon": "clipboard", "title": "Operations evaluations", "text": "An AI read of your service data and reviews that points to where covers and time slip away, so you know what to fix first."},
+        {"icon": "message-circle", "title": "Concierge and host help", "text": "A restaurant chatbot that answers availability questions from your real book, plus a host assistant that greets parties, looks up guests, proposes tables, and works by voice."},
+        {"icon": "file-text", "title": "Server briefs", "text": "A greeting written the moment a party sits, plus quick answers to questions like \"what do they drink?\""},
+        {"icon": "calendar", "title": "Sections and scheduling", "text": "Drafts of server sections and weekly schedules, plus help covering call-outs, approved by a manager before anything is published."},
+        {"icon": "clock", "title": "Kitchen pacing analyst", "text": "A read-only look at ticket times and pacing that shows where the kitchen fell behind on a busy night."},
+        {"icon": "upload", "title": "Paperwork readers", "text": "A menu import that turns the kitchen's dish file into a training menu, a flyer reader that turns a PDF into a draft event, and applicant summaries where every point is backed by a quote from the application."}
+      ]
+    },
+    {
+      "type": "showcase",
+      "label": "Ask Your Data",
+      "h2": "Ask a plain question and get an answer from your own numbers",
+      "sub": "A read-only assistant answers questions across your restaurant's data, like how Saturday's turn times compared to last month or which regulars have a birthday this week. It can draft the follow-up email too, and a person reads it and hits send.",
+      "mockup": "ai",
+      "caption": "An AI assistant answering an operations question with data, with a confirm step before anything is sent."
+    },
+    {
+      "type": "split",
+      "label": "AI Marketing for Restaurants",
+      "h2": "AI marketing for restaurants, in your voice and on your approval",
+      "body": [
+        "AI marketing for restaurants works when someone who knows your guests has the final say. Our assistants draft posts, review replies, emails, and ad copy from your menu, events, and brand voice. You or your manager reads each one, edits what you like, and approves it before it goes out.",
+        "It plugs into the rest of our <a href=\"/restaurant-marketing/\">restaurant marketing</a> work, so your website, Google Business Profile, and social stay in step."
+      ],
+      "bullets": [
+        "Social posts and blog drafts built from what's happening at your restaurant this week",
+        "Review replies drafted in your voice, ready for a manager's OK",
+        "Email drafts for events, holidays, and regulars",
+        "Ad copy options for your campaigns, reviewed before they run"
+      ],
+      "media": "image:ai-detail",
+      "reverse": true
+    },
+    {
+      "type": "checklist",
+      "label": "AI Phone Answering",
+      "h2": "Restaurant AI phone answering, set up carefully",
+      "sub": "An AI receptionist for restaurants can take pressure off the host stand during a rush, and it can frustrate callers when it's set up poorly. We evaluate the options with you, test them against your real calls, and set them up with clear handoffs to your team. These are the checks we start with.",
+      "items": [
+        "Hours, address, and parking answered correctly",
+        "Availability read from your real book",
+        "Booking requests passed to a person to confirm",
+        "Allergy and menu questions routed to your staff",
+        "One easy step to reach a person",
+        "Wording that sounds like your restaurant",
+        "Every call logged for managers to review",
+        "A clear fallback when it can't help"
+      ]
+    },
+    {
+      "type": "story",
+      "label": "Case Study",
+      "h2": "Thirteen AI assistants at a private dining club in Vail",
+      "body": [
+        "For a private dining club in Vail, Colorado, we built 13 AI assistants into the club's own software. The concierge assistant answers \"can we seat 2 at 7?\" from real availability. The host assistant greets parties, looks up guests, proposes tables, and works by voice. The server brief writes a greeting when the party sits.",
+        "Behind the scenes, a scheduling assistant drafts weeks and covers call-outs, a read-only analyst studies kitchen pacing, and an \"ask the club\" assistant answers read-only questions across all the data and drafts emails a person sends. Every one of them has a person confirming anything that books, publishes, or sends.",
+        "<a href=\"/case-study/\">Read the full case study</a>. The assistants live inside our <a href=\"/custom-restaurant-software/\">custom restaurant software</a>, and the menu import feeds our <a href=\"/restaurant-staff-training/\">staff training</a> academies."
+      ]
+    },
+    {
+      "type": "steps",
+      "label": "How We Work",
+      "h2": "How we bring AI into your restaurant",
+      "sub": "We do the work. You guide the process.",
+      "items": [
+        {"title": "Listen", "text": "A walkthrough of your operation, on site or virtual, to find where assistants would save the most time."},
+        {"title": "Plan", "text": "A written plan with priorities, budget, and timeline that you approve before anything starts."},
+        {"title": "Build and review", "text": "We build each assistant and test it with you on real examples until the answers and drafts hold up."},
+        {"title": "Launch and support", "text": "We roll it out with your team, train them on it, and stay on to tune it as you go."}
+      ]
+    },
+    {
+      "type": "cta",
+      "h2": "See where AI fits in your restaurant",
+      "sub": "Answer about a dozen questions and get an emailed evaluation of where your operation and marketing have room to grow. Christy follows up personally.",
+      "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+      "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does AI for a restaurant cost?",
+      "a": "The assessment is free. Beyond that, every engagement is scoped to your restaurant, so there's no price list. You'll get a written plan with priorities, budget, and timeline, and nothing starts until you approve it."
+    },
+    {
+      "q": "How long does it take to set up an AI assistant?",
+      "a": "It depends on the assistant and the information it needs. Your plan lays out the timeline, and you review each assistant with real examples before your team relies on it."
+    },
+    {
+      "q": "Does it work with my POS?",
+      "a": "Our assistants work alongside your POS. They read the systems we build for you, like reservations, guest files, schedules, and menus, plus the documents you share. Your POS keeps handling orders and payments the way it does today."
+    },
+    {
+      "q": "Will the AI ever book a table or post something on its own?",
+      "a": "No. A person confirms anything that books, publishes, or sends. Assistants answer questions, draft, and suggest, and someone on your team approves the action."
+    },
+    {
+      "q": "What do I need to provide?",
+      "a": "Access to what each assistant should work from, such as menu files, your handbook, house rules, and brand voice, plus a manager to review drafts while we tune it. We do the work. You guide the process."
+    },
+    {
+      "q": "Does this work for one restaurant or a group?",
+      "a": "Both. A single restaurant might start with review replies and server briefs. A group can roll the same assistants out to every location, with one standard for how teams use them."
+    }
+  ],
+  "related": ["software", "training", "marketing"]
+}

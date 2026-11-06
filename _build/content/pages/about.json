@@ -1,0 +1,122 @@
+{
+  "key": "about",
+  "title": "About Monarch Digital and Founder Christy Renner",
+  "description": "Meet Christy Renner, Founder and CEO of Monarch Digital, a white-glove restaurant consulting partner based in Tampa Bay and serving restaurants nationwide.",
+  "hero": {
+    "eyebrow": "About Monarch Digital",
+    "h1": "Meet Christy Renner and the White-Glove Team Behind Monarch",
+    "sub": "One team for everything your restaurant runs on, founded by Christy Renner in Tampa Bay. We do the work. You guide the process.",
+    "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+    "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+  },
+  "sections": [
+    {
+      "type": "story",
+      "label": "Meet the Founder",
+      "h2": "Christy Renner, Founder and CEO",
+      "body": [
+        "Born and raised just outside Pittsburgh, Pennsylvania, Christy Renner built her career on hard work, resilience, and a passion for helping businesses succeed. Her experience spans manufacturing, operations, customer loyalty programs, community relations, and business development, giving her a unique understanding of both the challenges and opportunities business owners face.",
+        "After years of working alongside family-owned businesses throughout the Tampa Bay area, Christy recognized a growing need for affordable, results-driven solutions for small and emerging companies. That vision led to the creation of Monarch.",
+        "Through Monarch and its trusted network of vendors, she brings together the right people, ideas, and resources to help businesses build momentum and achieve their goals. Today that work centers on restaurants and hospitality, and her favorite part of the job remains the same: helping passionate entrepreneurs and business owners turn vision into reality.",
+        "That mix fits hospitality well. Operations and customer loyalty are daily work in every dining room, and community relations is how a neighborhood restaurant builds its regulars."
+      ]
+    },
+    {
+      "type": "butterfly",
+      "label": "Our Story",
+      "h2": "Why The Butterfly",
+      "lead": "The name comes from a promise Christy's friend Tosha made, told here in Christy's own words."
+    },
+    {
+      "type": "split",
+      "label": "Why Hospitality",
+      "h2": "Why Monarch Focuses on Restaurant and Hospitality Consulting",
+      "body": [
+        "Few small businesses run on as many moving parts as a restaurant. Reservations, schedules, training, marketing, the room itself, and the uniforms your team wears often come from a different vendor each, and the owner ends up in the middle.",
+        "Monarch brings all of it into one place. Our work for a private dining club in Vail, Colorado shows what that looks like: the member app, host stand, kitchen screens, scheduling, 13 training academies, the website, and dining room layout coordination, all handled by one team in about seven months. <a href=\"/case-study/\">Read the case study</a>.",
+        "Good hospitality comes down to recognition, connection, and attention to detail. We take care of the systems so the people we work with can spend more of their time there."
+      ],
+      "bullets": [
+        "Restaurant owners and general managers",
+        "Operating partners and multi-location groups",
+        "Private clubs",
+        "Hotel and resort food and beverage teams"
+      ],
+      "media": "image:about-detail",
+      "reverse": true
+    },
+    {
+      "type": "features",
+      "label": "White Glove",
+      "h2": "We Do the Work. You Guide the Process.",
+      "sub": "It's our promise, and it shapes every engagement, from the first walkthrough to support after launch.",
+      "items": [
+        {
+          "icon": "edit",
+          "title": "We Write the First Draft",
+          "text": "We write training from your recipes, SOPs, and handbook, draft the marketing, and build the software, so your time goes into reviewing and approving."
+        },
+        {
+          "icon": "check-circle",
+          "title": "You Approve the Plan",
+          "text": "Every engagement begins with a written plan covering priorities, budget, and timeline. Nothing moves until you sign off."
+        },
+        {
+          "icon": "eye",
+          "title": "You See Every Piece",
+          "text": "Software, lessons, campaigns, and samples come to you before anything goes live, and your feedback shapes each round."
+        },
+        {
+          "icon": "heart",
+          "title": "We Stay After Launch",
+          "text": "We roll it out with your team, train them, and stick around for support and improvements."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "label": "One Team",
+      "h2": "One Team From the First Walkthrough to Launch Day",
+      "body": [
+        "We build our own software and AI, write the training, run the marketing, and source furniture and uniforms through our vendor network or the vendors you already trust. That means a single plan and one team to call when something comes up.",
+        "Training gets extra weight in everything we do. We build each client a personal LMS for their own restaurant, with role-based academies, daily lessons, quizzes, and trainer sign-offs, written from their recipes, SOPs, and handbook. The client reviews and approves it before a single new hire logs in.",
+        "We're based in Tampa Bay, Florida, and serve restaurants nationwide, from a single independent restaurant to a large multi-location project. Every engagement starts the same way, with a walkthrough on site or virtually and a written plan you approve. If you're comparing restaurant consultants, a free AI assessment or a call with Christy is an easy first step."
+      ]
+    },
+    {
+      "type": "testimonials",
+      "label": "Kind Words",
+      "h2": "What Clients Say About Working With Christy"
+    },
+    {
+      "type": "cta",
+      "h2": "Let's Talk About Your Restaurant",
+      "sub": "Start with a free AI assessment, or reach Christy directly at 727-383-6038 or info.monarchdigital@gmail.com.",
+      "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+      "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who will I work with at Monarch?",
+      "a": "You'll start with Christy Renner, our Founder and CEO, who follows up personally on every free AI assessment. From there, one team handles your software and AI, training, marketing, and vendor coordination, and you guide the process throughout."
+    },
+    {
+      "q": "Where is Monarch based?",
+      "a": "We're based in Tampa Bay, Florida, and work with restaurants nationwide. Walkthroughs happen on site or virtually, depending on what makes sense for your operation."
+    },
+    {
+      "q": "Does Monarch still offer marketing?",
+      "a": "Yes. Marketing has been part of Monarch from the start, and it's now one piece of a bigger offer that includes software, AI, training, scheduling, furniture, uniforms, and operations consulting, all from one team."
+    },
+    {
+      "q": "How do I get started with Monarch?",
+      "a": "Take the free AI assessment or call Christy at 727-383-6038. Either way, the next step is a walkthrough of your operation, on site or virtual, followed by a written plan you approve before anything starts."
+    },
+    {
+      "q": "How is Monarch different from a typical restaurant consultant?",
+      "a": "Our recommendations come with the work done. We build the software, write the training, run the marketing, and source furniture and uniforms, and you approve every piece before it goes live."
+    }
+  ],
+  "related": ["training", "operations", "marketing"]
+}

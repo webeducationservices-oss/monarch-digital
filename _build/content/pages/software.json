@@ -1,0 +1,151 @@
+{
+  "key": "software",
+  "title": "Restaurant App Development & Custom Software | Monarch",
+  "description": "Restaurant app development built around your service: guest apps, reservations, host stand, server tablets, and kitchen screens that work alongside your POS.",
+  "hero": {
+    "eyebrow": "Custom Restaurant Software",
+    "h1": "Restaurant App Development and Custom Software, Built Around Your Operation",
+    "sub": "Guest apps, reservations, host stand, server tablets, and kitchen screens, built from a walkthrough of your service and running alongside the POS you already have.",
+    "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+    "secondary_cta": {"label": "See Our Work", "href": "/case-study/"}
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "label": "Restaurant App Development",
+      "h2": "Restaurant app development that starts on your floor",
+      "body": [
+        "Our restaurant app development begins with your service. We walk through a full night with you, from the first reservation call to the last check. Then we build the screens your people need, including guest and member apps, staff portals, and admin tools.",
+        "Your custom restaurant software works alongside your POS. The POS keeps ringing in orders and taking payments, and the tools we build cover everything around it: who's coming tonight, where they'll sit, what they're allergic to, and how the kitchen is pacing.",
+        "We do the work. You guide the process. Nothing goes live until you approve it."
+      ]
+    },
+    {
+      "type": "split",
+      "label": "Host Stand and Waitlist",
+      "h2": "A host stand that sees the whole night",
+      "body": [
+        "Your host works the hardest spot in the building on a Friday night. We give them a live floor map with table status, a waitlist that quotes real waits, and ranked seat suggestions, so the next party gets the right table without a huddle at the stand."
+      ],
+      "bullets": [
+        "Tables that combine, plus a slider to preview later tonight",
+        "Live wait quotes and one-tap table-ready texts for walk-ins",
+        "Returning guests recognized by phone number",
+        "Server sections, rest time between seatings, and caps on covers per 15 minutes",
+        "A daily report on how accurate the wait quotes were"
+      ],
+      "media": "mockup:host",
+      "reverse": false
+    },
+    {
+      "type": "split",
+      "label": "Reservations and Guest Apps",
+      "h2": "Reservations and guest apps that give every request a clear answer",
+      "body": [
+        "Guests and members book on the web or on their phone. Full time slots show as unavailable, and every request ends somewhere clear: confirmed, offered an alternative, waitlisted, or held for your team to review."
+      ],
+      "bullets": [
+        "Booking windows that can differ by membership tier or guest type",
+        "An automatic waitlist that offers a freed-up table to the next party, then moves down the line",
+        "Reminder emails on your schedule, never overnight, in wording your managers can edit",
+        "Event RSVPs, messages to your team, and service requests in the same app"
+      ],
+      "media": "mockup:booking",
+      "reverse": true
+    },
+    {
+      "type": "split",
+      "label": "Server Tablets",
+      "h2": "Every server walks up already knowing the table",
+      "body": [
+        "The moment a party is seated, the server's tablet shows a brief with allergies first, then preferences, birthdays, and recent visits. Notes taken at the table save to the guest's file, so the next server knows too."
+      ],
+      "bullets": [
+        "A guest memory file with allergies, likes, birthdays, visits, and server notes, rebuilt every night",
+        "A shift plan that assigns the day's bookings to tables, with pre-shift, mid-shift, and checkout views and a printed day sheet",
+        "Server checkout with side work, plus a manager board for cutting staff and sending people home"
+      ],
+      "media": "mockup:brief",
+      "reverse": false
+    },
+    {
+      "type": "showcase",
+      "label": "Kitchen Display",
+      "h2": "A kitchen screen that shows BOH the pace of the room",
+      "sub": "A clock runs on every seated table, allergies show at the table, arrivals due are on screen, and a pacing line shows expo how the night is tracking. There's a full-screen display mode, and behind it sit pacing analysis, an allergen-filtered menu, and station prep sheets.",
+      "mockup": "kitchen",
+      "caption": "A kitchen display with a timer on every table, allergy flags, and the pacing line."
+    },
+    {
+      "type": "features",
+      "label": "Staff Portals and Admin Tools",
+      "h2": "The back office your managers keep asking for",
+      "sub": "The pieces that keep a restaurant running between services, built into the same system.",
+      "items": [
+        {"icon": "users", "title": "Staff portals", "text": "One login per hire for the operations app and the training academy. Offboarding cuts access immediately."},
+        {"icon": "settings", "title": "Admin tools", "text": "A careers pipeline with an electronic job application, house rules for turn times by season and party size, message templates, per-user access, and audit logs."},
+        {"icon": "message-circle", "title": "Texting", "text": "Table-ready texts for walk-ins, and each person's schedule texted when a manager publishes the week."},
+        {"icon": "truck", "title": "Outside services", "text": "Connections to the services you rely on. At a private dining club in Vail, Colorado, rides book straight into the local car service's dispatch system with live status."},
+        {"icon": "file-text", "title": "Reporting", "text": "Turn times, wait-quote accuracy, a nightly service rollup, scheduled email reports, and an audit email for every booking."},
+        {"icon": "refresh", "title": "Practice mode", "text": "A full practice simulator with sample guests, so new staff learn the system without touching a real reservation."}
+      ]
+    },
+    {
+      "type": "story",
+      "label": "Case Study",
+      "h2": "About seven months, from first line of code to opening",
+      "body": [
+        "For a private dining club in Vail, Colorado, we wrote the first line of code in April 2026, and the club opened in November 2026. The public website was live within the first month.",
+        "Along the way we built a member app for the web and mobile, reservations with booking windows by membership tier, an automatic waitlist, a host stand with a live map of 38 tables, server tablets, a kitchen screen, scheduling, a training academy, and an admin portal. That's 102 app screens across six web properties, and the operations tools run alongside the club's POS.",
+        "<a href=\"/case-study/\">Read the full case study</a>, or see how the same system runs <a href=\"/restaurant-scheduling/\">restaurant scheduling</a> and <a href=\"/restaurant-staff-training/\">staff training</a>."
+      ]
+    },
+    {
+      "type": "steps",
+      "label": "How We Work",
+      "h2": "How we build your restaurant software",
+      "sub": "We do the work. You guide the process.",
+      "items": [
+        {"title": "Listen", "text": "A walkthrough of your service, on site or virtual: what's working, what isn't, and what you want next."},
+        {"title": "Plan", "text": "A written plan with priorities, budget, and timeline. You approve it before we write any code."},
+        {"title": "Build", "text": "We build in rounds, starting with the screens that save your team the most time."},
+        {"title": "Review", "text": "You see every screen before it goes live, and your feedback shapes each round."},
+        {"title": "Launch and support", "text": "We roll it out with your team, train them on it, and stay on for support and improvements."}
+      ]
+    },
+    {
+      "type": "cta",
+      "h2": "Let's build what your restaurant runs on",
+      "sub": "Start with the free AI assessment. Answer about a dozen questions, and our AI emails you an evaluation of your operations and marketing gaps. Christy follows up personally.",
+      "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+      "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does custom restaurant software cost?",
+      "a": "Every engagement is scoped to your restaurant, so there's no price list. After a walkthrough, you get a written plan with priorities, budget, and timeline, and nothing starts until you approve it. You can begin with the piece that costs your team the most time, like the host stand or the waitlist, and add from there."
+    },
+    {
+      "q": "How long does a custom build take?",
+      "a": "It depends on scope, and your written plan sets the timeline before work begins. For a private dining club in Vail, Colorado, we went from the first line of code to opening in about seven months, with the public website live in the first month."
+    },
+    {
+      "q": "Will it work with my POS?",
+      "a": "Yes. Our software works alongside your POS. The POS keeps handling orders and payments, and the tools we build handle reservations, the host stand, guest files, pacing, and staff. If you're opening, we can also coordinate POS onboarding and hardware timing so everything is ready together."
+    },
+    {
+      "q": "Can you build a restaurant online ordering system?",
+      "a": "We scope it like everything else. Many POS systems already include online ordering, and if yours does the job, we'll keep it and make sure your website and guest app send people there. If you need something it can't do, we'll plan it with you."
+    },
+    {
+      "q": "What do I need to provide?",
+      "a": "Mostly your time and know-how. We'll ask for a walkthrough, your floor plan, house rules like turn times and party sizes, and a manager who can answer questions during the build. We do the work. You guide the process."
+    },
+    {
+      "q": "Do you work with single restaurants or groups?",
+      "a": "Both. We build for a single independent restaurant or a large multi-location group. For groups, every location runs the same system, so a host who picks up a shift across town already knows it."
+    }
+  ],
+  "related": ["ai", "training", "scheduling"]
+}

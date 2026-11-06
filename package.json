@@ -1,0 +1,13 @@
+{
+  "name": "monarch-digital",
+  "private": true,
+  "type": "module",
+  "description": "Static site for www.mymonarchdigital.com plus the AI assessment function in api/",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "zod": "^4.6.7"
+  }
+}

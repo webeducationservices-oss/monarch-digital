@@ -1,0 +1,201 @@
+{
+  "key": "home",
+  "title": "Restaurant Consulting, Tech & Supply Partner | Monarch",
+  "description": "Restaurant consulting from one white-glove partner: custom software, AI, staff training, marketing, furniture, and uniforms. Get your free AI assessment.",
+  "hero": {
+    "eyebrow": "Let Your Digital Transformation Begin With Monarch",
+    "h1": "Restaurant Consulting and Everything Your Operation Runs On, From One Partner",
+    "sub": "Software, AI, staff training, marketing, scheduling, furniture, and uniforms, built and sourced by one white-glove team for restaurants nationwide. We do the work. You guide the process.",
+    "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+    "secondary_cta": {"label": "See Our Work", "href": "/case-study/"}
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "label": "One Partner",
+      "h2": "Restaurant Consulting That Ends With the Work Done",
+      "body": [
+        "Monarch Digital is an all-in-one, white-glove partner for restaurant owners. Our restaurant consulting starts with a walkthrough of your operation and ends with the work done: software built, training written, marketing running, and furniture and uniforms sourced.",
+        "You get one team that knows covers, turns, and prime cost, with one plan tying every system together. We build our own software and AI, so the hospitality technology in your restaurant fits the way you run service, and everything we build works alongside the POS you already use."
+      ]
+    },
+    {
+      "type": "cards",
+      "label": "What We Do",
+      "h2": "Everything Your Restaurant Runs On, in One Place",
+      "sub": "Traditional and digital, brought together by one team.",
+      "items": [
+        {
+          "icon": "check-circle",
+          "title": "Staff Training and Custom LMS",
+          "text": "A training academy for every role, with daily lessons, quizzes, and trainer sign-offs, written by us from your recipes, SOPs, and handbook.",
+          "href": "/restaurant-staff-training/"
+        },
+        {
+          "icon": "code",
+          "title": "Custom Restaurant Software",
+          "text": "Guest apps, reservations, host stand, server tablets, and kitchen displays built around your floor and running alongside your POS.",
+          "href": "/custom-restaurant-software/"
+        },
+        {
+          "icon": "zap",
+          "title": "AI for Restaurants",
+          "text": "Assistants for operations evaluations, host help, server briefs, and marketing drafts, with a person confirming anything that books, publishes, or sends.",
+          "href": "/ai-for-restaurants/"
+        },
+        {
+          "icon": "calendar",
+          "title": "Scheduling and Labor Planning",
+          "text": "Weekly schedules drafted from your book, history, and staffing minimums, so labor follows your covers.",
+          "href": "/restaurant-scheduling/"
+        },
+        {
+          "icon": "clipboard",
+          "title": "Operations Consulting",
+          "text": "Pacing, table turns, wait times, prime cost, and menu engineering, evaluated with AI and improved alongside your team.",
+          "href": "/restaurant-operations-consulting/"
+        },
+        {
+          "icon": "map-pin",
+          "title": "Multi-Location Rollouts",
+          "text": "One standard for software, training, uniforms, and marketing at every location, from the flagship to the newest opening.",
+          "href": "/multi-location-restaurants/"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "label": "Guest-Facing",
+      "h2": "How Guests Find You, Where They Sit, and What Your Team Wears",
+      "sub": "Marketing, furniture, and uniforms come from the same team, on the same plan.",
+      "items": [
+        {
+          "icon": "target",
+          "title": "Restaurant Marketing",
+          "text": "Websites, SEO, Google Business Profile, social, paid ads, email and SMS, and reviews that keep covers coming in.",
+          "href": "/restaurant-marketing/"
+        },
+        {
+          "icon": "package",
+          "title": "Furniture and FF&E",
+          "text": "From floor plan and table configuration to samples, ordering, freight, and install timing, coordinated with your designer and builders.",
+          "href": "/restaurant-furniture/"
+        },
+        {
+          "icon": "tag",
+          "title": "Uniform Programs",
+          "text": "Role-based uniforms for FOH, BOH, bar, host, and valet, with sizing, logo work, new-hire kits, and reorders handled for you.",
+          "href": "/restaurant-uniforms/"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "label": "How We Work",
+      "h2": "White-Glove Service in Five Steps",
+      "sub": "We do the work. You guide the process.",
+      "items": [
+        {"title": "Listen", "text": "A walkthrough of your operation, on site or virtual. What's working, what isn't, and what you want next."},
+        {"title": "Plan", "text": "A written plan with priorities, budget, and timeline. You approve it before anything starts."},
+        {"title": "Build and Source", "text": "We build the software, write the training, source furniture and uniforms, and set up your marketing."},
+        {"title": "Review", "text": "You see every piece before it goes live, and your feedback shapes each round."},
+        {"title": "Launch and Support", "text": "We roll it out with your team, train them, and stay on for support and improvements."}
+      ]
+    },
+    {
+      "type": "showcase",
+      "label": "Free AI Assessment",
+      "h2": "Find Out What to Fix First With a Free AI Assessment",
+      "sub": "Answer about a dozen questions and name your restaurant. Our AI reads your answers, your Google listing and reviews, and your website, then emails you an evaluation of your operations and marketing gaps. Christy follows up personally.",
+      "mockup": "report",
+      "caption": "A sample report with scores for operations, team, guest experience, marketing, reviews, and website."
+    },
+    {
+      "type": "intro",
+      "label": "Case Study",
+      "h2": "Everything a Private Dining Club in Vail Runs On, Built in About Seven Months",
+      "body": [
+        "For a private dining club in Vail, Colorado, we built the member app, host stand, server tablets, kitchen screens, scheduling, a custom training academy, and 13 AI assistants. We also handled the website and marketing, coordinated the furniture, and managed the project. The public website was live within the first month, and the club opened about seven months after our first line of code. The same team and process scale down to a single dining room. <a href=\"/case-study/\">See how we built it</a>."
+      ]
+    },
+    {
+      "type": "stats",
+      "items": [
+        {"number": "13", "label": "AI assistants"},
+        {"number": "102", "label": "app screens"},
+        {"number": "13", "label": "training academies, 10 days each"},
+        {"number": "98", "label": "SEO audit score, up from 66"}
+      ]
+    },
+    {
+      "type": "features",
+      "label": "Who We Serve",
+      "h2": "From One Dining Room to Every Location You Run",
+      "sub": "Restaurants come first, and our hospitality consulting reaches private clubs and hotel and resort food and beverage teams too.",
+      "items": [
+        {
+          "icon": "heart",
+          "title": "Independent Restaurants",
+          "text": "Owner-operators who want the systems a big group runs on, sized for one dining room and one team."
+        },
+        {
+          "icon": "map",
+          "title": "Multi-Location Groups",
+          "text": "One standard for software, training, uniforms, and marketing, so every new opening starts from the same playbook."
+        },
+        {
+          "icon": "star",
+          "title": "Private Clubs",
+          "text": "Member apps, tiered booking windows, guest memory, and staff academies, like the work we did for a private dining club in Vail."
+        },
+        {
+          "icon": "sun",
+          "title": "Hotels and Resorts",
+          "text": "Food and beverage teams that need training, scheduling, uniforms, and marketing working as one program across outlets."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "label": "Meet the Founder",
+      "h2": "Christy Renner Built Monarch to Help Owners Turn Vision Into Reality",
+      "body": [
+        "Christy Renner, our Founder and CEO, grew up just outside Pittsburgh and built a career across manufacturing, operations, customer loyalty programs, community relations, and business development. After years of working alongside family-owned businesses in Tampa Bay, she created Monarch, named for a butterfly and a promise from a dear friend. Transformation has been the idea from the start, and her favorite part of the job is still helping passionate owners turn vision into reality. <a href=\"/about/\">Read Christy's story</a>."
+      ]
+    },
+    {
+      "type": "cta",
+      "h2": "Let Your Transformation Begin With Monarch",
+      "sub": "It takes about a dozen questions. You'll get an evaluation of your operations and marketing gaps by email, and Christy follows up personally.",
+      "primary_cta": {"label": "Get Your Free AI Assessment", "href": "/ai-assessment/"},
+      "secondary_cta": {"label": "Talk to Christy", "href": "/contact/"}
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does restaurant consulting with Monarch cost?",
+      "a": "Every engagement is scoped to your restaurant. After the walkthrough, you get a written plan with priorities, budget, and timeline, and nothing starts until you approve it. The free AI assessment is a good first look at your gaps."
+    },
+    {
+      "q": "How long does a project take?",
+      "a": "It depends on what we're building, and your written plan sets the timeline before work starts. For scale, our private dining club project in Vail went from first line of code to opening in about seven months."
+    },
+    {
+      "q": "How does your software fit with my POS?",
+      "a": "It runs alongside your existing POS, so your team keeps ringing in orders the way they do today. On bigger projects we can also coordinate POS onboarding and hardware timing, and build POS lessons into your training academy."
+    },
+    {
+      "q": "What do I need to provide?",
+      "a": "Time for the walkthrough, plus what you already have: recipes, SOPs, your handbook, menus, brand files, and vendor contacts. We write and build from there, and you review and approve each piece."
+    },
+    {
+      "q": "Do you work with single restaurants or only groups?",
+      "a": "Both. We work with single independent restaurants and large multi-location projects. The process stays the same, and the plan scales to fit."
+    },
+    {
+      "q": "Is Monarch a restaurant management company?",
+      "a": "We're a consulting and build partner. You and your team keep running service and making the calls, while we build and set up the systems behind it: software, training, marketing, scheduling, and sourcing. Then we stay on for support."
+    }
+  ],
+  "related": ["training", "software", "ai"]
+}

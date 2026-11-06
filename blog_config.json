@@ -9,23 +9,30 @@
   "post_url_prefix": "/blog/",
   "image_folder": "images/blog",
   "image_url_prefix": "/images/blog/",
-  "reference_post": "blog/essential-seo-tips-to-boost-traffic/index.html",
+  "reference_post": "blog/restaurant-training-program-lms/index.html",
   "card_container_selector": "#postGrid",
   "card_class": "post-card",
   "filter_mechanism": "data-attribute",
   "filter_attribute": "data-cat",
   "filter_selector": null,
   "categories": [
-    "SEO",
-    "Content Marketing",
-    "Social Media",
-    "Email Marketing",
-    "Branding",
-    "Industry Strategies",
-    "Small Business Tips"
+    "Furniture & Design",
+    "Marketing",
+    "Multi-Location",
+    "Opening a Restaurant",
+    "Operations",
+    "Scheduling & Labor",
+    "Software & AI",
+    "Training",
+    "Uniforms"
   ],
   "tags": [],
-  "layouts": ["cards", "quote", "cta", "callout"],
+  "layouts": [
+    "cards",
+    "quote",
+    "cta",
+    "callout"
+  ],
   "meta": {
     "default_author": "Monarch Digital",
     "default_author_type": "Organization",
@@ -34,11 +41,11 @@
     "sitemap_path": "sitemap.xml",
     "sidebar_includes_related": true,
     "sidebar_includes_cta": true,
-    "cta_text": "Book an Audit",
-    "cta_href": "/#contact",
+    "cta_text": "Get Your Free AI Assessment",
+    "cta_href": "/ai-assessment/",
     "publisher_type": "Organization",
-    "publisher_name": "Monarch Digital Marketing",
-    "publisher_logo": "https://www.mymonarchdigital.com/images/logo.webp",
+    "publisher_name": "Monarch Digital",
+    "publisher_logo": "https://www.mymonarchdigital.com/images/butterfly-hero.png",
     "blog_url_prefix": "/blog/"
   }
 }

@@ -2,57 +2,225 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.mymonarchdigital.com/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.mymonarchdigital.com/services/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.mymonarchdigital.com/content-creation/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <loc>https://www.mymonarchdigital.com/custom-restaurant-software/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/ai-for-restaurants/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/restaurant-staff-training/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/restaurant-marketing/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/restaurant-scheduling/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/restaurant-operations-consulting/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/restaurant-furniture/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/restaurant-uniforms/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/multi-location-restaurants/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/ai-assessment/</loc>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.mymonarchdigital.com/blogging/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <loc>https://www.mymonarchdigital.com/case-study/</loc>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.mymonarchdigital.com/email-marketing/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <loc>https://www.mymonarchdigital.com/about/</loc>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.mymonarchdigital.com/social-media/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mymonarchdigital.com/digital-advertising/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.mymonarchdigital.com/seo-analysis/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <loc>https://www.mymonarchdigital.com/contact/</loc>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.mymonarchdigital.com/blog/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/server-dress-code/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/restaurant-schedule-template/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/restaurant-employee-handbook/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/restaurant-employee-turnover/</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/multi-location-restaurant-marketing/</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/server-training-checklist/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/restaurant-sops/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/ai-transforming-marketing-landscape/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/the-world-is-changing-are-you/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/how-to-open-a-restaurant-checklist/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/ai-in-hospitality/</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/resy-vs-opentable-vs-sevenrooms/</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/uniform-rental-vs-buying/</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/how-to-calculate-food-cost/</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/restaurant-profit-margins/</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/restaurant-loyalty-program/</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/toast-vs-square-vs-clover/</loc>
+    <lastmod>2026-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/cost-to-open-a-restaurant/</loc>
+    <lastmod>2025-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/what-is-ffe-restaurant/</loc>
+    <lastmod>2025-12-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/restaurant-floor-plan/</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mymonarchdigital.com/blog/restaurant-business-plan/</loc>
+    <lastmod>2025-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.mymonarchdigital.com/blog/managing-minutes-maximizing-reach-digital-marketing-strategies-for-pt-clinics/</loc>
@@ -91,13 +259,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.mymonarchdigital.com/blog/make-the-most-of-the-season-by-following-these-simple-guidelines/</loc>
+    <loc>https://www.mymonarchdigital.com/blog/keep-in-touch-with-site-visitors-and-boost-loyalty/</loc>
     <lastmod>2022-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.mymonarchdigital.com/blog/keep-in-touch-with-site-visitors-and-boost-loyalty/</loc>
+    <loc>https://www.mymonarchdigital.com/blog/make-the-most-of-the-season-by-following-these-simple-guidelines/</loc>
     <lastmod>2022-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -105,18 +273,6 @@
   <url>
     <loc>https://www.mymonarchdigital.com/blog/tips-for-writing-great-posts-that-increase-your-site-traffic/</loc>
     <lastmod>2022-06-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.mymonarchdigital.com/blog/ai-transforming-marketing-landscape/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.mymonarchdigital.com/blog/the-world-is-changing-are-you/</loc>
-    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

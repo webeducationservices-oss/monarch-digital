@@ -79,7 +79,7 @@ Write down what you hear and follow up on it before the next check-in.
 
 ### Post schedules early and keep them steady
 
-Publish the schedule at least a week ahead, and two weeks if you can. Honor availability, rotate the good sections fairly, and keep changes to a minimum. When something does change, tell only the people it affects. For a private dining club in Vail, Colorado, we built scheduling that texts each person their week when it's published and texts only the affected people when something changes later. Our [restaurant schedule template](/blog/restaurant-schedule-template/) walks through building a week from your sales forecast.
+Publish the schedule at least a week ahead, and two weeks if you can. Honor availability, rotate the good sections fairly, and keep changes to a minimum. When something does change, tell only the people it affects. The scheduling software we build texts each person their week when it's published and texts only the affected people when something changes later. Our [restaurant schedule template](/blog/restaurant-schedule-template/) walks through building a week from your sales forecast.
 
 ### Make pay and tip rules plain
 

@@ -93,7 +93,7 @@ Line cooks and servers spot broken steps first. Give them a simple way to flag o
 
 A binder works for one kitchen. Across several, a digital SOP library means one update reaches every location at once, every hire sees the current version on a phone or tablet, and you can see who's been trained on what.
 
-Some standards work best built into the tools your team already uses every shift. For a private dining club in Vail, Colorado, we built house rules for turn times by season and party size into the club's admin tools, and its training academy records which version of the handbook each person signed. That's the heart of good [multi-unit restaurant management](/multi-location-restaurants/): the standard lives in one place, and every location works from it.
+Some standards work best built into the tools your team already uses every shift. When we build software for a restaurant, house rules like turn times by season and party size live in the admin tools, and the training academy records which version of the handbook each person signed. That's the heart of good [multi-unit restaurant management](/multi-location-restaurants/): the standard lives in one place, and every location works from it.
 
 ## How Monarch Helps
 

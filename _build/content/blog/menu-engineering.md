@@ -102,7 +102,7 @@ The same math works on cocktails, wine by the glass, beer, and desserts. Beverag
 
 ## How often to re-run it
 
-Run it quarterly, and again after any menu change, price change, or big supplier increase. Seasonal menus get a fresh run at every change. Keep each version, because the trend over a year tells you more than any single month. Menu engineering is one of the most direct levers on [restaurant profit margins](/blog/restaurant-profit-margins/), since it changes what every cover earns. It's also one of the first things our [restaurant operations consulting](/restaurant-operations-consulting/) team looks at, right alongside prime cost and labor.
+Run it quarterly, and again after any menu change, price change, or big supplier increase. Seasonal menus get a fresh run at every change. Keep each version, because the trend over a year tells you more than any single month. Menu engineering moves your [restaurant profit margins](/blog/restaurant-profit-margins/) directly, since it changes what every cover earns. It's also one of the first things our [restaurant operations consulting](/restaurant-operations-consulting/) team looks at, right alongside prime cost and labor.
 
 ## How Monarch helps
 

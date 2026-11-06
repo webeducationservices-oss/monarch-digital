@@ -404,15 +404,23 @@ SCREENS = {"host": host, "schedule": schedule, "kitchen": kitchen, "lms": lms, "
 
 def render(name):
     html, (w, h) = SCREENS[name]()
+    # Headless Chrome will not lay out narrower than about 500px, so phone screens are pinned
+    # to their real width inside a wider window and cropped back afterwards.
+    win_w = w
+    if w < 500:
+        win_w = 520
+        html = html.replace("</head>", f"<style>html,body{{width:{w}px!important;min-width:{w}px}}.illus{{left:14px;right:auto}}</style></head>", 1)
     with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False, encoding="utf-8") as fh:
         fh.write(html)
         src = fh.name
     png = os.path.join(tempfile.gettempdir(), f"mock-{name}.png")
     subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--allow-file-access-from-files",
-                    f"--force-device-scale-factor=2", f"--window-size={w},{h}", f"--screenshot={png}",
+                    f"--force-device-scale-factor=2", f"--window-size={win_w},{h}", f"--screenshot={png}",
                     "--virtual-time-budget=1500", f"file://{src}"],
                    check=True, capture_output=True)
     img = Image.open(png).convert("RGB")
+    if win_w != w:
+        img = img.crop((0, 0, w * 2, img.size[1]))
     target_w = 1800 if w > 1000 else 780
     if img.size[0] > target_w:
         img = img.resize((target_w, int(img.size[1] * target_w / img.size[0])), Image.LANCZOS)

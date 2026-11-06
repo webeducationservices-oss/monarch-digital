@@ -15,7 +15,7 @@ Most server training comes down to a couple of shadow shifts, a menu to study at
 
 Each day has one focus, a short lesson, time on the floor with a trainer, and a quiz at the end. The trainee moves on to the next day only after passing that quiz and getting the trainer's sign-off. Trainers work from the same checklist for every hire, so a server trained in March learns exactly what a server trained in September learns.
 
-We built this structure for a private dining club in Vail, Colorado: 13 role-based academies, 10 days each, where a daily quiz and the trainer's sign-off open up the next day. Servers, hosts, back waiters, bartenders, and captains each have their own track. The checklist below follows the same general shape, adapted for a typical full-service restaurant.
+This is the structure we use when we build a training academy: role-based tracks, 10 days each, where a daily quiz and the trainer's sign-off open up the next day. Servers, hosts, back waiters, bartenders, and captains each get their own track. The checklist below follows the same general shape, adapted for a typical full-service restaurant.
 
 ## Server Training, Day by Day
 

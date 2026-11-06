@@ -94,7 +94,7 @@ At the end of the week, compare scheduled hours to actual hours, labor percentag
 
 ## Where Software Saves the Hours
 
-A spreadsheet works, and it eats a manager's afternoon every week. [Restaurant scheduling software](/restaurant-scheduling/) can draft the week for you. For a private dining club in Vail, Colorado, we built scheduling that drafts each week from the book, staffing minimums, and history. Drafts respect availability, time off, and 40-hour caps, flag part-timers over 29 hours, and never split a shift. Publishing texts each person their week, and later changes text only the people affected. Managers approve swap and time-off requests, and a weekly hours report shows where the time went.
+A spreadsheet works, and it eats a manager's afternoon every week. [Restaurant scheduling software](/restaurant-scheduling/) can draft the week for you. The scheduling we build drafts each week from the book, staffing minimums, and history. Drafts respect availability, time off, and 40-hour caps, flag part-timers over 29 hours, and never split a shift. Publishing texts each person their week, and later changes text only the people affected. Managers approve swap and time-off requests, and a weekly hours report shows where the time went.
 
 ## How Monarch Helps
 

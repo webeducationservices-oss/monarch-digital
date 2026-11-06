@@ -67,7 +67,7 @@ AI can draft replies in your voice so none sit unanswered, as long as a manager 
 
 ## Posts and updates
 
-Google posts are a quick way to share events, specials, seasonal menus, and holiday hours. A weekly or every-other-week rhythm keeps the profile looking active. Lead with a strong photo and use one clear button, like Book or Order online. For calls, attach the post's Call button, which uses the number already on your profile.
+Google posts are a quick way to share events, specials, seasonal menus, and holiday hours. A weekly or every-other-week rhythm keeps the profile looking active. Lead with a strong photo and use one clear button, like Book or Order online. For calls, attach the post's Call now button, which uses the number already on your profile.
 
 ## Questions now go to Google's AI
 

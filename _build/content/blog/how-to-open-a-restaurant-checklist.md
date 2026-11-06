@@ -15,7 +15,7 @@ Requirements vary by state, county, and city. Use this as a framework, and confi
 
 ## Get the long lead items moving first
 
-Some items take months in many markets, and none of them can be rushed at the end. Start these as soon as your concept and location are firm:
+Some items take months in many markets, and none of them can be rushed at the end. Put these on the calendar as soon as your concept and location are firm:
 
 | Item | Why it takes time | When to start |
 |---|---|---|
@@ -115,16 +115,16 @@ Each of these usually comes from a different office, and some depend on others:
 
 - Signing a lease before a contractor confirms the hood, gas, grease trap, and electrical can support your menu.
 - Spending the contingency during build-out and opening with no working capital left.
-- Ordering custom furniture after the floor plan changes for the third time.
+- Finalizing the floor plan so late that custom furniture can't arrive in time.
 - Hiring so late that the crew meets the menu during soft opening.
 - Opening with a menu bigger than a new kitchen can execute.
-- Saving marketing for the week before the doors open, when the profile, website, and email list needed months to build.
+- Saving marketing for the week before the doors open, when the profile, website, and email list all take time to build.
 - Skipping mock services because the schedule is tight.
 
 ## Keep one owner and one calendar
 
-Openings slip when tasks live in five different inboxes. Put every item above on one shared calendar with an owner and a due date, and review it weekly with your contractor, chef, and GM. When a date moves, move everything that depends on it the same day. Keeping that calendar current, and chasing the vendors behind it, is a big part of what our [restaurant operations consulting](/restaurant-operations-consulting/) covers for owners who are opening.
+Openings slip when tasks live in five different inboxes. Put every item above on one shared calendar with an owner and a due date, and review it weekly with your contractor, chef, and GM. When a date moves, move everything that depends on it the same day. Keeping that calendar current, and chasing the vendors behind it, is a big part of what our [restaurant operations consulting](/restaurant-operations-consulting/) covers for owners who are opening. If you already run a restaurant and you're opening another, our [free AI assessment](/ai-assessment/) gives you a quick read on your current operation first, and Christy follows up personally.
 
 ## How Monarch helps
 
-Our [operations team](/restaurant-operations-consulting/) can run this checklist with you from the written plan to opening week, coordinating vendors, software, training, and marketing along the way. If you already run a restaurant and you're opening another, our [free AI assessment](/ai-assessment/) gives you a quick read on your current operation first, and Christy follows up personally.
+Our [operations team](/restaurant-operations-consulting/) can run this checklist with you from the written plan to opening week, coordinating vendors, software, training, and marketing along the way. We do the work. You guide the process.

@@ -43,7 +43,7 @@ Say you have a 34-foot wall, or 408 inches, for a run of four-top booths. At 72 
 
 - **Single booths** back up to a wall or a window line.
 - **Double booths** sit back to back and work in the middle of a room or as a divider. The common footprint is about 46 inches long by 44 inches deep.
-- **Half-circle and three-quarter-circle booths** suit corners and larger parties. Published sizes run about 46 by 88 inches for a half circle and about 88 by 88 inches for a three-quarter circle, with a corner-cut table.
+- **Half-circle and three-quarter-circle booths** suit corners and larger parties. Published sizes vary, and one common listing puts a half circle at about 46 by 88 inches and a three-quarter circle at about 88 by 88 inches, each with a corner-cut table.
 - **Wall benches, or banquettes,** run any length with loose chairs on the open side, so you can split a long bench into two-tops or four-tops as the night needs.
 - **High-back booths** add privacy and quiet, and they block sight lines, so check what a server can see from the station.
 
@@ -74,7 +74,7 @@ That keeps roughly 10 to 12 inches between the seat and the tabletop at every he
 
 ## Aisles and spacing
 
-- Allow about 18 inches from the table edge to the back of a pulled-in chair.
+- Allow about 18 inches from the table edge to the back of the chair for a seated guest.
 - Main traffic aisles are commonly planned at 48 to 60 inches, and secondary aisles at 36 to 44 inches.
 - Keep accessible routes at least 36 inches wide.
 - Give extra room at the kitchen door, server stations, host stand, and restrooms, where trays and guests cross paths.
@@ -98,7 +98,7 @@ A standard booth gives a wheelchair user nowhere to pull up, so plan accessible 
 | Comfort and privacy | High | Moderate |
 | Flexibility | Fixed in place | Combine for larger parties |
 | Floor use | Efficient along walls and windows | Works anywhere, with more aisle space |
-| Cleaning | Needs a cleanable, commercial-grade upholstery | Quick to wipe down |
+| Cleaning | Needs cleanable, commercial-grade upholstery | Quick to wipe down |
 | Lead time | Custom booths take longer | Stock options ship faster |
 
 Many dining rooms mix both, with booths on the perimeter and flexible tables in the middle. For more on laying out the whole room, see our guide to [restaurant floor plans](/blog/restaurant-floor-plan/).
@@ -113,8 +113,8 @@ Many dining rooms mix both, with booths on the perimeter and flexible tables in 
 - Set delivery and install dates with your contractor so booths arrive after flooring and paint.
 - Budget furniture as part of your full FF&E plan. Our explainer on [what FF&E means](/blog/what-is-ffe-restaurant/) covers the categories and how to budget them.
 
-Keeping the designer, the builder, the manufacturer, and the installer working from the same measurements is the core of our [restaurant furniture](/restaurant-furniture/) work.
+Keeping the designer, the builder, the manufacturer, and the installer working from the same measurements is the core of our [restaurant furniture](/restaurant-furniture/) work. If you'd like a broader read on your operation first, our [free AI assessment](/ai-assessment/) is a quick place to begin, and Christy follows up personally.
 
 ## How Monarch helps
 
-We coordinate [restaurant furniture and FF&E](/restaurant-furniture/) from the floor plan and table configuration through samples, ordering, freight, and install timing, working alongside your designer and builders. Our [free AI assessment](/ai-assessment/) is a quick way to see where the rest of your operation stands, and Christy follows up personally.
+We coordinate [restaurant furniture and FF&E](/restaurant-furniture/) from the floor plan and table configuration through samples, ordering, freight, and install timing, working alongside your designer and builders. We do the work. You guide the process.

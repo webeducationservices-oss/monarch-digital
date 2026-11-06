@@ -79,7 +79,7 @@ A handbook only works if people read it and you can show they received it.
 
 - **Keep it readable.** Plain words, short sections, a table of contents, and a Spanish version if part of your team reads Spanish first.
 - **Walk through it on day one.** Spend 20 minutes on the sections that come up most on a shift: tips, call-outs, allergens, and phones.
-- **Collect e-signatures that record the version.** When the handbook changes, you need to know who signed which version. At a private dining club in Vail, Colorado, the training academy we built records which version of the handbook each person signed.
+- **Collect e-signatures that record the version.** When the handbook changes, you need to know who signed which version. The training academies we build record which version of the handbook each person signed.
 - **Quiz the key policies.** A few questions on tips, call-outs, and allergens show you who read it.
 - **Date every version.** When something changes, publish the new version, note what changed, and collect new signatures.
 - **Review it every year.** Laws change, and so does your restaurant. Put a yearly review with your attorney on the calendar.

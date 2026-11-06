@@ -88,11 +88,11 @@ Split the number before you react, and compare COGS and labor to their own targe
 - **If labor moved,** compare scheduled hours to actual hours, look for overtime, and check whether sales came in under forecast.
 - **If sales dropped,** expect most of the damage in labor percentage. COGS falls along with sales, and a fixed schedule doesn't.
 
-## A Monday routine that takes 30 minutes
+## A short Monday routine
 
 1. Pull last week's sales from the POS.
 2. Add up purchases from that week's invoices.
-3. Use Sunday night's inventory count as ending inventory.
+3. Count inventory at the close of the week, Sunday night if your week ends Sunday, and use it as ending inventory.
 4. Pull total labor from payroll, or estimate it from the time clock plus a payroll tax percentage your accountant gives you.
 5. Calculate prime cost, labor cost, and SPLH, and write them next to the targets.
 

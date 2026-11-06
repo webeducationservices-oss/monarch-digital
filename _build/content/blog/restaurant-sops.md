@@ -30,7 +30,7 @@ Keep every SOP to one task and about one page. Use the same fields every time, s
 | Field | What goes in it | Example: bar close |
 |---|---|---|
 | Title | One task, named the way your team says it | Bar close |
-| Purpose | One line on why it matters | The morning crew walks into a clean, stocked, locked bar |
+| Purpose | One line on why it matters | The morning crew opens to a clean, fully stocked bar |
 | Who | The role that does it and the role that checks it | Closing bartender, checked by the closing manager |
 | When | The time or trigger | After last call, before checkout |
 | Tools | What they need on hand | Sanitizer, par sheet, keys, clean towels |

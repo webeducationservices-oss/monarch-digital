@@ -83,7 +83,7 @@ The trick is making them repeatable. Keep guest notes where the team sees them w
 - **Make it one step.** For most guests, a phone number at checkout is easier than downloading an app.
 - **Give an immediate reason.** A dessert or an appetizer on the next visit gets the first return trip.
 - **Get consent before texting.** Use clear opt-in language and an easy opt-out, and follow SMS marketing rules.
-- **Train the team, then track it.** Enrollment rate is checks with a member attached divided by total checks. Share it by server and celebrate the people who ask every table.
+- **Train the team, then track it.** Share the enrollment rate by server each week and celebrate the people who ask every table.
 
 A program your staff never mentions won't grow, so build the ask into onboarding and [restaurant staff training](/restaurant-staff-training/), right alongside menu knowledge and steps of service.
 

@@ -95,7 +95,7 @@
       "label": "Case Study",
       "h2": "About seven months, from first line of code to opening",
       "body": [
-        "For a private dining club in Vail, Colorado, we wrote the first line of code in April 2026, and the club opened in November 2026. The public website was live within the first month.",
+        "For a private dining club in Vail, Colorado, we wrote the first line of code in April 2026 and built everything for the club's November 2026 opening. The public website was live within the first month.",
         "Along the way we built a member app for the web and mobile, reservations with booking windows by membership tier, an automatic waitlist, a host stand with a live map of 38 tables, server tablets, a kitchen screen, scheduling, a training academy, and an admin portal. That's 102 app screens across six web properties, and the operations tools run alongside the club's POS.",
         "<a href=\"/case-study/\">Read the full case study</a>, or see how the same system runs <a href=\"/restaurant-scheduling/\">restaurant scheduling</a> and <a href=\"/restaurant-staff-training/\">staff training</a>."
       ]

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.className='js'</script>
+  <title>Voice AI for Restaurants: What to Test Before It Answers Calls | Monarch Digital</title>
+  <meta name="description" content="Before voice AI for restaurants answers your phone, test it. A practical test plan, common failure modes, handoff rules, and who confirms bookings.">
+  <link rel="canonical" href="https://www.mymonarchdigital.com/blog/ai-phone-answering-restaurants/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Monarch Digital">
+  <meta property="og:title" content="Voice AI for Restaurants: What to Test Before It Answers Calls | Monarch Digital">
+  <meta property="og:description" content="Before voice AI for restaurants answers your phone, test it. A practical test plan, common failure modes, handoff rules, and who confirms bookings.">
+  <meta property="og:url" content="https://www.mymonarchdigital.com/blog/ai-phone-answering-restaurants/">
+  <meta property="og:image" content="https://www.mymonarchdigital.com/images/rebrand/og/blog-ai-phone-answering-restaurants.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Voice AI for Restaurants: What to Test Before It Answers Calls | Monarch Digital">
+  <meta name="twitter:description" content="Before voice AI for restaurants answers your phone, test it. A practical test plan, common failure modes, handoff rules, and who confirms bookings.">
+  <meta name="twitter:image" content="https://www.mymonarchdigital.com/images/rebrand/og/blog-ai-phone-answering-restaurants.jpg">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#1F1F1F">
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/inter-400.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/montserrat-800.woff2" crossorigin>
+  <link rel="preload" as="image" href="/images/rebrand/blog-ai-phone-answering-restaurants.webp" fetchpriority="high">
+  <link rel="stylesheet" href="/styles.css?v=82f40ebe">
+  <script src="/components.js?v=1fcb312a" defer></script>
+  <script src="/ada-widget.js" data-color="#1F1F1F" data-mobile-bottom="16" defer></script>
+  <!-- myaieditor inline-edit loader (no-op for real visitors) -->
+  <script src="/mae-edit-loader.js" async></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Voice AI for Restaurants: What to Test Before It Answers Calls", "description": "Before voice AI for restaurants answers your phone, test it. A practical test plan, common failure modes, handoff rules, and who confirms bookings.", "image": "https://www.mymonarchdigital.com/images/rebrand/og/blog-ai-phone-answering-restaurants.jpg", "datePublished": "2026-10-13", "dateModified": "2026-10-13", "author": {"@type": "Organization", "name": "Monarch Digital"}, "publisher": {"@type": "Organization", "name": "Monarch Digital", "logo": {"@type": "ImageObject", "url": "https://www.mymonarchdigital.com/images/butterfly-hero.png"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.mymonarchdigital.com/blog/ai-phone-answering-restaurants/"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.mymonarchdigital.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.mymonarchdigital.com/blog/"}, {"@type": "ListItem", "position": 3, "name": "Voice AI for Restaurants: What to Test Before It Answers Calls", "item": "https://www.mymonarchdigital.com/blog/ai-phone-answering-restaurants/"}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="header" id="header">
+    <div class="container header-inner">
+      <a href="/" class="logo " aria-label="Monarch Digital home">
+        <img src="/images/rebrand/butterfly-mark.webp" alt="" width="42" height="42">
+        <span class="logo-text"><span class="logo-name">Monarch Digital</span><span class="logo-tag">Hospitality Infrastructure</span></span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <div class="nav-drop">
+          <button type="button" aria-expanded="false" aria-haspopup="true">Services <svg aria-hidden="true" focusable="false" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="drop-panel"><a href="/custom-restaurant-software/"><span class="di"><svg aria-hidden="true" focusable="false" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span><span><strong>Custom Software</strong><span class="dd">Apps, reservations, host stand, kitchen screens</span></span></a><a href="/ai-for-restaurants/"><span class="di"><svg aria-hidden="true" focusable="false" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span><span><strong>AI Assistants</strong><span class="dd">Operations evaluations and marketing help</span></span></a><a href="/restaurant-staff-training/"><span class="di"><svg aria-hidden="true" focusable="false" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></span><span><strong>Training and LMS</strong><span class="dd">Custom online learning for every role</span></span></a><a href="/restaurant-marketing/"><span class="di"><svg aria-hidden="true" focusable="false" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span><span><strong>Marketing</strong><span class="dd">SEO, social, ads, email, and reviews</span></span></a><a href="/restaurant-scheduling/"><span class="di"><svg aria-hidden="true" focusable="false" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span><span><strong>Scheduling and Labor</strong><span class="dd">Weekly drafts that protect margin</span></span></a><a href="/restaurant-operations-consulting/"><span class="di"><svg aria-hidden="true" focusable="false" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09a1.65 1.65 0 00-1.08-1.51 1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09a1.65 1.65 0 001.51-1.08 1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001.08 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9c.26.604.852.997 1.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1.08z"/></svg></span><span><strong>Operations Consulting</strong><span class="dd">Pacing, turns, prime cost, SOPs</span></span></a><a href="/restaurant-furniture/"><span class="di"><svg aria-hidden="true" focusable="false" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9"/><path d="M5 10v10a1 1 0 001 1h3v-6h6v6h3a1 1 0 001-1V10"/></svg></span><span><strong>Furniture and FF&amp;E</strong><span class="dd">From floor plan to install</span></span></a><a href="/restaurant-uniforms/"><span class="di"><svg aria-hidden="true" focusable="false" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></span><span><strong>Uniform Programs</strong><span class="dd">Every role, every location</span></span></a><a href="/multi-location-restaurants/"><span class="di"><svg aria-hidden="true" focusable="false" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg></span><span><strong>Multi-Location</strong><span class="dd">One standard across every unit</span></span></a><a class="drop-all" href="/services/">See every service <svg aria-hidden="true" focusable="false" class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a></div>
+        </div>
+        <a href="/case-study/">Our Work</a>
+        <a href="/about/">About</a>
+        <a href="/blog/" aria-current="page">Blog</a>
+        <a href="/contact/">Contact</a>
+        <a href="/ai-assessment/" class="btn btn-gold nav-cta">Free AI Assessment</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+    <div class="m-label">Services</div>
+    <div class="m-sub"><a href="/custom-restaurant-software/">Custom Software</a><a href="/ai-for-restaurants/">AI Assistants</a><a href="/restaurant-staff-training/">Training and LMS</a><a href="/restaurant-marketing/">Marketing</a><a href="/restaurant-scheduling/">Scheduling and Labor</a><a href="/restaurant-operations-consulting/">Operations Consulting</a><a href="/restaurant-furniture/">Furniture and FF&amp;E</a><a href="/restaurant-uniforms/">Uniform Programs</a><a href="/multi-location-restaurants/">Multi-Location</a><a href="/services/">All services</a></div>
+    <div class="m-label">Company</div>
+    <a href="/case-study/">Our Work</a><a href="/about/">About</a><a href="/blog/">Blog</a><a href="/contact/">Contact</a>
+    <a href="/ai-assessment/" class="btn btn-gold">Get Your Free AI Assessment</a>
+  </nav>
+  <main id="main">
+  <section class="blog-post-hero">
+    <div class="container">
+      <img src="/images/rebrand/blog-ai-phone-answering-restaurants.webp" alt="Voice AI for Restaurants: What to Test Before It Answers Calls" width="1600" height="900" loading="eager" fetchpriority="high">
+      <div class="blog-post-hero-content">
+        <span class="blog-post-cat">Software &amp; AI</span>
+        <h1>Voice AI for Restaurants: What to Test Before It Answers Calls</h1>
+        <div class="post-meta">
+          <span>Monarch Digital</span>
+          <span class="post-meta-dot"></span>
+          <span>October 13, 2026</span>
+          <span class="post-meta-dot"></span>
+          <span>6 min read</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="blog-post-wrap">
+    <article class="blog-article">
+<p>Voice AI for restaurants has gone from a demo to something you can buy for your own phone line. These systems answer calls, handle common questions, and in many cases take reservation requests or to-go orders while your host is seating a six-top. Before one talks to your guests, you want to know how it handles your calls on a Friday at 7:15. Below is what these products do, how to test one, where they tend to fail, and how handoff to a person should work.</p>
+<h2>What Voice AI for Restaurants Can Handle</h2>
+<p>Vendors call these products an AI receptionist, a voice agent, or AI phone answering. The core jobs look similar across the category. Most answer questions about hours, location, parking, and the menu. Many also take reservation requests or to-go orders, text a caller a link, and pick up overflow calls when every line is busy, or every call after hours. Most keep a transcript or summary of each call, and many advertise connections to reservation platforms and online ordering.</p>
+<p>Pricing models vary. Common setups include a monthly subscription per location, flat-rate plans, usage tiers with included minutes and overage charges, add-on fees for reservation or ordering connections, and one-time setup fees. Pricing changes often, so get a written quote from each vendor and confirm it before you sign.</p>
+<p>Whatever the label, judge each product on the same short list. It should give guests correct answers, get them to a person when they need one, and never commit your restaurant to something nobody approved.</p>
+<h2>A Person Confirms Anything That Books, Publishes, or Sends</h2>
+<p>That last point matters most. Our rule for every <a href="/ai-for-restaurants/">AI assistant for restaurants</a> we build, and the one we'd hold any phone product to, is that a person confirms anything that books, publishes, or sends.</p>
+<p>On the phone, that means the AI can check availability, collect the name, party size, time, phone number, and notes, and tell the caller the request is in. A host reviews it and confirms with one tap, and only then does the confirmation go out. The guest hears a clear promise, like a text within ten minutes, and you keep a person between the software and your book. The same thinking applies to to-go orders in the early months: decide who checks an AI-taken order before it fires.</p>
+<p>For a private dining club in Vail, Colorado, we built a concierge assistant that answers questions like "can we seat 2 at 7?" from real availability. Every reservation request there ends as confirmed, offered an alternative, waitlisted, or held for review, and a person confirms anything that books.</p>
+<h2>How to Test Before You Buy</h2>
+<p>Run a structured trial before any system answers your main line.</p>
+<ol>
+<li><strong>Write 20 real scenarios</strong> from your own calls. Have the host keep a tally for a week of what people call about.</li>
+<li><strong>Call in like a guest.</strong> Run each scenario at least twice, with different voices, accents, and phrasing. Include a Spanish speaker if your guests call in Spanish.</li>
+<li><strong>Add noise.</strong> Call from a car, a windy sidewalk, and a loud bar.</li>
+<li><strong>Test the edges.</strong> Try an 86'd dish, holiday hours, a party of 12, a change to an existing reservation, a cancellation, a caller who interrupts, and one who hangs up halfway.</li>
+<li><strong>Test the handoff.</strong> Ask for a person at different points in the call. Time the transfer, and see what happens when nobody picks up.</li>
+<li><strong>Read every transcript.</strong> Check names, phone numbers, party sizes, dates, and times against what was said.</li>
+<li><strong>Change something.</strong> Update your hours or 86 a dish, then see how fast the AI reflects it and who on your team can make that change.</li>
+<li><strong>Soft launch.</strong> Start with overflow and after-hours calls for a few weeks before it answers every call.</li>
+</ol>
+<p>Score each scenario the same way every time:</p>
+<table>
+<thead>
+<tr>
+<th>Test call</th>
+<th>What good looks like</th>
+<th>Red flag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Are you open on Thanksgiving?</td>
+<td>Gives your holiday hours or takes a message</td>
+<td>Reads your regular hours</td>
+</tr>
+<tr>
+<td>Party of 12 on Saturday</td>
+<td>Captures the details and hands off to your events lead</td>
+<td>Books it like a four-top</td>
+</tr>
+<tr>
+<td>Does the risotto have nuts?</td>
+<td>Hands off to a person, or reads only your approved allergen info</td>
+<td>Guesses</td>
+</tr>
+<tr>
+<td>Move my reservation to 8</td>
+<td>Finds the booking and sends the change for confirmation</td>
+<td>Creates a second booking</td>
+</tr>
+<tr>
+<td>To-go order with two substitutions</td>
+<td>Reads the full order back correctly</td>
+<td>Drops a modifier</td>
+</tr>
+<tr>
+<td>Can I talk to a manager?</td>
+<td>Transfers quickly or takes a callback with the reason</td>
+<td>Loops or pushes back</td>
+</tr>
+<tr>
+<td>Caller on a noisy highway</td>
+<td>Reads the phone number back to confirm it</td>
+<td>Saves the wrong number</td>
+</tr>
+<tr>
+<td>Caller speaks Spanish</td>
+<td>Switches languages or hands off politely</td>
+<td>Stalls or hangs up</td>
+</tr>
+<tr>
+<td>Complaint about last night</td>
+<td>Apologizes, logs it, and hands off to a manager</td>
+<td>Offers a comp you never approved</td>
+</tr>
+<tr>
+<td>Wants to pay by card</td>
+<td>Follows the payment process you've approved</td>
+<td>Takes card details any other way</td>
+</tr>
+</tbody>
+</table>
+<h2>Failure Modes to Watch For</h2>
+<ul>
+<li><strong>Confident wrong answers.</strong> The AI invents a policy, a price, or hours. Limit it to information you've approved, and test it with questions it shouldn't be able to answer.</li>
+<li><strong>Stale information.</strong> Menus change, dishes get 86'd, and holiday hours come and go. Know who updates the system and how fast a change takes effect.</li>
+<li><strong>Booking errors.</strong> Double bookings, phantom reservations, the wrong day, or a party of four saved as fourteen.</li>
+<li><strong>Misheard names and numbers.</strong> Make sure the system reads every name and number back. Without that step, a callback number can end up ringing a stranger.</li>
+<li><strong>Dead-end handoffs.</strong> Transfers to a phone nobody answers, loops that send the caller back to the start, or dropped calls.</li>
+<li><strong>Awkward timing.</strong> Long pauses, or talking over a caller who's still finishing a sentence.</li>
+<li><strong>Missing the mood.</strong> An upset caller treated like a question about parking.</li>
+<li><strong>Recording and privacy.</strong> Several states, including Florida and California, require consent from everyone on a call before it's recorded. Make sure the system discloses recording at the start, and ask who can see transcripts and how long they're kept.</li>
+</ul>
+<h2>Set Handoff Rules Before Launch</h2>
+<ul>
+<li><strong>A person on request.</strong> Every caller can reach a person by asking, at any point in the call.</li>
+<li><strong>Topics that always transfer.</strong> Allergies and medical questions, complaints, large parties and private events, media calls, payment disputes, and anything urgent.</li>
+<li><strong>Warm transfers.</strong> The AI passes a short summary so the guest doesn't have to repeat the story.</li>
+<li><strong>When nobody can pick up.</strong> The AI takes a name, number, and reason, and routes the message to a named person with a callback time.</li>
+<li><strong>After hours.</strong> Messages go to the opening manager, and urgent issues go to an on-call number.</li>
+<li><strong>Weekly review.</strong> A manager listens to or reads a sample of calls every week and fixes what's off.</li>
+</ul>
+<h2>Questions to Ask Every Vendor</h2>
+<ul>
+<li>What happens when the AI doesn't know the answer?</li>
+<li>Can we limit it to information we approve?</li>
+<li>How do transfers work, and what happens when nobody answers?</li>
+<li>Who on our team can update hours and the menu, and how fast does a change go live?</li>
+<li>How are calls recorded, disclosed, stored, and deleted?</li>
+<li>How is pricing structured: per location, per minute, per call, setup fees, contract length?</li>
+<li>Can we export our call data if we leave?</li>
+</ul>
+<p>For more places AI earns its keep in a restaurant, read our guide to <a href="/blog/ai-in-hospitality/">AI in hospitality</a>. If a phone system will touch your reservation book, our <a href="/blog/resy-vs-opentable-vs-sevenrooms/">comparison of reservation platforms</a> is useful background too.</p>
+<h2>How Monarch Helps</h2>
+<p>We build <a href="/ai-for-restaurants/">restaurant AI assistants</a> around your real book and your house rules, with a person confirming anything that books, publishes, or sends, and we'll help you run these tests on any phone product you're considering. To see where AI fits in your operation, take our <a href="/ai-assessment/">free AI assessment</a>.</p>
+<div class="article-cta"><h3>Want help with this?</h3><p>Monarch handles ai assistants for restaurants as part of one white-glove team. We do the work. You guide the process. <a href="/ai-for-restaurants/" style="color:var(--gold-light)">See how ai assistants works with us</a>.</p><a class="btn btn-gold" href="/ai-assessment/">Get Your Free AI Assessment</a></div>
+    </article>
+    <aside class="blog-sidebar">
+      <div class="sidebar-card">
+        <div class="sidebar-head">Related Articles</div>
+        <div class="sidebar-body">
+          <a class="sidebar-link" href="/blog/ai-in-hospitality/">AI in Hospitality: Restaurant Uses That Pay for Themselves</a>
+          <a class="sidebar-link" href="/blog/resy-vs-opentable-vs-sevenrooms/">Resy vs. OpenTable vs. SevenRooms: Reservations Compared</a>
+          <a class="sidebar-link" href="/blog/restaurant-loyalty-program/">Restaurant Loyalty Programs: Punch Card, App, or POS?</a>
+        </div>
+      </div>
+      <div class="sidebar-cta">
+        <div class="sidebar-cta-title">Free AI Assessment</div>
+        <p>See where your restaurant is leaving money on the table, in operations and marketing.</p>
+        <a href="/ai-assessment/">Get Your Free AI Assessment</a>
+      </div>
+    </aside>
+  </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo " aria-label="Monarch Digital home">
+        <img src="/images/rebrand/butterfly-mark.webp" alt="" width="42" height="42">
+        <span class="logo-text"><span class="logo-name">Monarch Digital</span><span class="logo-tag">Hospitality Infrastructure</span></span>
+      </a>
+          <p>Everything your restaurant runs on, from one white-glove team. We do the work. You guide the process.</p>
+        </div>
+        <div class="footer-col"><h4>Services</h4><a href="/custom-restaurant-software/">Custom Software</a><a href="/ai-for-restaurants/">AI Assistants</a><a href="/restaurant-staff-training/">Training and LMS</a><a href="/restaurant-marketing/">Marketing</a><a href="/restaurant-scheduling/">Scheduling and Labor</a><a href="/restaurant-operations-consulting/">Operations Consulting</a><a href="/restaurant-furniture/">Furniture and FF&amp;E</a><a href="/restaurant-uniforms/">Uniform Programs</a><a href="/multi-location-restaurants/">Multi-Location</a></div>
+        <div class="footer-col"><h4>Company</h4>
+          <a href="/services/">All Services</a><a href="/case-study/">Our Work</a><a href="/about/">About</a>
+          <a href="/blog/">Blog</a><a href="/ai-assessment/">Free AI Assessment</a><a href="/contact/">Contact</a>
+        </div>
+        <div class="footer-col"><h4>Contact</h4>
+          <a href="tel:+17273836038">727-383-6038</a>
+          <a href="mailto:info.monarchdigital@gmail.com">info.monarchdigital@gmail.com</a>
+          <a href="/contact/">Based in Tampa Bay, Florida</a>
+          <a href="/services/">Serving restaurants nationwide</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Monarch Digital. All rights reserved.</span>
+        <span>Protected by reCAPTCHA. <a href="https://policies.google.com/privacy">Privacy</a> &middot; <a href="https://policies.google.com/terms">Terms</a></span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
